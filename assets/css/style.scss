@@ -3,4 +3,7 @@
 
 @import "{{ site.theme }}";
 
-a { color: #612953; }
+a { 
+  color: #612953; 
+  font-weight: bold; 
+}
