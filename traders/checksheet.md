@@ -1,6 +1,6 @@
 ---
-title: checksheet
+title: Check Sheet
 ---
-# Checksheet page
+# Traders Check Sheet
 
-This is a test.
+Quick reference.
