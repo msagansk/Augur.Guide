@@ -22,7 +22,7 @@
         
         <p>{{ site.description | default: site.github.project_tagline }}</p>
        
-        <nav class="site-nav">
+        <div id="navcontainer">
           {% if page.url contains '/market-creators' %}
             {% include navigation.html base_url='/market-creators/' max_depth=3 %}
           {% elsif page.url contains '/traders' %}
@@ -30,7 +30,7 @@
           {% else %}
             {% include navigation.html max_depth=2 %}
           {% endif %}
-         </nav>
+        </div>
       </header>
       <section>
         <div class="right">{% github_edit_link "> Improve this page" %}</div>
