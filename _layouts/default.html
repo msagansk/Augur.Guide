@@ -34,11 +34,11 @@
             </svg>
           </a>
           {% if page.url contains '/market-creators' %}
-            {% include nav.html base_url='/market-creators/' max_depth=3 %}
+            {% include navigation.html base_url='/market-creators/' max_depth=3 %}
           {% elsif page.url contains '/traders' %}
-            {% include nav.html base_url='/traders/' max_depth=3 %}
+            {% include navigation.html base_url='/traders/' max_depth=3 %}
           {% else %}
-            {% include nav.html max_depth=2 %}
+            {% include navigation.html max_depth=2 %}
           {% endif %}
          </nav>
       </header>
