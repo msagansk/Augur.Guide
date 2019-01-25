@@ -34,10 +34,12 @@
             </svg>
           </a>
 
-          {% if page.url contains '/academy' %}
-            {% include navigation.html base_url='/academy/' max_depth=3 %}
-          {% elsif page.url contains '/college' %}
-            {% include navigation.html base_url='/college/' max_depth=3 %}
+          {% if page.url contains '/market-creators' %}
+            {% include navigation.html base_url='/market-creators/' max_depth=3 %}
+          {% elsif page.url contains '/traders' %}
+            {% include navigation.html base_url='/traders/' max_depth=3 %}
+          {% elsif page.url contains '/reporters' %}
+            {% include navigation.html base_url='/reporters/' max_depth=3 %}          
           {% else %}
             {% include navigation.html max_depth=2 %}
           {% endif %}
