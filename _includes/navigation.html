@@ -30,7 +30,7 @@
           {% assign lvl_base_url = node.url | replace: '.html' | append: '/' %}
 
           {% comment %} Include can access parent state; hence no variables passed explicitly: {% endcomment %}
-          {% include nav.html %}
+          {% include navigation.html %}
 
           {% comment %} Reverse state changes made by child: {% endcomment %}
           {% assign current_lvl_url_length = current_lvl_url_length | minus: 1 %}
