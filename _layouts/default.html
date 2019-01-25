@@ -23,13 +23,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
        
         <div id="navcontainer">
-          {% if page.url contains '/market-creators' %}
-            {% include navigation.html base_url='/market-creators/' max_depth=3 %}
-          {% elsif page.url contains '/traders' %}
-            {% include navigation.html base_url='/traders/' max_depth=3 %}
-          {% else %}
             {% include navigation.html max_depth=2 %}
-          {% endif %}
         </div>
       </header>
       <section>
