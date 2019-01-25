@@ -1,5 +1,5 @@
 ---
-title: traders
+title: Traders
 ---
 # Traders landing page
 
