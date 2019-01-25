@@ -601,6 +601,35 @@ div.right {
   text-align: right;
 }
 
-.current {
-  color: green;
+#navcontainer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navcontainer a {
+	display: block;
+	color: #FFF;
+	background-color: #036;
+	width: 9em;
+	padding: 3px 12px 3px 8px;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	font-weight: bold;
+}
+
+#navcontainer a:hover {
+	background-color: #369;
+	color: #FFF;
+}
+
+#navcontainer li li a {
+	display: block;
+	color: #FFF;
+	background-color: #69C;
+	width: 9em;
+	padding: 3px 3px 3px 17px;
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	font-weight: normal;
 }
