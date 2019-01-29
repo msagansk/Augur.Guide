@@ -1,5 +1,5 @@
 ---
-title: 1. How Augur Works
+title: How Augur Works
 ---
 # How Augur Works
 
