@@ -6,6 +6,6 @@ Augur.Guide’s purpose is to aggregate all of this information and provide it t
 
 At a high level, there are four major roles you can play in the Augur ecosystem. You can create markets, trade on markets, report/dispute markets, or build tools/apps on top of the protocol itself. You can choose to participate in any of those roles that interest you, and there is a separate section on this site for each of these roles to learn about. Go ahead and explore whatever you'd like, and good luck!
 
-- ![Augur UI]({{site.url}}/assets/images/augur-ui.png )
+![Augur UI]({{site.url}}/assets/images/augur-ui.png )
 
 
