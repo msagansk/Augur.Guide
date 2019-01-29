@@ -1,6 +1,6 @@
 ---
-title: External Resources
+title: 5. External Resources
 ---
-# External Resources landing page
+# 5. External Resources landing page
 
 Start
