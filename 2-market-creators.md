@@ -1,5 +1,5 @@
 ---
-title: 2. Market Creators
+title: Market Creators
 ---
 # Market Creators landing page
 
