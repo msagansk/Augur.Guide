@@ -1,5 +1,5 @@
 ---
-title: 3. Reporters
+title: Reporters
 ---
 # Reporters landing page
 
