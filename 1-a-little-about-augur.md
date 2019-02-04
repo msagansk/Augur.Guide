@@ -13,6 +13,12 @@ While Augur is technically a protocol based on a set of Ethereum contracts, it i
 
 ### Markets
 
-Augur usage centers around a collection of markets. A market can be created by anyone, and is supposed to be a question about a future event. A trader can escrow a quantity of ETH (Ethereum in v1, DAI in v2) on a potential outcome of that event and its estimated probability, which is tracked on an order book. The order book for Augur is managed on-chain by Ethereum contracts. When two opposing orders are matched (typically by two traders who take opposing views on the likely outcome of the market), the ETH exchanged for SHARES (an ERC20 token). Depending on the outcome of the market, traders exchange the SHARES back for more ETH than they started with, or less.
+Augur usage centers around a collection of markets. A market can be created by anyone, and is supposed to be a question about a future event. Common topics for events are sports and gambling, but Augur can also handle more complex topics like derivatives, bug bounties, or insurance. 
+
+A trader can escrow a quantity of ETH (Ethereum in v1, DAI in v2) on a potential outcome of that event and its estimated probability, which is tracked on an order book. The order book for Augur is managed on-chain by Ethereum contracts. When two opposing orders are matched (typically by two traders who take opposing views on the likely outcome of the market), the ETH exchanged for SHARES (an ERC20 token). Depending on the outcome of the market, traders exchange the SHARES back for more ETH than they started with, or less.
 
 Markets go through a series of states, but we won’t go into the details here. Official documentation on the nitty gritty is available on the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf) or the [Developer Docs](https://docs.augur.net). The most important thing to realize is that **trading never stops**, even after the event has happened. Sometime after the event has happened, the market will enter the reporting phase. This is when the winning outcome is decided. Fortunately, you don’t have to trust one party to correctly resolve the market. Augur’s reporters (REP holders) can dispute markets that they believe have been resolved incorrectly. This may take some extra time before winning SHARES can be claimed, but it makes the platform robust and secure through its decentralization.
+
+### What Interests You?
+
+Do you want to create markets and potentially earn fees or spread? Do you want to trade on markets because you think you know more about the event than others? Do you want to secure the oracle by being a reporter and earning fees by doing so? You can take part in one or many of these potential roles. To learn more about them, keep exploring Augur.Guide.
