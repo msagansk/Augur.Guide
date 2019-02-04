@@ -1,11 +1,11 @@
 ---
-title: How Augur Works
+title: A Little About Augur
 ---
-# How Augur Works
+# A Little About Augur
 
 ### What is Augur Anyway?
 
-Augur is a censorship resistant prediction market protocol built on top of the Ethereum blockchain. Prediction markets allow participants to bet on the potential outcomes of future events by trading shares at varying prices. Historically, prediction markets have been limited in scope to narrow domains such as sports gambling or politics due to varying legal restrictions throughout the world. By leveraging the decentralized nature of Ethereum, Augur allows anyone to wager any amount on any potential future event that is publicly verifiable. 
+Augur is a censorship-resistant prediction market protocol built on top of the Ethereum blockchain. Prediction markets allow participants to bet on the potential outcomes of future events by trading shares at varying prices. Historically, prediction markets have been limited in scope to narrow domains such as sports gambling or politics due to varying legal restrictions throughout the world. By leveraging the decentralized nature of Ethereum, Augur allows anyone to wager any amount on any potential future event that is publicly verifiable. 
 
 This censorship resistance is key to allowing Augur to unleash the full potential of the [“wisdom of the crowd”](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd). By allowing anyone with useful information about an event to “put their money where their mouth is”, more accurate forecasts are made possible which can be useful information for everyone. This information is also brought “on chain” which means it can be used by other applications on Ethereum. That makes Augur an oracle as well!
 
