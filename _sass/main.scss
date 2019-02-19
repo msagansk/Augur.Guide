@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 .highlight table td {
 	padding: 5px
 }
@@ -413,7 +417,7 @@ strong {
 }
 
 section {
-	width: 700px;
+	width: 800px;
 	float: right;
 	padding-bottom: 50px
 }
