@@ -17,5 +17,6 @@ Here’s a quick list of questions you should ask yourself before you hit that f
 - [ ] Do I have enough ETH and REP available to post the required bonds?
 - [ ] Will I be adding liquidity to this market, and what is my market making strategy?
 - [ ] Will I be available to be the designated reporter during the 3-day initial report window after the market end date? Should I delegate this task to someone else?
+{: style='list-style-type: none'}
 
 These questions should help prevent yourself from creating an invalid market or other “gotchas”.
