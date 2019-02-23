@@ -1,6 +1,6 @@
 ---
 title: External Resources
 ---
-# External Resources landing page
+# External Resources 
 
-Start
+Outgoing links with descriptions about other sites that interact or relate to Augur in some way.
