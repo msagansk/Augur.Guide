@@ -1,6 +1,6 @@
 ---
 title: Developers
 ---
-# Developers landing page
+# Developers 
 
-Start
+Reference material for developers looking to build on top of Augur.
