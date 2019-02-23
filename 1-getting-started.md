@@ -1,7 +1,7 @@
 ---
-title: A Little About Augur
+title: Getting Started
 ---
-# A Little About Augur
+# Getting Started
 
 ### What is Augur Anyway?
 
