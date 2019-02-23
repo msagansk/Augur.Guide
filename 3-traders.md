@@ -1,6 +1,6 @@
 ---
 title: Traders
 ---
-# Traders landing page
+# Traders 
 
-Start
+How Augur works from a trader's perspective.
