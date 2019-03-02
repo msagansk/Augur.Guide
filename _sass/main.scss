@@ -163,7 +163,7 @@ footer {
 
 
 @media print,
-screen and (max-width: 1000px) {
+screen and (max-width: 1100px) {
 	div.wrapper {
 		width: auto;
 		margin: 0
@@ -186,11 +186,6 @@ screen and (max-width: 1000px) {
 	}
 	header a small {
 		display: inline
-	}
-	header ul {
-		position: absolute;
-		right: 50px;
-		top: 52px
 	}
 }
 
