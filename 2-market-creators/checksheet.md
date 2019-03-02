@@ -1,7 +1,7 @@
 ---
 title: Check Sheet
 ---
-# Market Creators Check Sheet
+# Market Creators: Check Sheet
 
 Here’s a quick list of questions you should ask yourself before you hit that final submit button to send the transaction to create your market:
 
