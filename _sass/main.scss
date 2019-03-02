@@ -2,6 +2,10 @@ html {
   overflow-y: scroll;
 }
 
+html .page {
+    overflow: visible;
+}
+
 body {
 	background-color: #fff;
 	padding: 50px;
