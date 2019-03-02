@@ -133,6 +133,7 @@ header {
 	float: left;
 	position: fixed;
 	-webkit-font-smoothing: subpixel-antialiased;
+	max-height: calc(100% - 50px);
 	overflow-y: auto;
 }
 
