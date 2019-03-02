@@ -234,7 +234,16 @@ screen and (max-width: 480px) {
 }
 
 div.right {
-  text-align: right;
+ 	text-align: right;
+}
+
+.outer {
+  display: block;
+  text-align: center;
+}
+
+#navcontainer {
+	padding-left: 20px;	
 }
 
 #navcontainer ul {
@@ -268,9 +277,4 @@ div.right {
 	text-decoration: none;
 	border-bottom: 1px solid #fff;
 	font-weight: normal;
-}
-
-.outer {
-  display: block;
-  text-align: center;
 }
