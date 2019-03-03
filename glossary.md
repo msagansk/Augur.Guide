@@ -10,7 +10,13 @@ A defined list of terms specific to Augur that are deep-linkable.
 <tbody>
 {% assign gs = site.data.glossary | sort:[0] %}
 {% for kv in gs %}
-<tr> <td>{{ kv[0] }} </td><td> {{ kv[1] }} </td></tr>
+<tr> 
+  <td>
+    {{ kv[0] }} 
+    {: #{{ kv[0] }}}
+  </td>
+  <td> {{ kv[1] }} </td>
+</tr>
 {% endfor %}
 </tbody>
 </table>
