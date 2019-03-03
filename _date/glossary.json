@@ -1,0 +1,4 @@
+{
+  "dispute" : "Dispute is used to describe the act of a REP holder Staking REP on a Market Outcome other than the Tentative Outcome for that Market. This REP is sent to a Crowdsourcer and goes toward filling a Dispute Bond for that Outcome in order to Dispute or “challenge” the Tentative Outcome of a Market before it is Finalized. If the Dispute Bond is successfully filled, and that Outcome becomes the Final Outcome for the Market, the users who Staked REP on that Outcome can get back 1.5x the amount of REP they originally Staked, once the Market is Finalized. If the Dispute Bond is successfully filled, but that Outcome does not become the Final Outcome for the Market, the users who Staked REP on that Outcome will forfeit all of the REP they Staked. If the Dispute Bond is not successfully filled, the users who Staked on that Outcome can redeem their REP once the Fee Window has elapsed.",
+  "b" : "second character"
+}
