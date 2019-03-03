@@ -12,7 +12,7 @@ A defined list of terms specific to Augur that are deep-linkable.
 {% for kv in gs %}
 <tr> 
   <td>
-    {{ kv[0] }} 
+    [testlink](#{{ kv[0] }})
     <a name="{{ kv[0] }}"></a> 
   </td>
   <td> {{ kv[1] }} </td>
