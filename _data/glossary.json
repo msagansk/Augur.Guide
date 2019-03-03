@@ -3,4 +3,6 @@
   "Test" : "This is a test",
   "Ask Order" : "An Ask Order is an Order indicating the desire of the Order Creator to sell Shares of one or more Outcomes. This is the opposite of a Bid Order.",
   "Atto- (Prefix)" : "Atto- is a unit prefix in the metric system denoting a factor of 10^−18, or 0.000000000000000001. This prefix is used for a number of terms in Augur, including attoETH, attoREP, attotoken, etc."
+  "Bid Order" : "A Bid Order is an Order indicating the desire of the Order Creator to buy Shares of one or more Outcomes. This is the opposite of an Ask Order.",
+  "Cash" : "Cash is an ERC-20 token that is used within Augur’s Solidity smart contracts and acts as a wrapper for ETH to facilitate some of Augur’s functionality. Users do not interact directly with Cash tokens in Augur."
 }
