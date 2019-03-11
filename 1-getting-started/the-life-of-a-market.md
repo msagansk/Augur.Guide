@@ -19,3 +19,10 @@ Understanding the process flow of a market is important in using Augur effective
 4. Reporting - It is now time to officially determine what Augur thinks the answer to the market question is (note that only a singular answer is possible in an Augur market, multiple answers will make the market resolve as invalid). In the best case, the market creator's designated reporter, which is usually the same address as the market creator, submits an "initial report" which is the answer the designated reporter believes to be true. However, to prevent lies and scamming, time is needed for reporters (REP holders) to review the submitted initial report and potentially dispute that answer for a different one. Assuming the initial report was truthful so no disputes were submitted, the market completes the reporting step. If a dispute was submitted, a more complicated process kicks off which is explained in detail later. Additional details on reporting can also be found on the [Reporters page](https://augur.guide/4-reporters.html).
 
 5. Settlement - Now the traders who own shares in the winning outcome can exchange them back with the market for their winnings. There is actually a couple substeps here. After reporting the market is "resolved", but needs three days before it can be "finalized" by someone which fully completes the market's life. The three day delay was originaly built into the Augur smart contracts as a safety valve in case of a critical bug, but that feature was removed while the delay remained. This delay will be removed in future versions of Augur. Finalizing a market requires a transaction to perform the final cleanup with the market and allow for winnings to be redeemed.
+
+## So What About That Reporting Box?
+
+<div class="center">
+{% include image.html url="/assets/images/Reporting Flowchart.svg" description="Figure 2. Reporting Flowchart" %}
+</div>
+
