@@ -48,7 +48,7 @@ In addition, for long running markets such as this one, additional risk factors 
 **Details:** Outcome to be determined by the close price on the historical data table for Ethereum at CoinMarketCap. This market is for predicting the price of Ethereum (ETH) relative to USD at the very end of March 31, 2019 UTC (any intervening price until then will not be relevant).<br />
 **Type:** Yes/No<br />
 **Outcomes:** Yes, No<br />
-**Ends:** Apr 2, 2019 6:00 AM AM<br />
+**Ends:** Apr 2, 2019 6:00 AM<br />
 **Fees:** 1.01%<br />
 **Categories/Tag:** Cryptocurrencies, ETH, Binary<br />
 **Resolution Source:** https://coinmarketcap.com/currencies/ethereum/historical-data/<br />
@@ -62,3 +62,16 @@ When you start to rely on only one resolution source, other problems do arise. F
 Not all resolution sources are equal either. You generally want to pick a resolution source that stores historical information rather than just a snapshot in time. Future traders and reporters need to be able to check the resolution source well *after* the event to determine what the correct answer was. It gets a lot harder to determine that if the snapshot has changed, which greatly increases the chances of the market resolving as Invalid. Tools such as web.archive.org are sometimes used to save those “snapshots” for later retrieval as evidence. How to treat specific resolution sources is still an open topic in Augur, so greater care should be taken as there are additional risks that your market may not resolve the way you intended it to.
 
 For what it’s worth, coinmarketcap.com has been generally accepted as one of the best resolution source for cryptocurrency price markets, although there are others as well.
+
+## Miscellaneous
+
+**Title:** [Will a SpaceX Starship test vehicle have a successful test flight before March 2nd?](https://predictions.global/augur-markets/will-a-spacex-starship-test-vehicle-have-a-successful-test-flight-before-march-2nd-0x8499fca0a811ede100c36a438dca755bc89c1fc3)<br />
+**Details:** For the purpose of this market: 1) "successful test flight" shall mean that the test vehicle landed and stabilized in an upright position after reaching an elevation strictly greater than 1 meter above the original launchpad elevation 2) "before March 2nd" shall mean "before March 1st 2019 23:59:59 UTC included" The market shall resolve as YES if and only if 1 and 2 are true.<br />
+**Type:** Yes/No<br />
+**Outcomes:** Yes, No<br />
+**Ends:** Mar 6, 2019 11:59 PM<br />
+**Fees:** 1.01%<br />
+**Categories/Tag:** Space, Spacex, Mars<br />
+**Resolution Source:** General Knowledge<br />
+
+**Notes:** This market is just a good example of how awesome Augur can be, because you can create markets about almost anything. As usual, the additional details section is critical to add additional context and to cover any potential edge cases that could come up. This market had a very low probability of resolving as invalid, but it wasn’t entirely zero. There could have been uncertainty if the rocket had only reached an elevation of 0.9 meters, for example. It may have been unclear to the general public how high the rocket actually went. Enough clarity of intent in the market details allows for a large reduction in the probability of an Invalid market.
