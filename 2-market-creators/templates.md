@@ -14,7 +14,8 @@ Here are a few examples of different markets that have been created in the past 
 **Ends:** Mar 15, 2019 9:00 PM<br />
 **Fee:** 0.01%<br />
 **Categories/Tag:** Sports, Soccer, Europa league<br />
-**Resolution Source:** General Knowledge<br /><br >                                                                                                 
+**Resolution Source:** General Knowledge<br />
+
 Notes: Sports markets are one of the easiest categories to make valid markets for, but there are still some things to consider. This market specifies the league, teams, and the specific day (with a timezone) that the match will occur. It is important to isolate which game you are referring to, as multiple possibilities can make the market resolve as Invalid.
 
 The additional details of the market specify how certain edge cases should be treated. Different betting rules account for overtime in different ways, so it is good to spell it out here. 
