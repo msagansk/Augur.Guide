@@ -5,7 +5,7 @@ title: External Resources
 
 To do: Fill this out with descriptions for each link.
 
-Augur analytics/explorers:
+Augur analytics/explorers:<br />
 -https://www.curiousgiraffe.io/augur/ by @becker<br />
 -https://www.logfile.info/ by @Mr.Ether <br />
 -https://predictions.global/ by @pfh <br />
@@ -14,16 +14,16 @@ Augur analytics/explorers:
 -http://crystalball.be/stats/ by @CBB <br />
 -https://augurinsider.com/ by @AugurInsider <br />
 
-Leaderboards:
+Leaderboards:<br />
 -Augur: https://mikemcdonald.github.io/augur/leaderboard.html by @mikemcdonald <br />
 -https://exploreaugur.com/winners<br />
 -Veil: https://app.veil.co/leaderboard<br />
 
-Third-party Applications: 
+Third-party Applications: <br />
 -https://veil.co/ by @fmc @gkaemmer @pfh <br />
 -https://guesser.io/ by @Guesser @Carlos Gonzalez🦉 <br />
 
-Calculators/Other Services 
+Calculators/Other Services <br />
 -https://blacktemplar.github.io/augur-market-odds/ by @blacktemplar <br />
 -https://augur.casino/ by @HippoMcDev <br />
 -https://reporters.chat/ by @reporterschat <br />
