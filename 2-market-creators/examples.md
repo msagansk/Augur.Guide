@@ -1,9 +1,9 @@
 ---
-title: Templates
+title: Examples
 ---
-# Market Creators: Templates
+# Market Creators: Examples
 
-Here are a few examples of different markets that have been created in the past that are worded well to help ensure validity. You can use these as a starting point for your own markets to help you think it through.
+Here are a few examples of different markets that have been created in the past that are worded well to help ensure validity and clarity for traders and reporters. You can use these as templates to help you get started creating your own markets that are well crafted.
 
 ## Sports
 
@@ -62,6 +62,26 @@ When you start to rely on only one resolution source, other problems do arise. F
 Not all resolution sources are equal either. You generally want to pick a resolution source that stores historical information rather than just a snapshot in time. Future traders and reporters need to be able to check the resolution source well *after* the event to determine what the correct answer was. It gets a lot harder to determine that if the snapshot has changed, which greatly increases the chances of the market resolving as Invalid. Tools such as web.archive.org are sometimes used to save those “snapshots” for later retrieval as evidence. How to treat specific resolution sources is still an open topic in Augur, so greater care should be taken as there are additional risks that your market may not resolve the way you intended it to.
 
 For what it’s worth, coinmarketcap.com has been generally accepted as one of the best resolution source for cryptocurrency price markets, although there are others as well.
+
+## Weather
+
+**Title:** [Will Alta Ski Area report 100 or more inches of snowfall this February?](https://predictions.global/augur-markets/will-alta-ski-area-report-100-or-more-inches-of-snowfall-this-february-0x4451b91917cd2dc51ad0bab5b3560f269de7bdaa)<br />
+**Details:** This market shall resolve to YES if the Cumulative Season Snow on the last reported date in February 2019 is 372.0 inches or more, otherwise NO.
+
+If the resolution source changes formats but unambiguously presents the equivalent information, the market shall resolve to YES or NO as indicated thereby. If the resolution source is unavailable altogether or not up to date by the expiration date, and the reporting ETH address posts a comment to this market on https://reporters.chat, while holding at least 20 REP, testifying that they contacted Alta Ski Area directly and received an unambiguous answer, this market shall also resolve to YES or NO as indicated thereby. Only if such a post is unambiguously contradicted by authoritative alternate sources such as the Utah Avalanche Center, US National Weather Service, opensnow.com or the nearby Snowbird resort shall this market considered to be INVALID.<br />
+
+**Type:** Yes/No<br />
+**Outcomes:** Yes, No<br />
+**Ends:** Mar 6, 2019 8:00 PM PM<br />
+**Fees:** 0.05%<br />
+**Categories/Tag:** Weather, Skiing<br />
+**Resolution Source:** https://www.alta.com/conditions/weather-observations/snowfall-history<br />
+
+**Notes:** This is a very good example of a well-defined market that also specifies how to resolve it if the primary resolution source is not available. Backup resolution sources have yet to be used in a major dispute, so at this time it has not been tested.
+
+The work for reporters is almost to the point of being too complicated, as at first glance it appears that the market title (100 inces) and the additional details (372 inches) are in contradiction with one another. But the 372 inches is a cumulative amount of the year, which is the reported number by the resolution source, but the question is specifically about the amount for February. January had 272 inches of snow, so for February to have at least 100 inches of snow, the cumulative result should at least be 372 inches. 
+
+There is ongoing debate about how complicated the resolution rules can be for reporters to validate the truth. At some point, if the answer is too difficult to figure out, reporters will mark the market as invalid. Where that line is is yet to be determined, but this market is a good baseline to work with.
 
 ## Miscellaneous
 
