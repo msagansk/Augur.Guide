@@ -26,7 +26,7 @@ Buying SHARES of a potential outcome is as straightforward as buying Yes in a Ye
 
 In the event that a categorical market resolves as Invalid, every SHARE is worth 1 ETH divided by the number of outcomes. For example, if there were 8 outcomes, each SHARE would be worth 0.125 ETH each.
 
-## Scalar Markets
+## Scalar Markets (a.k.a. Numerical Range)
 
 These are the most complicated markets to understand, but provide the most flexibility in the number of potential outcomes and how they are paid out. In the other two market types, only the one true outcome is worth any ETH once the market is finalized and valid. All the other outcomes are worth nothing, but that is not true for scalar markets. Since these are the most complicated to understand, it is probably best to avoid this kind of market until you are more comfortable with Augur.
 
