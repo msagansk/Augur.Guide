@@ -5,7 +5,7 @@ title: Check Sheet
 
 Here’s a quick list of questions you should ask yourself before you hit that final submit button to send the transaction to create your market:
 
-- Is my market question objective and unambiguous?
+- Is my market question objective and unambiguous? Augur cannot answer subjective questions based on opinion.
 - Will my market question only have one answer?
 - Will the answer to my market question be known before the market end date/time?
 - Does any of the information provided in my market conflict with other parts of the market?
