@@ -5,7 +5,7 @@ title: Market Creators
 
 Anyone can be a market creator. This is a necessity for Augur to be censorship resistant, but that also means that not all markets are going to be high quality. There are many factors that go into creating a “good” market, and it can be a bit tricky.
 
-A market should ask an objective question about a future event that is publicly verifiable in some way. Common topics include the outcome of sports games, political events, financial trading, derivatives, insurance, bug bounties, the weather, and more.
+A market should ask an objective question about a future event that is publicly verifiable in some way. Common topics include the outcome of sports games, political events, financial trading, derivatives, insurance, bug bounties, the weather, and more. Augur cannot answer subjective questions based on opinion.
 
 As a market creator you have the opportunity to earn money by setting a market creator fee on the market. This fee is a %, typically in the range of 0-5%. This percentage is the amount you get whenever SHARES in your market are redeemed for ETH, before or after the market has resolved. You can also do "market making" where you provide liquidity (i.e. orders) in the order book for both sides of an outcome, earning profit on the spread. This attracts more trading in your market, providing you more opportunities to capture a cut with your market creator fee.
 
