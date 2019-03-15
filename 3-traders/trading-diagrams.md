@@ -11,7 +11,7 @@ In all of the examples shown, the market in question has two outcomes, A and B. 
 
 ## Completely Filled Orders
 
-* Create Complete Set
+### Create Complete Set
 
 Actor | Situation
 --- | ---
@@ -23,7 +23,7 @@ Bob	| He has no SHARES. He wants to buy 1 SHARE of B for 0.2 ETH.
 
 Note that Bob could have also wanted to sell 1 SHARE of A for 0.8 ETH, which would have been a "Ask Outcome A, 1 SHARE for 0.8 ETH". This would have had created the same result as shown above, even though he has no SHARES.
 
-* Settle Complete Set
+### Settle Complete Set
 
 Actor | Situation
 --- | ---
@@ -33,7 +33,7 @@ Bob	| He has 1 SHARE of B. He wants to sell it for 0.2 ETH.
 
 ![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/settle-complete-set.svg)
 
-* Redeem Winning SHARES
+### Redeem Winning SHARES
 
 Actor | Situation
 --- | ---
@@ -43,7 +43,7 @@ Bob	| He has 1 SHARE of B. (His SHARES are worthless)
 
 ![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/redeem-winning-SHARES.svg)
 
-* Direct Trade
+### Direct Trade
 
 Actor | Situation
 --- | ---
@@ -52,7 +52,7 @@ Bob	| He has some ETH. He wants to buy 1 SHARES of A.
 
 ![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/direct-trade.svg)
 
-* Escrow Share and ETH
+### Escrow Share and ETH
 
 Actor | Situation
 --- | ---
@@ -64,7 +64,7 @@ Bob	| He has some ETH. He wants to buy 1 SHARE of A for 0.8 ETH.
 
 ## Partially Filled Orders
 
-* Create Complete Set
+### Create Complete Set
 
 Actor | Situation
 --- | ---
@@ -74,7 +74,7 @@ Bob	| He has no SHARES. He wants to buy 0.5 SHARES of B for 0.1 ETH.
 
 ![Augur UI]({{site.url}}/assets/images/trading-diagrams/partially-filled-orders/create-complete-set.svg)
 
-* Settle Complete Set
+### Settle Complete Set
 
 Actor | Situation
 --- | ---
