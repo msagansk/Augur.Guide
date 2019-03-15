@@ -16,4 +16,4 @@ Here is a quick reference of things to look for when deciding whether or not to 
 - Does the time of day matter? If so, does the market specify a timezone?
 - Will reporters in the future be able to verify the answer using the resolution source provided?
 
-You can also ask the Augur community about a particular market if you are unsure. People will gladly flag potentially Invalid markets in the [Augur Discord](https://discord.gg/faud6Fx) and [https://reddit.com/r/Augur](Reddit).
+You can also ask the Augur community about a particular market if you are unsure. People will gladly flag potentially Invalid markets in the [Augur Discord](https://discord.gg/faud6Fx) and [Reddit](https://reddit.com/r/Augur).
