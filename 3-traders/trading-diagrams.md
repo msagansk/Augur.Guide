@@ -50,7 +50,7 @@ Actor | Situation
 Alice	| She has 1 SHARE of A.  She wants to sell it for 0.8 ETH.
 Bob	| He has some ETH. He wants to buy 1 SHARES of A.
 
-![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/direct-trade.svg)
+![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/direct-trade.png)
 
 ### Escrow Share and ETH
 
