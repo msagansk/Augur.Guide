@@ -3,7 +3,7 @@ title: Market Creators
 ---
 # Market Creators
 
-Anyone can be a market creator. This is a necessity for Augur to be censorship resistant, but that also means that not all markets are going to be high quality. There are many factors that go into creating a “good” market, and it can be a bit tricky.
+Anyone can be a market creator. This is a necessity for Augur to be censorship resistant, but that also means that not all markets are going to be high quality. There are many factors that go into creating a “good” market, and it can be a bit tricky. The number one problem people have when trying to create valid markets is poor wording. See the [examples page](https://augur.guide/2-market-creators/examples.html) for markets that have been worded well in the past. In addition, a [check sheet](https://augur.guide/2-market-creators/checksheet.html) has been written that you can go through before you submit your own market.
 
 A market should ask an objective question about a future event that is publicly verifiable in some way. Common topics include the outcome of sports games, political events, financial trading, derivatives, insurance, bug bounties, the weather, and more. Augur cannot answer subjective questions based on opinion.
 
