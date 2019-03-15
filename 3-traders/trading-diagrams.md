@@ -74,7 +74,7 @@ Bob	| He has no SHARES. He wants to buy 0.5 SHARES of B for 0.1 ETH.
 
 ![Augur UI]({{site.url}}/assets/images/trading-diagrams/partially-filled-orders/create-complete-set.svg)
 
-1. Settle Complete Set
+2. Settle Complete Set
 
 Actor | Situation
 --- | ---
