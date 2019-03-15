@@ -41,7 +41,7 @@ Market | Finalized. Winning Outcome is A. The order book is empty.
 Alice	| She has 1 SHARE of A. She wants to cash it in.
 Bob	| He has 1 SHARE of B. (His SHARES are worthless)
 
-![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/redeem-winning-SHARES.svg)
+![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/redeem-winning-shares.svg)
 
 ### Direct Trade
 
