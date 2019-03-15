@@ -33,7 +33,7 @@ Bob	| He has 1 SHARE of B. He wants to sell it for 0.2 ETH.
 
 ![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/settle-complete-set.svg)
 
-3. Redeem Winning SHARE
+3. Redeem Winning SHARES
 
 Actor | Situation
 --- | ---
@@ -41,7 +41,7 @@ Market | Finalized. Winning Outcome is A. The order book is empty.
 Alice	| She has 1 SHARE of A. She wants to cash it in.
 Bob	| He has 1 SHARE of B. (His SHARES are worthless)
 
-![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/redeem-winning-SHARE.svg)
+![Augur UI]({{site.url}}/assets/images/trading-diagrams/completely-filled-orders/redeem-winning-SHARES.svg)
 
 4. Direct Trade
 
