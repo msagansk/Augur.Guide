@@ -10,6 +10,7 @@ Here’s a quick list of questions you should ask yourself before you hit that f
 - Will the answer to my market question be known before the market end date/time?
 - Does any of the information provided in my market conflict with other parts of the market?
 - Have I considered all possible edge cases with my market?
+- Have I added details about the intent of the market?
 - Does the time of day matter? If so, have I specified a timezone for my market?
 - Will reporters in the future be able to verify the answer using the resolution source provided?
 - Will people from all over the world be reasonably able to understand the market question?
