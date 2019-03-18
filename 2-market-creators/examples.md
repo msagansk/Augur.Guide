@@ -5,7 +5,7 @@ title: Examples
 
 Here are a few examples of different markets that have been created in the past that are worded well to help ensure validity and clarity for traders and reporters. You can use these as templates to help you get started creating your own markets that are well crafted.
 
-## Sports
+### Sports
 
 **Title:** [Europa League - Arsenal v Rennes (14 March 2019 UTC)](https://predictions.global/augur-markets/0x660b4f095f79bad94f0cb3774d7dfdbb7a42c6b0)<br />
 **Details:** Which team will win the match? All bets apply to Full Time according to the match officials, plus any stoppage time. Extra-time/penalty shoot-outs are not included.<br />
@@ -27,7 +27,7 @@ The market end time is also sufficiently after the event. A day after a sports g
 This particular market has low fees and easy to find categories and tags which makes it attractive for traders. The market creator has provided liquidity and hopes to make money through their spread.
 A resolution source of general knowledge is widely accepted to be satisfactory as there is almost never any ambiguity on who is the winner of a sports game, and it is typically widely reported on in the media.
 
-## Politics
+### Politics
 
 **Title:** [Will Donald Trump be Re-Elected in 2020?](https://predictions.global/augur-markets/will-donald-trump-be-re-elected-in-2020-0xdecbd869eccac116193886c3f7fa4a150ffab681)<br />
 **Details:** Donald Trump shall be re-elected as president of the United States in 2020, as determined by the Electoral College count, regardless of any electoral college members changing their vote. Inauguration shall have no effect on this market.<br />
@@ -42,7 +42,7 @@ A resolution source of general knowledge is widely accepted to be satisfactory a
 
 In addition, for long running markets such as this one, additional risk factors start to come into play. Augur’s current design doesn’t make it well suited for markets that go out further than 6 months. One reason is that Augur expects to do contract upgrades which involves migrating REP from one version to another, potentially leaving markets behind with not enough honest REP holders to report the correct result. The other reason is that long running markets potentially don’t end up paying a “fair” amount of reporting fees based on how long Augur is required to ensure the security of the market. This gets into complex game-theory topics that we won’t dive into here, see the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf) for more details.
 
-## Cryptocurrency
+### Cryptocurrency
 
 **Title:** [Will the price of Ethereum (ETH) exceed $150 USD at the end of March 31, 2019?](https://predictions.global/augur-markets/will-the-price-of-ethereum-eth-exceed-150-usd-at-the-end-of-march-31-2019-0x45ecda1d6988e64429a5a9aec6579332f52e4ae3)<br />
 **Details:** Outcome to be determined by the close price on the historical data table for Ethereum at CoinMarketCap. This market is for predicting the price of Ethereum (ETH) relative to USD at the very end of March 31, 2019 UTC (any intervening price until then will not be relevant).<br />
@@ -63,7 +63,7 @@ Not all resolution sources are equal either. You generally want to pick a resolu
 
 For what it’s worth, coinmarketcap.com has been generally accepted as one of the best resolution source for cryptocurrency price markets, although there are others as well.
 
-## Weather
+### Weather
 
 **Title:** [Will Alta Ski Area report 100 or more inches of snowfall this February?](https://predictions.global/augur-markets/will-alta-ski-area-report-100-or-more-inches-of-snowfall-this-february-0x4451b91917cd2dc51ad0bab5b3560f269de7bdaa)<br />
 **Details:** This market shall resolve to YES if the Cumulative Season Snow on the last reported date in February 2019 is 372.0 inches or more, otherwise NO.
@@ -83,7 +83,7 @@ The work for reporters is almost to the point of being too complicated, as at fi
 
 There is ongoing debate about how complicated the resolution rules can be for reporters to validate the truth. At some point, if the answer is too difficult to figure out, reporters will mark the market as invalid. Where that line is is yet to be determined, but this market is a good baseline to work with.
 
-## Miscellaneous
+### Miscellaneous
 
 **Title:** [Will a SpaceX Starship test vehicle have a successful test flight before March 2nd?](https://predictions.global/augur-markets/will-a-spacex-starship-test-vehicle-have-a-successful-test-flight-before-march-2nd-0x8499fca0a811ede100c36a438dca755bc89c1fc3)<br />
 **Details:** For the purpose of this market: 1) "successful test flight" shall mean that the test vehicle landed and stabilized in an upright position after reaching an elevation strictly greater than 1 meter above the original launchpad elevation 2) "before March 2nd" shall mean "before March 1st 2019 23:59:59 UTC included" The market shall resolve as YES if and only if 1 and 2 are true.<br />
