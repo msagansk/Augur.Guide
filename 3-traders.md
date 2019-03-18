@@ -23,7 +23,7 @@ For a Yes/No market, the UI only lets you buy or sell Yes SHARES. “No” exist
 **Price** - This is the amount you are willing to pay per share, denominated in ETH. This value is a fraction between 0 and 1, which can also be thought of as a probability in % terms. You want to have this price (+ fees) be less than your own estimated probability that this outcome will occur. If your estimates are correct, you should make money in the long run.<br />
 **Fill Orders Only** - If this box is checked you are saying you only want to take orders off the order book, and not create your own. You may want to check this box to ensure you aren’t making a mistake and placing an open order you didn’t intend, and only want to take the odds someone else has provided. It is also possible that someone else may fill the order before you, which would cause your transaction to fail if this box is checked. If this box is not checked, and someone else beats you to filling an order, you would create a new order on the order book at the same price and quantity.
 
-## Fees
+### Fees
 
 There are a few different kinds of fees that you should concern yourself with:
 
@@ -33,7 +33,7 @@ There are a few different kinds of fees that you should concern yourself with:
 
 Both the Market Creator Fee and the Reporting Fee trigger in a couple different cases. The first is when you redeem winning SHARES back for ETH after the market has been finalized. The second case is when you happen to sell your SHARES to someone else who also happens to be selling SHARES of the other outcome(s). If the SHARES combine to form a complete set (i.e. all possible outcomes), Augur will burn the SHARES and return ETH back to the traders, less the fees.
 
-## A Word on "Invalid"
+### A Word on "Invalid"
 
 For all of these markets types, "Invalid" is always a potential outcome, but it is not explicitly tradeable (in version 1 of Augur). The Invalid result is used by reporters when the truthful answer was not apparent at the time the market entered the reporting phase. If a market resolves as Invalid, market SHARES are worth a specific amount based on the market type (examples are available on the [Market Types](https://augur.guide/1-getting-started/market-types.html page). Unfortunately, due to technical limitations, Invalid markets cannot "unwind" trading so that traders receive the exact amount of money they paid for their shares.
 
@@ -41,7 +41,7 @@ As a trader, this means you need to do your due diligence when deciding to trade
 
 For seasoned Augur users: Each outcome in the payout set of an Invalid market is set to the number of ticks divided by the number of outcomes (in order to ensure that the holders of each type of Share in the Market receive the same payout during Settlement).
 
-## Waiting for Settlement - An Option to Exit Early
+### Waiting for Settlement - An Option to Exit Early
 
 If you’ve been successful in making a trade and it looks like your selected outcome is going to win, you may still have to wait a while. Redeeming your SHARES back for their full ETH value can take a while, due to the nature of the decentralized oracle (i.e. the reporters). Check out the [Reporting Process](https://augur.guide/4-reporters/1-reporting-process.html) page to see the full extent of the potential delays you may have to wait for. 
 
