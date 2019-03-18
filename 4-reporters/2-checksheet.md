@@ -3,9 +3,10 @@ title: Check Sheet
 ---
 # Reporters: Check Sheet
 
-Quick reference of things to look for in a market when deciding to dispute or not.
+For determining which outcome is true, pay close attention to all of the market details. What is the resolution source?
 
-The following is a baseline, but will go into more details:
+- If the resolution source is "General Knowledge", then the answer should be readily available, usually with a quick Internet search.
+- If the resolution source is not "General Knowledge", then the answer should be readily availble at the resolution source. Other sources of information should not be considered, unless the market instructs you to do so.
 
 The market should be considered INVALID if any of the following are true:
 
@@ -15,3 +16,5 @@ The market should be considered INVALID if any of the following are true:
 - There are strong arguments for the market resolving as multiple outcomes.
 - The resolution source does not provide a readily available answer.
 - The resolution source provides different answers to different viewers.
+
+Have you visited one of the [community resources](https://augur.guide/5-external-resources.html) for discussions on reporting Augur's markets? There might be something you are not considering.
