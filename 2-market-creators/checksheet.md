@@ -13,6 +13,7 @@ Here’s a quick list of questions you should ask yourself before you hit that f
 - Have I added details about the intent of the market?
 - Does the time of day matter? If so, have I specified a timezone for my market?
 - Will reporters in the future be able to verify the answer using the resolution source provided?
+- Does the resolution source only show a snapshot of what you are trying to measure, or does it keep the history available?
 - Will people from all over the world be reasonably able to understand the market question?
 - Could I add more information to help traders and reporters understand the intent of my market?
 - Do I have enough ETH and REP available to post the required bonds?
