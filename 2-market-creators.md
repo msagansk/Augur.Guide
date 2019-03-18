@@ -11,7 +11,7 @@ As a market creator you have the opportunity to earn money by setting a market c
 
 Creating a market does cost a respectable amount of gas on Ethereum, typically on the order of a few US dollars depending on gas prices at the time. There are also a few different bonds you have to provide up front which are returned to you if you create a valid market and report on it quickly and correctly at the market's end time.
 
-## Market Parameters
+### Market Parameters
 
 If you think you have an idea for a market and want to create one, there are a few parameters you must be aware of that are required to create a market on Augur. 
 
@@ -36,7 +36,7 @@ Numerical Range / Scalar - These are more complex and will not be covered by thi
 
 9. _Initial Liquidity_ - This can be done during the market creation process or afterward. If this is your first market you may want to skip this step during market creation just to keep things simpler for yourself. A market with liquidity (i.e. open orders) is much more attractive to traders and can help you get your market some attention. This is a complex topic, so if you want to learn more you should look up “market making”. The basics are that you want to estimate the probability that the event will occur and place orders above and below that estimated probability. If you get lots of trades on one side, you adjust your orders to compensate. This requires vigilance over the state of your market, and is aided greatly by programmed bots/tools. Note that your open orders stay in the order book, even if the market is in reporting or finalized. They should probably be cancelled before that time, otherwise it may be “free money” for someone else.
 
-## Required Bonds
+### Required Bonds
 
 <!-- V1 -->
 
