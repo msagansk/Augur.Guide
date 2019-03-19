@@ -3,6 +3,10 @@ title: External Resources
 ---
 # External Resources 
 
+**Official:**
+
+<https://www.augur.net/> - Go here first, if you haven't already.
+
 **Explorers:**
 
 <https://predictions.global/> - The first Augur market explorer, now owned by Veil. Allows you to easily browse and search for markets and their properties. This is a read-only interface into Augur. It also contains a couple tools for REP holders.
