@@ -5,7 +5,7 @@ title: External Resources
 
 **Explorers:**
 
-https://predictions.global/ - The first Augur market explorer, now owned by Veil. Allows you to easily browse and search for markets and their properties. This is a read-only interface into Augur. It also contains a couple tools for REP holders.
+[https://predictions.global/] - The first Augur market explorer, now owned by Veil. Allows you to easily browse and search for markets and their properties. This is a read-only interface into Augur. It also contains a couple tools for REP holders.
 
 https://exploreaugur.com/ - A very simplistic read-only UI that allows you to browse markets. However, it has some very unique features that are very useful. For example, you can browse the order book of a market and see which addresses hold the most amount of SHARES of the various outcomes. 
 
