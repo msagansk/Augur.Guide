@@ -3,11 +3,11 @@ title: External Resources
 ---
 # External Resources 
 
-**Official:**
+### Official:
 
 <https://www.augur.net/> - Go here first, if you haven't already.
 
-**Explorers:**
+### Explorers:
 
 <https://predictions.global/> - The first Augur market explorer, now owned by Veil. Allows you to easily browse and search for markets and their properties. This is a read-only interface into Augur. It also contains a couple tools for REP holders.
 
@@ -19,7 +19,7 @@ title: External Resources
 
 <https://blacktemplar.github.io/augur-market-odds/> - A quick listing of Augur markets sorted by open-interest. Shows odds offered on order book plus the margin/spread.
 
-**Analytics:**
+### Analytics:
 
 <http://crystalball.be/stats/> - Comprehensive statistics presented in graph form, tracking various Augur historical metrics.
 
@@ -27,13 +27,13 @@ title: External Resources
 
 <https://augurinsider.com/> - Statistical analysis on specific Augur markets related to financial instruments.
 
-**Third-party Applications:**
+### Third-party Applications:
 
 <https://veil.co/> - Built on top of Augur, but also uses 0x for much cheaper trading and instant settlement of markets.
 
 <https://guesser.io/> - A curated user interface of Augur markets, presented in a betting style interface. Allows users to trade on markets as simply as possible.
 
-**Leaderboards:**
+### Leaderboards:
 
 <https://exploreaugur.com/winners> - See which traders have won/lost the most.
 
@@ -41,7 +41,7 @@ title: External Resources
 
 <https://app.veil.co/leaderboard> - The biggest winning and losing traders, specifically on Veil's platform.
 
-**Calculators/Other Services**
+### Calculators/Other Services
 
 <https://augur.casino/> - A hosted implementation of the Augur reference UI. Requires trusting that the host is providing legitimate information, as compared to running the Augur UI yourself.
 
