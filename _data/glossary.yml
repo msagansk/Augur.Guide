@@ -39,17 +39,16 @@ Fork Threshold              : The Fork Threshold is the amount of REP that must 
 Genesis Universe            : A Genesis Universe is a Universe that does not have a Parent Universe. At the launch of Augur, only a single Genesis Universe exists. However, users can create other Genesis Universes.
 Initial Report              : The Initial Report is simply the first Report placed on a Market. The Initial Report often will come from the Designated Reporter for the Market, which would immediately refund the No-Show Bond to the Market Creator. However, if the Designated Reporter fails to Report on the Market within the Designated Reporting Phase, then the Market goes to the Open Reporting Phase. When this happens, the Market Creator does not get refunded the No-Show Bond. Instead, the No-Show Bond goes toward covering the Stake of the First Public Reporter when they submit the First Public Report. This provides an incentive to submit the First Public Report, since the First Public Reporter stands to gain the No-Show Bond in REP if they Stake on the eventual Final Outcome.
 Initial Reporter            : The Initial Reporter is the person who submits the Initial Report on a Market. Generally, the Initial Reporter will be the Designated Reporter, however if the Designated Reporter fails to Report, then the Initial Reporter will become whoever submits the First Public Report during the Open Reporting Phase for this Market.
-Invalid Outcome             : | 
-A Market should be considered Invalid if any of the following are true:
-
-1. The question is subjective in nature.
-2. The Outcome was not known at Market End Time.
-3. The title, details, End Time, resolution source, and Outcomes are in direct conflict with each other.
-4. There are strong arguments for the Market resolving as multiple Outcomes.
-5. The resolution source does not provide a readily available answer.
-6. The resolution source provides different answers to different viewers.
-
-If the Outcome of a Market is Invalid, Reporters can Report its Tentative Outcome as Invalid. Additionally, if the Market is in a Dispute Round, users can Stake REP on Invalid as the Tentative Outcome, or if the Market has Forked, users can migrate their REP to the Child Universe where the Outcome is Invalid. If the Market’s Final Outcome becomes Invalid, its Payout Set will be the Number of Ticks divided evenly among each Outcome. For example, in a Categorical Market with 10,000 Ticks and 4 potential Outcomes, the Payout Set would be [2500, 2500, 2500, 2500]. This is done to ensure that the holders for each type of Share in the Market receive the same payout during Settlement.
+Invalid Outcome             : "A Market should be considered Invalid if any of the following are true:\
+\
+1. The question is subjective in nature.\
+2. The Outcome was not known at Market End Time.\
+3. The title, details, End Time, resolution source, and Outcomes are in direct conflict with each other.\
+4. There are strong arguments for the Market resolving as multiple Outcomes.\
+5. The resolution source does not provide a readily available answer.\
+6. The resolution source provides different answers to different viewers.\
+\
+If the Outcome of a Market is Invalid, Reporters can Report its Tentative Outcome as Invalid. Additionally, if the Market is in a Dispute Round, users can Stake REP on Invalid as the Tentative Outcome, or if the Market has Forked, users can migrate their REP to the Child Universe where the Outcome is Invalid. If the Market’s Final Outcome becomes Invalid, its Payout Set will be the Number of Ticks divided evenly among each Outcome. For example, in a Categorical Market with 10,000 Ticks and 4 potential Outcomes, the Payout Set would be [2500, 2500, 2500, 2500]. This is done to ensure that the holders for each type of Share in the Market receive the same payout during Settlement."
 Market                      : A Market is created by users of Augur for a small fee. They are used to describe an upcoming event that people would presumably be interested in wagering on. They should also provide information on how to verify the Outcome of the event, the more specific the better. Each Market created on the Augur network will have an automatically managed Order Book, which will allow users to buy and sell Shares of different Outcomes of the Market. The Market Creator can set the Creator Fee for the Market, which, once set, cannot be changed, and will determine their cut of all Shares Settled on the Market. The Market Creator also needs to specify a Max Price and a Min Price as well as the Number of Ticks for the Market. There are three different Market types supported by Augur: Yes/No, Categorical, and Scalar.
 Market Creator              : A Market Creator is a user who created a Market. They are charged a small fee to make a new Market but can set the Creator Fee for Settlement of Shares on that Market. Market Creators are incentivized to create popular Markets so as to generate the most amount of Settlement Fees for themselves. Other information a Market requires is the actual question being posed, the type of Market (i.e., Yes/No, Categorical, or Scalar), the number of Outcomes, End Time, and a Topic.
 Market Resolution           : Market Resolution is the process of Finalizing a Market. Designated Reporting, Open Reporting, Dispute Rounds and Forks are all examples of attempts at Market Resolution.
@@ -62,11 +61,10 @@ Order                       : An Order can be thought of as the recorded interes
 Order Book                  : The Order Book is the collection of all Open Orders currently available for a Market. Orders are placed on the Order Book by Order Creators and are Filled by Order Fillers. Orders are divided up by which type, or side, of Order they are: Bid or Ask. Orders are further divided up by Outcome.
 Order Creator               : An Order Creator is the person who places an Order on the Order Book. They escrow currency or Shares into their Order to buy or sell Shares of an Outcome of a Market.
 Order Filler                : An Order Filler either partially or fully Fills an Open Order on the Order Book. Order Fillers send currency or Shares to fill the Open Order and complete their part of the trade described in the Order.
-Orphaned Order              : | 
-Orders in Augur can sometimes become “orphaned”, meaning they do not get displayed in the Order Book, and do not get filled like non-Orphaned Orders when calling most of Augur’s API functions. This is an unintended behavior in Augur that can occur under the following scenario:
-
-Suppose one side of a Market’s Order Book is empty, and two Orders for the same price are created on that side of the Order Book. At this point, neither of these Orders has been orphaned, but that side of the Order Book is now in a state where Orders potentially can become orphaned. Any subsequent Orders created for that price on that side of the Order Book will cause all such Orders to become orphaned, except the oldest and newest.
-
-Creating an Order with a worse price on that side of the Order Book while still in that state will cause the previous Order with the same price to become orphaned. However, that side of the Order Book will no longer be in a state where Orders can be orphaned. Similarly, creating an Order with a better price on that side of the Order Book while still in that state will have the same effect, but without causing any other Orders to become orphaned. The Augur UI will alert the user when they have created an Orphaned Order and allow them to cancel it.
+Orphaned Order              : "Orders in Augur can sometimes become “orphaned”, meaning they do not get displayed in the Order Book, and do not get filled like non-Orphaned Orders when calling most of Augur’s API functions. This is an unintended behavior in Augur that can occur under the following scenario:\
+\
+Suppose one side of a Market’s Order Book is empty, and two Orders for the same price are created on that side of the Order Book. At this point, neither of these Orders has been orphaned, but that side of the Order Book is now in a state where Orders potentially can become orphaned. Any subsequent Orders created for that price on that side of the Order Book will cause all such Orders to become orphaned, except the oldest and newest.\
+\
+Creating an Order with a worse price on that side of the Order Book while still in that state will cause the previous Order with the same price to become orphaned. However, that side of the Order Book will no longer be in a state where Orders can be orphaned. Similarly, creating an Order with a better price on that side of the Order Book while still in that state will have the same effect, but without causing any other Orders to become orphaned. The Augur UI will alert the user when they have created an Orphaned Order and allow them to cancel it."
 
 
