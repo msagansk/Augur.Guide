@@ -4,7 +4,7 @@ title: Market Types
 
 # Getting Started: Market Types
 
-There are three types of markets that can exist in Augur. They are Yes/No, Categorical, and Scalar. The main difference between them is the number of possible outcomes (i.e. potential answers) which has implications on the number of order books and the complexity of trading. 
+There are three types of markets that can exist in Augur. They are Yes/No, Categorical, and Scalar. The main difference between them is the number of possible [outcomes](https://augur.guide/glossary.html#Outcome) (i.e. potential answers) which has implications on the number of [order books](https://augur.guide/glossary.html#Order%20Book) and the complexity of trading. 
 
 ### A Word on "Invalid"
 
