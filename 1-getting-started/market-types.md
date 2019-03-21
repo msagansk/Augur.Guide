@@ -8,9 +8,7 @@ There are three types of markets that can exist in Augur. They are Yes/No, Categ
 
 ### A Word on "Invalid"
 
-For all of these markets types, "Invalid" is always a potential outcome, but it is not explicitly tradeable (in version 1 of Augur). The Invalid result is used by reporters when the truthful answer was not apparent at the time the market entered the reporting phase. If a market resolves as Invalid, market SHARES are worth a specific amount based on the market type (examples will be described below). Unfortunately, due to technical limitations, Invalid markets cannot "unwind" trading so that traders receive the exact amount of money they paid for their shares.
-
-For seasoned Augur users: Each outcome in the payout set of an Invalid market is set to the number of ticks divided by the number of outcomes (in order to ensure that the holders of each type of Share in the Market receive the same payout during Settlement).
+For all of these markets types, [Invalid](https://augur.guide/glossary.html#Invalid%20Outcome) is always an available outcome, but it is not explicitly tradeable (in version 1 of Augur). The Invalid result is used by reporters when the truthful answer was not apparent at the time the market entered the [reporting phase](https://augur.guide/4-reporters/1-reporting-process.html). If a market resolves as Invalid, market [SHARES](https://augur.guide/glossary.html#SHARE) are worth a specific amount based on the market type (examples will be described below). Unfortunately, due to technical limitations, Invalid markets cannot "unwind" trading so that traders receive the exact amount of money they paid for their shares.
 
 ### Yes/No Markets
 
