@@ -56,3 +56,5 @@ title: External Resources
 <http://www.augur.today/> - Provides a warp sync file to allows anyone to sync their Augur App much more quickly.
 
 <https://musing-jennings-d2c811.netlify.com/> - A breakeven share price calculator, where you estimate how likely a market will resolve Invalid, which affects the odds.
+
+<https://blacktemplar.github.io/augur-fee-windows-info/> - A participation token calculator for REP holders that want to collect reporting fees. It shows you a lot of information about the current and next fee window, and it does some math for you to see how much REP you need to stake in order to get enough fees to make a profit, taking gas fees into account.
