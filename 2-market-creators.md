@@ -9,7 +9,7 @@ A market should ask an objective question about a future event that is publicly 
 
 As a market creator you have the opportunity to earn money by setting a market [creator fee](https://augur.guide/glossary.html#Creator%20Fee) on the market. This fee is a %, typically in the range of 0-5%. This percentage is the amount you get whenever [SHARES](https://augur.guide/glossary.html#SHARE) in your market are redeemed for ETH, before or after the market has [resolved](https://augur.guide/glossary.html#Finalized%20Market). You can also do "market making" where you provide liquidity (i.e. [orders](https://augur.guide/glossary.html#Order)) in the order book for both sides of an [outcome](https://augur.guide/glossary.html#Outcome), earning profit on the spread. This attracts more trading in your market, providing you more opportunities to capture a cut with your market creator fee.
 
-Creating a market does cost a respectable amount of gas on Ethereum, typically on the order of a few US dollars depending on gas prices at the time. There are also a few different bonds you have to provide up front which are returned to you if you create a valid market and report on it quickly and correctly at the market's end time.
+Creating a market does cost a respectable amount of [Gas](https://ethgas.io/) on Ethereum, typically on the order of a few US dollars depending on Gas prices at the time. There are also a few different bonds you have to provide up front which are returned to you if you create a valid market and report on it quickly and correctly at the market's end time.
 
 ### Market Parameters
 
