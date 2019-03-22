@@ -12,6 +12,10 @@ Every Augur market and all REP tokens exist in some [universe](https://augur.gui
 
 For example, a [“Yes/No” market](https://augur.guide/glossary.html#Yes/No%20Market) has 3 possible outcomes: Yes, No, and Invalid.  Thus, a “Yes/No” forking market will create three new child universes: universeYes, universeNo, and universeInvalid.
 
+<div class="center">
+{% include image.html url="/assets/images/fork-example.svg" description="Figure 1. Forked Genesis Universe Example" %}
+</div>
+
 Initially, these newly created universes are empty: they contain no markets or REP tokens. When a fork is initiated, the [parent universe](https://augur.guide/glossary.html#Parent%20Universe) becomes permanently locked. In a [locked universe](https://augur.guide/glossary.html#Locked%20Universe), no new markets may be created. Users may continue trading [SHARES](https://augur.guide/glossary.html#SHARE) in markets in locked universes, and markets in a locked universe may still receive their [initial reports](https://augur.guide/glossary.html#Initial%20Report). However, no reporting rewards are paid out there, no disputes can occur, and markets in locked universes cannot be finalized.
 
 In order for markets or REP tokens in the locked universe to be useful, they must first be migrated to a child universe. Holders of REP tokens in the parent universe may migrate their tokens to a child universe of their choice. This choice should be considered carefully, because migration is one-way; it cannot be reversed. Tokens cannot be sent from one sibling universe to another. Migration is a permanent commitment of REP tokens to a particular market outcome. REP tokens that migrate to different child universes ought to be considered entirely separate tokens, and service providers like wallets and exchanges ought to list them as such. When a fork is initiated, all REP staked on all non-forking markets is unstaked so that it is free to be migrated to a child universe during the forking period. 
