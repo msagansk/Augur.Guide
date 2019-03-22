@@ -20,12 +20,13 @@ Here are a few examples of different markets that have been created in the past 
 
 The additional details of the market specify how certain edge cases should be treated. Different betting rules account for overtime in different ways, so it is good to spell it out here. 
 
-The market is categorical which allows for making a “draw” an explicit outcome, but the drawback here is that it splits liquidity between three outcomes. If that is a concern for you, it is possible to turn a sports market into a Yes/No market with wording like “Will team X beat team Y?”, as a draw would imply an answer of “No” - which could also be spelled out explicitly in the additional details of the market.
+The market is [categorical](https://augur.guide/glossary.html#Categorical%20Market) which allows for making a “draw” an explicit outcome, but the drawback here is that it splits liquidity between three outcomes. If that is a concern for you, it is possible to turn a sports market into a Yes/No market with wording like “Will team X beat team Y?”, as a draw would imply an answer of “No” - which could also be spelled out explicitly in the additional details of the market.
 
 The market end time is also sufficiently after the event. A day after a sports game is typically enough time to know the result.
 
 This particular market has low fees and easy to find categories and tags which makes it attractive for traders. The market creator has provided liquidity and hopes to make money through their spread.
-A resolution source of general knowledge is widely accepted to be satisfactory as there is almost never any ambiguity on who is the winner of a sports game, and it is typically widely reported on in the media.
+
+A resolution source of general knowledge is widely accepted to be satisfactory as there is almost never any ambiguity on who is the winner of a sports game, and it is typically widely reported on in the media. Putting in a specific resolution source would only increase the risk of having the market resolve as invalid, if something strange were to happen with that specific source.
 
 ### Politics
 
