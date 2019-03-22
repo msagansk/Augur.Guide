@@ -15,7 +15,7 @@ Well, there are a series of [dispute rounds](https://augur.guide/glossary.html#D
 
 ### Why would reporters risk their REP to correct a market for traders? 
 
-Well, once a disputed market’s outcome is resolved, the reporters who staked on the winning outcome get to take the REP that was staked on the incorrect outcome(s). Due to the way the dispute round bond sizes scale, this results in a 50% ROI (payable in REP) for the reporters. So on any individual market, you can potentially earn 50% returns by disputing (i.e. staking) against liars by reporting the truth. And for Augur as a whole, reporters want to report the truth so that traders use the system, generate reporting fees, and thus give a fundamental value to REP.
+Well, once a disputed market’s outcome is resolved, the reporters who staked on the winning outcome get to take the REP that was staked on the incorrect outcome(s). Due to the way the dispute round bond sizes scale, this results in a 50% ROI (payable in REP) for the reporters. So on any individual market, you can potentially earn 50% returns by disputing (i.e. staking) against liars by [reporting](https://augur.guide/glossary.html#Report) the truth. And for Augur as a whole, reporters want to report the truth so that traders use the system, generate reporting fees, and thus give a fundamental value to REP.
 
 ### How do I figure out what the correct answer to the market is?
 
