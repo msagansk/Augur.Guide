@@ -7,7 +7,7 @@ This page details the nitty-gritty for what happens behind the scenes when you t
 
 Note that these examples don't include the simple example of just placing an order on the order book. Remember, you need a counterparty for an actual trade to occur.
 
-In all of the examples shown, the market in question has two outcomes, A and B. You can think of these as "Yes" and "No" for a Yes/No market, or "Long" vs. "Short" for a scalar market. Categorical markets will behave slightly differently, since there are more than 2 outcomes in a complete set. This list of examples is not exhaustive, but covers most of the possibilities.
+In all of the examples shown, the market in question has two outcomes, A and B. You can think of these as "Yes" and "No" for a Yes/No market, or "Long" vs. "Short" for a scalar market. Categorical markets will behave slightly differently, since there are more than 2 outcomes in a complete set. This list of examples is not exhaustive for all the possibilities in Augur, but covers the possibilities for a two outcome market. In the examples below, note that bidding/buying a SHARE of A for price "x" is equivalent to asking/selling a SHARE of B for price "1-x".
 
 ## Completely Filled Orders
 
