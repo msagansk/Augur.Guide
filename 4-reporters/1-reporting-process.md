@@ -7,7 +7,7 @@ title: Reporting Process
 Ok, let’s blow up the reporting process box from ["The Life of a Market"](https://augur.guide/1-getting-started/the-life-of-a-market.html) page into its detailed sub-steps and go over them:
 
 <div class="center">
-{% include image.html url="/assets/images/Reporting Flowchart.svg" description="Figure 2. Reporting Flowchart" %}
+{% include image.html url="/assets/images/Reporting Flowchart.svg" description="Figure 1. Reporting Flowchart" %}
 </div>
 
 1. [**Designated Reporting**](https://augur.guide/glossary.html#Designated%20Reporting%20Phase) - This is the first step of the reporting phase and is triggered by the market [end time](https://augur.guide/glossary.html#End%20Time) occurring, which was originally set by the market creator when the market was created. The market creator picked an address to be the [designated reporter](https://augur.guide/glossary.html#Designated%20Reporter), which is usually the market creator itself. This designated reporter now has 3 days to perform the [initial report](https://augur.guide/glossary.html#Initial%20Report), which is the first [tentative outcome](https://augur.guide/glossary.html#Tentative%20Outcome) for the market. The designated reporter has to post a [bond](https://augur.guide/glossary.html#Designated%20Reporter%20Stake) (in REP) to incentivise other reporters to make sure the outcome selected is the correct answer. The designated reporter does not get to unilaterally decide how the market resolves, the rest of the reporter community has to generally agree. This decentralized resolution process is one of the main strengths of Augur, but it can also cause delays in resolution.
