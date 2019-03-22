@@ -22,11 +22,11 @@ The additional details of the market specify how certain edge cases should be tr
 
 The market is [categorical](https://augur.guide/glossary.html#Categorical%20Market) which allows for making a “draw” an explicit outcome, but the drawback here is that it splits liquidity between three outcomes. If that is a concern for you, it is possible to turn a sports market into a Yes/No market with wording like “Will team X beat team Y?”, as a draw would imply an answer of “No” - which could also be spelled out explicitly in the additional details of the market.
 
-The market end time is also sufficiently after the event. A day after a sports game is typically enough time to know the result.
+The market [end time](https://augur.guide/glossary.html#End%20Time) is also sufficiently after the event. A day after a sports game is typically enough time to know the result.
 
 This particular market has low fees and easy to find categories and tags which makes it attractive for traders. The market creator has provided liquidity and hopes to make money through their spread.
 
-A resolution source of general knowledge is widely accepted to be satisfactory as there is almost never any ambiguity on who is the winner of a sports game, and it is typically widely reported on in the media. Putting in a specific resolution source would only increase the risk of having the market resolve as invalid, if something strange were to happen with that specific source.
+A [resolution source](https://augur.guide/glossary.html#Resolution%20Source) of general knowledge is widely accepted to be satisfactory as there is almost never any ambiguity on who is the winner of a sports game, and it is typically widely reported on in the media. Putting in a specific resolution source would only increase the risk of having the market resolve as invalid, if something strange were to happen with that specific source.
 
 ### Politics
 
@@ -41,7 +41,7 @@ A resolution source of general knowledge is widely accepted to be satisfactory a
 
 **Notes:** Politics markets are also one of the easiest categories to make valid markets for, but a little harder than sports markets. The additional details for the market really need to spell out as many of the edge cases as possible, so knowledge of the political system the market is about is crucial. In addition, the market end time typically needs to be *well* after you expect the event to occur, because large delays are possible (ex. election results). This particular market’s end time is over a month after the expected election date. That being said, a resolution source won’t be needed (general knowledge is fine) because election results tend to not have any ambiguity once the answer is determined.
 
-In addition, for long running markets such as this one, additional risk factors start to come into play. Augur’s current design doesn’t make it well suited for markets that go out further than 6 months. One reason is that Augur expects to do contract upgrades which involves migrating REP from one version to another, potentially leaving markets behind with not enough honest REP holders to report the correct result. The other reason is that long running markets potentially don’t end up paying a “fair” amount of reporting fees based on how long Augur is required to ensure the security of the market. This gets into complex game-theory topics that we won’t dive into here, see the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf) for more details.
+In addition, for long running markets such as this one, additional risk factors start to come into play. Augur’s current design doesn’t make it well suited for markets that go out further than 6 months. One reason is that Augur expects to do contract upgrades which involves migrating [REP](https://augur.guide/glossary.html#REP) from one version to another, potentially leaving markets behind with not enough honest REP holders to report the correct result. The other reason is that long running markets potentially don’t end up paying a “fair” amount of reporting fees based on how long Augur is required to ensure the security of the market. This gets into complex game-theory topics that we won’t dive into here, see the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf) for more details.
 
 ### Cryptocurrency
 
@@ -56,7 +56,7 @@ In addition, for long running markets such as this one, additional risk factors 
 
 **Notes:** Cryptocurrency price markets are popular for Augur since the user base tends to be heavily invested in cryptocurrency in general, at least for now. This type of market is a kind of binary option, which is the simplest type of cryptocurrency price market to create. A more complicated version of this market would be a scalar one, allowing for a numerical range of values for more complex trading.
 
-The one key parameter in this type of market that is unique compared to the ones above is the resolution source. Generally, cryptocurrency prices vary dramatically across the world on different exchanges. There is no single default source of truth that is generally agreed upon, so you have to pick one for the market. Otherwise you could end up in a situation where one exchange would make the answer resolve to “Yes”, whereas another exchange might make the answer “No” - this sort of conflict would make the market resolve as Invalid.
+The one key parameter in this type of market that is unique compared to the ones above is the resolution source. Generally, cryptocurrency prices vary dramatically across the world on different exchanges. There is no single default source of truth that is generally agreed upon, so you have to pick one for the market. Otherwise you could end up in a situation where one exchange would make the answer resolve to “Yes”, whereas another exchange might make the answer “No” - this sort of conflict would make the market resolve as [Invalid](https://augur.guide/glossary.html#Invalid%20Outcome).
 
 When you start to rely on only one resolution source, other problems do arise. For example, what if Coinmarketcap.com ceases to exist by the time your market expires? You could put backup resolution sources in the additional details section of the market, but then you need to clearly define when the backup source should be used - which can cause greater uncertainty itself. 
 
@@ -82,7 +82,7 @@ If the resolution source changes formats but unambiguously presents the equivale
 
 The work for reporters is almost to the point of being too complicated, as at first glance it appears that the market title (100 inces) and the additional details (372 inches) are in contradiction with one another. But the 372 inches is a cumulative amount of the year, which is the reported number by the resolution source, but the question is specifically about the amount for February. January had 272 inches of snow, so for February to have at least 100 inches of snow, the cumulative result should at least be 372 inches. 
 
-There is ongoing debate about how complicated the resolution rules can be for reporters to validate the truth. At some point, if the answer is too difficult to figure out, reporters will mark the market as invalid. Where that line is is yet to be determined, but this market is a good baseline to work with.
+There is ongoing debate about how complicated the resolution rules can be for reporters to validate the truth. At some point, if the answer is too difficult to figure out, reporters will mark the market as Invalid. Where that line is is yet to be determined, but this market is a good baseline to work with.
 
 ### Miscellaneous
 
@@ -95,4 +95,4 @@ There is ongoing debate about how complicated the resolution rules can be for re
 **Categories/Tag:** Space, Spacex, Mars<br />
 **Resolution Source:** General Knowledge<br />
 
-**Notes:** This market is just a good example of how awesome Augur can be, because you can create markets about almost anything. As usual, the additional details section is critical to add additional context and to cover any potential edge cases that could come up. This market had a very low probability of resolving as invalid, but it wasn’t entirely zero. There could have been uncertainty if the rocket had only reached an elevation of 0.9 meters, for example. It may have been unclear to the general public how high the rocket actually went. Enough clarity of intent in the market details allows for a large reduction in the probability of an Invalid market.
+**Notes:** This market is just a good example of how awesome Augur can be, because you can create markets about almost anything. As usual, the additional details section is critical to add additional context and to cover any potential edge cases that could come up. This market had a very low probability of resolving as Invalid, but it wasn’t entirely zero. There could have been uncertainty if the rocket had only reached an elevation of 0.9 meters, for example. It may have been unclear to the general public how high the rocket actually went. Enough clarity of intent in the market details allows for a large reduction in the probability of an Invalid market.
