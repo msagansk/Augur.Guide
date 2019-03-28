@@ -8,6 +8,9 @@ title: External Resources
 <https://www.augur.net/> <br />
 Go here first, if you haven't already.
 
+<https://docs.augur.net/> <br />
+The place to go if you'd like to start learning how to build a tool on top of Augur.
+
 ### Explorers:
 
 <https://predictions.global/> <br />
