@@ -8,6 +8,8 @@ For determining which outcome is true, pay close attention to all of the market 
 - If the resolution source is "General Knowledge", then the answer should be readily available, usually with a quick Internet search.
 - If the resolution source is not "General Knowledge", then the answer should be readily availble at the resolution source. Other sources of information should not be considered, unless the market instructs you to do so.
 
+Pay particular attention to the end time of the market, and what the market is actually asking. If a timezone was not provided in the market question, reporters have been assuming UTC as a (sort-of) [schelling point](https://en.wikipedia.org/wiki/Focal_point_(game_theory)).
+
 The market should be considered INVALID if any of the following are true:
 
 - The question is subjective in nature.
