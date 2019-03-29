@@ -12,7 +12,7 @@ For all of these markets types, [Invalid](https://augur.guide/glossary.html#Inva
 
 ### Yes/No Markets
 
-This is the simplest kind of market, with only two possible choices for tradeable answers (Yes or No). In the default Augur UI, the No option and order book is hidden, to simplify these types of markets even further. That means you can only buy or sell SHARES of Yes. If you do happen to sell SHARES of Yes to someone else (and you don't actually own any Yes SHARES), Augur will create a complete set of both Yes and No SHARES and give you the No SHARES. In the Augur UI, this will show up as a negative quantity of Yes.
+This is the simplest kind of market, with only two possible choices for tradeable answers (Yes or No). In the default Augur UI, the No option and order book is hidden, to simplify these types of markets even further. That means you can only buy or sell SHARES of Yes. If you sell SHARES of Yes to someone else and you don't actually own any Yes SHARES, Augur will create a complete set of both Yes and No SHARES and give you the No SHARES. In the Augur UI, this will show up as a negative quantity of Yes.
 
 In the event that a yes/no market resolves as Invalid, each Yes or No share is worth 0.5 ETH each. Note that depending on the price you paid for that Yes or No share, it is possible that you can win or lose money on an Invalid result. This is planned to change in Augur version 2, where Invalid will become a tradeable outcome such that Yes or No shares will be worth 0 if the market resolves to Invalid.
 
