@@ -84,6 +84,25 @@ The work for reporters is almost to the point of being too complicated, as at fi
 
 There is ongoing debate about how complicated the resolution rules can be for reporters to validate the truth. At some point, if the answer is too difficult to figure out, reporters will mark the market as Invalid. Where that line is is yet to be determined, but this market is a good baseline to work with.
 
+### Scalar
+
+**Title:** [What will be the price of Bitcoin (BTC) in USD at 12am UTC on March 30, 2019?](https://predictions.global/augur-markets/what-will-be-the-price-of-bitcoin-btc-in-usd-at-12am-utc-on-march-30-2019-0xf608128a1b8b9144bcdce122855c4cce1abfb5b1)
+<br />
+**Details:** Resolution will be based on Veil's data feed located at https://veil.co/feed/btc-usd. The value can be found in the "Last feed value" column of the "Related markets" table, which will provide the feed value at the moment before 12am UTC on March 30, 2019. If rounding is necessary, the report should use the last feed value rounded down to the nearest multiple of 0.01.
+
+If the real-world outcome for this market is above this market's maximum value, the maximum value (4800.37 USD) should be reported. If the real-world outcome for this market is below this market's minimum value, the minimum value (3200.25 USD) should be reported.<br />
+**Type:** Scalar<br />
+**Outcomes:** Min: 3200.25, Max: 4800.37<br />
+**Denominated In:** USD<br />
+**Ends:** March 31, 2019 12:00 AM<br />
+**Fees:** 0.51%<br />
+**Categories/Tag:** Veil, Bitcoin, Cryptocurrency<br />
+**Resolution Source:** https://veil.co/feed/btc-usd<br />
+
+**Notes:** This is a good example of a scalar market. Note that these work a little differently, as you have to set a lower and upper bound to the market, with a precision inbetween (typically 0.01 for something like USD). Choosing a good upper and lower bound can be tricky, as it can depend greatly on volatility. 
+
+This market is also a great example of the market creator using their own custom resolution source. Market traders need to trust that the creator is not going to be malicious (i.e. cheat) with the resolution source, but that is can be ok. In this case, Veil is building up their own reputation as a platform on top of Augur.
+
 ### Miscellaneous
 
 **Title:** [Will a SpaceX Starship test vehicle have a successful test flight before March 2nd?](https://predictions.global/augur-markets/will-a-spacex-starship-test-vehicle-have-a-successful-test-flight-before-march-2nd-0x8499fca0a811ede100c36a438dca755bc89c1fc3)<br />
