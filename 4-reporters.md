@@ -23,7 +23,11 @@ It should be possible for the average person to figure out the answer based on r
 
 ### What if a market’s question doesn’t have a truthful answer?
 
-Every market has [Invalid](https://augur.guide/glossary.html#Invalid%20Outcome) as a potential outcome. This outcome is used for a variety of reasons, but the basic idea is that it is the correct answer to use when the market doesn’t have a singular, clear cut, objectively verifiable answer known at the market’s end time. This outcome is effectively Augur saying “I can’t answer this question”. There is a handy [check sheet](https://augur.guide/4-reporters/2-checksheet.html) that you can use to ask yourself if a market is Invalid or not.
+Every market has [Invalid](https://augur.guide/glossary.html#Invalid%20Outcome) as a potential outcome. This outcome is used for a variety of reasons, but the basic idea is that it is the correct answer to use when the market doesn’t have a singular, clear cut, objectively verifiable answer known at the market’s end time. This outcome is effectively Augur saying “I can’t answer this question”. There is a handy [check sheet](https://augur.guide/4-reporters/2-checksheet.html) that you can use to ask yourself if a market is Invalid or not. When the truth is not clear, or changed during reporting, Augur can't provide a reliable or consistent answer. That's when invalid becomes the go-to option. 
+
+### Can [Whales](https://en.wikipedia.org/wiki/High_roller) Just Bully Markets the Way They Want to Resolve?
+
+Reporting isn't a [game of chicken](https://en.wikipedia.org/wiki/Chicken_(game)). Augur has fairly complicated game-theory for how the reporting process works, but it essentially revolves around traders and reporters using truth as a sort of [schelling point](https://en.wikipedia.org/wiki/Focal_point_(game_theory)). Additional details as to why can be found in the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf).
 
 ### How does the reporting fee get set?
 
