@@ -17,4 +17,6 @@ Here is a quick reference of things to look for when deciding whether or not to 
 - Does the time of day matter? If so, does the market specify a timezone?
 - Will reporters in the future be able to verify the answer using the resolution source provided?
 
+Pay particular attention to the end time of the market, and what the market is actually asking. If a timezone was not provided in the market question, reporters have been assuming UTC as a (sort-of) [schelling point](https://en.wikipedia.org/wiki/Focal_point_(game_theory)).
+
 You can also ask the Augur community about a particular market if you are unsure. People will gladly flag potentially Invalid markets in the [Augur Discord](https://discord.gg/faud6Fx) and [Reddit](https://reddit.com/r/Augur).
