@@ -103,6 +103,8 @@ If the real-world outcome for this market is above this market's maximum value, 
 
 This market is also a great example of the market creator using their own custom resolution source. Market traders need to trust that the creator is not going to be malicious (i.e. cheat) with the resolution source, but that is can be ok. In this case, Veil is building up their own reputation as a platform on top of Augur.
 
+The second paragraph of the "details" section is actually automatically added in by the Augur UI, it was not supplied by the market creator. This paragraph is always added in dynamically by the Augur UI to specify details about the upper and lower bounds of the market and how they affect market resolution.
+
 ### Miscellaneous
 
 **Title:** [Will a SpaceX Starship test vehicle have a successful test flight before March 2nd?](https://predictions.global/augur-markets/will-a-spacex-starship-test-vehicle-have-a-successful-test-flight-before-march-2nd-0x8499fca0a811ede100c36a438dca755bc89c1fc3)<br />
