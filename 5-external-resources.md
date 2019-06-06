@@ -83,3 +83,6 @@ A breakeven share price calculator, where you estimate how likely a market will 
 
 <https://blacktemplar.github.io/augur-fee-windows-info/> <br />
 A participation token calculator for REP holders that want to collect reporting fees. There is a lot of information about the current and next fee window. But the most useful part is that it does some math for you to see how much REP you need to stake in order to get enough ETH to make a profit, taking gas fees into account.
+
+<https://predictions.market> <br />
+A community hosted Augur node provided by the folks at Guesser. An Augur node is a database that can be queried much more quickly for Augur related information when compared to querying an Ethereum node directly.
