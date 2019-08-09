@@ -19,9 +19,6 @@ The first Augur market explorer, now owned by Veil. Allows you to easily browse 
 <https://exploreaugur.com/> <br />
 A very simplistic read-only UI that allows you to browse markets. However, it has some very unique features that are very useful. For example, you can browse the order book of a market and see which addresses hold the most amount of SHARES of the various outcomes. 
 
-<https://www.logfile.info/eventlogs.php?dapp=augur> <br />
-A generic event log browser for Ethereum, with some Augur specific functions.
-
 <https://discord.gg/gnFcPvk> <br />
 A discord bot tracking market creation, disputes, and completion.
 
