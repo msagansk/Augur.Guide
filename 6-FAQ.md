@@ -3,7 +3,7 @@ title: FAQ
 ---
 # Frequently Asked Questions 
 
-#### [Why is it not possible to refund traders in the case of a market resolving as INVALID?](Why-is-it-not-possible-to-refund-traders-in-the-case-of-a-market-resolving-as-INVALID?)
+[Why is it not possible to refund traders in the case of a market resolving as INVALID?](#Why-is-it-not-possible-to-refund-traders-in-the-case-of-a-market-resolving-as-INVALID?)
 
 The short answer is that it is possible for traders to trade shares amongst themselves without Augur, so it is 
 impossible for the Augur smart contracts to know which shares should be repaid which amount. Augur outcome shares are 
