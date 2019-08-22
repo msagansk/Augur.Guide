@@ -9,7 +9,7 @@ The short answer is that it is possible for traders to trade shares amongst them
 impossible for the Augur smart contracts to know which shares should be repaid which amount. Augur outcome shares are 
 fungible by design.
 
-Here is a longer form answer, an example:
+Here is an example:
 1. Alice escrows 100 ETH and gets 100 YES tokens and 100 NO tokens.
 2. Alice sells Bob 100 NO tokens in exchange for 30 ETH.
 
