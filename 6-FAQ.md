@@ -22,3 +22,5 @@ The system still only has 100 ETH, but Alice who owns 100 YES shares paid 70 ETH
 We cannot steal money from Bob (yay for ledgers!), so with our 100 ETH we cannot refund both the 70 ETH to Alice and the 50 ETH to Carol.
 
 (taken from Augur Discord chat, credit to <https://discordapp.com/channels/378030344374583298/378030785829273620/614130372179132473>)
+
+See work in progress Google Doc for this FAQ: https://docs.google.com/document/d/17P7pYehUCtaM_Pr1bdcsn9vqeha5HESq1pxfrtaLOkU/edit?usp=sharing
