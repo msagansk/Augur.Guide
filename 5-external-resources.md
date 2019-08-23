@@ -38,11 +38,11 @@ Statistical analysis on specific Augur markets related to financial instruments.
 
 ### Third-party Applications:
 
-<https://veil.co/> <br />
-Built on top of Augur, but also uses 0x for much cheaper trading and instant settlement of markets.
-
 <https://guesser.io/> <br />
 A curated user interface of Augur markets, presented in a betting style interface. Allows users to trade on markets as simply as possible.
+
+<https://www.blitzpredict.io/> <br />
+Launching with Augur v2, can sign up for the early access beta now.
 
 ### Leaderboards:
 
@@ -52,9 +52,6 @@ See which traders have won/lost the most.
 <https://mikemcdonald.github.io/augur/leaderboard.html> <br />
 Another way to see which addresses are the biggest winners and losers when it comes to trading.
 
-<https://app.veil.co/leaderboard> <br />
-The biggest winning and losing traders, specifically on Veil's platform.
-
 ### Calculators/Other Services
 
 <https://augur.casino/> <br />
@@ -62,9 +59,6 @@ A hosted implementation of the Augur reference UI. Requires trusting that the ho
 
 <https://reporters.chat/> <br />
 A fantastic tool for reporters. It allows you to comment on specific markets and discuss how it should resolve. You can also see the dispute history of a market and also provide information why you staked on a certain outcome. A few charts are also provided.
-
-<http://dispute.tools/#/> <br />
-A dispute crowdsourcer. Allows for reporters to pool together funds for a dispute before it is active in a fee window. This can be helpful for markets where there is competition to fill a dispute bond. Helps prevent gas wars, and allows for regular reporters who don't know how to program their own dispute bots to get a chance to dispute as well. Note that the author has since disappeared since creating this tool, so it is no longer being updated and the code has never been audited. Documentation can be found here: <https://github.com/burdakovd/augur-dispute-crowdsourcer>
 
 <http://www.pdotindex.com/> <br />
 Pdot Index uses decentralized prediction markets to track the success of celebrities and public figures.
