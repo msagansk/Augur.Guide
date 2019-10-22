@@ -36,7 +36,7 @@ Analytics, charts, and graphs of all sorts to see what has happened in Augur lat
 <https://augurinsider.com/> <br />
 Statistical analysis on specific Augur markets related to financial instruments.
 
-https://themajority.report/ <br />
+<https://themajority.report/> <br />
 See markets in the reporting phase, and statistics on precedents for markets resolving as invalid.
 
 ### Third-party Applications:
