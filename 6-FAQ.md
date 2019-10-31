@@ -3,7 +3,12 @@ title: FAQ
 ---
 # Frequently Asked Questions 
 
-### <a href="#invalid_refunds">1. <a name="invalid_refunds"> Why is it not possible to refund traders in the case of a market resolving as INVALID?</a></a>
+<ol>
+<li><a href="#invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</a></li>
+<li><a href="#why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a></li>
+</ol>
+
+### <a name="invalid_refunds"> Why is it not possible to refund traders in the case of a market resolving as INVALID?</a>
 
 The short answer is that it is possible for traders to trade shares amongst themselves without Augur, so it is 
 impossible for the Augur smart contracts to know which shares should be repaid which amount. Augur outcome shares are 
@@ -24,7 +29,7 @@ We cannot steal money from Bob (yay for ledgers!), so with our 100 ETH we cannot
 (taken from Augur Discord chat, credit to <https://discordapp.com/channels/378030344374583298/378030785829273620/614130372179132473>)
 
 
-### <a href="#why_don't_reporters_combat_scam_markets">2. <a name="why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a></a>
+### <a name="why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a>
 
 A common question new users have is why reporters don't report against the letter of the market in order to combat obvious scams.  An example of such a scam is a market that asks some legitimate sounding question but sets the reporting source as a site the scammer controls.  People bet on what seems like a "sure thing" and then the market creator sets their website to report an outcome that is not in line with reality.  Reporters report in line with what the reporting source says, rather than in line with the question, should reporting source be ignored.
 
