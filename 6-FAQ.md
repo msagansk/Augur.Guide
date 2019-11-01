@@ -4,9 +4,9 @@ title: FAQ
 # Frequently Asked Questions 
 
 <ol>
-<li><a href="#invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</a><//li>
+<li><a href="#invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</a></li>
 <li><a href="#why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a></li>
-<li><a href="#why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?"</a></li>
+<li><a href="#why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?</a></li>
 </ol>
 
 ### <a name="invalid_refunds"> Why is it not possible to refund traders in the case of a market resolving as INVALID?</a>
