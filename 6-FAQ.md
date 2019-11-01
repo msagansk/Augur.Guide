@@ -4,8 +4,9 @@ title: FAQ
 # Frequently Asked Questions 
 
 <ol>
-<li><a href="#invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</a></li>
+<li><a href="#invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</a><//li>
 <li><a href="#why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a></li>
+<li><a href="#why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?"</a></li>
 </ol>
 
 ### <a name="invalid_refunds"> Why is it not possible to refund traders in the case of a market resolving as INVALID?</a>
@@ -37,3 +38,13 @@ The problem here is that while scammers currently use obvious scam sites, it is 
 If reporters started reporting on these markets based on whether or not they think the market was a scam, then they would open themselves up to attacks against the reporting system.  In this type of attack, the attacker creates a website used as a reporting source that appears legitimate to most people, but not everyone.  This creates conflict among reporters and can potentially lead to a fork.  Since all reporters have to stake their REP on an outcome during a fork, this means that reporters now have to take on a lot of risk when trying to pick which side of the fence to be on, as they do not know how future traders will align themselves.
 
 When reporting is a risky endeavor, people will start to sell their REP which leads to the price of REP falling.  When the price of REP falls sufficiently, reporting fees will automatically increase to try to drive the price of REP back up so the system can remain secure against othere attacks.  This means that traders, ultimately, will pay the price of reporters trying to "protect" them from scams, and in the end the scams aren't actually stopped/prevented, only mutated.
+
+### <a name="why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?</a>
+
+People often ask why reporters don't just follow guideline X, where X is some proposal that usually tries to address some _current_ scam market.  This is a natural response when you see a problem to try to fix it by suggesting some obvious solution.  We see this a lot in politics where someone sees some problem and they recommend the first fix that pops into their head as a solution.  The issue with this strategy is that often times the fixes can be worse than the original problem once they are implemented and allowed to play out, which results in the need for another fix which then has an even worse problem, etc.
+
+In order for Augur to be useful, traders need to have confidence that the Oracle will resolve _predictably_.  It matters significantly less what specific strategy the oracle uses as long as it is predictable as traders are able to account for any quirks but they cannot account for unpredictability.  Right off the bat, any suggested change that is likely to reduce the predictability of Augur comes with great cost and should be avoided whenever possible.  There will always be some amount of unpredictability in life, but we want to minimize that as much as possible.
+
+Another common pitfal of trying to address some particular scam is the incorrect assumption that scammers will not adapt when the guidelines change.  Scammers tend to be much more keenly aware of the "rules" than regular people because they are actively looking for ways they can break the _intent_ of the rules and get away with it.  This means that if you propose a new reporting guideline to address some current scam market, you must consider how the scammer will try to scam people _given_ that new guideline.  If the new guideline creates new opportunities to scam, then we haven't really solved the underlying problem and instead we have just moved it.  If the new guideline _reduces_ predictability of reporting then, as mentioned above, we have introduced a large cost with the new guideline and we haven't really solved the problem of scams.
+
+Since completely preventing scams is likely impossible (we can only change their nature), the best we can hope for is to at least be consistent in how the reporting system resolves markets.  We don't want to destroy the value proposition of Augur by creating huge amounts of uncertainty in reporting while in a constant ever-shifting battle with scammers.
