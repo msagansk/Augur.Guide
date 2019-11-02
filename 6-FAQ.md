@@ -7,6 +7,11 @@ title: FAQ
 <li><a href="#invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</a></li>
 <li><a href="#why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a></li>
 <li><a href="#why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?</a></li>
+<li><a href="#how_do_i_stake_eli5">How do I stake? ELI5.</a></li>
+<li><a href="#repv1_to_v2">REP is changing to REPv1 and being obsoleted by REPv2? What do i need to know?</a></li>
+<li><a href="#video_tutorials">Are there video tutorials for absolute beginners?</a></li>
+<li><a href="#participation_tokens">Can you further explain Participation Tokens?</a></li>
+
 </ol>
 
 ### <a name="invalid_refunds"> Why is it not possible to refund traders in the case of a market resolving as INVALID?</a>
@@ -48,3 +53,22 @@ In order for Augur to be useful, traders need to have confidence that the Oracle
 Another common pitfal of trying to address some particular scam is the incorrect assumption that scammers will not adapt when the guidelines change.  Scammers tend to be much more keenly aware of the "rules" than regular people because they are actively looking for ways they can break the _intent_ of the rules and get away with it.  This means that if you propose a new reporting guideline to address some current scam market, you must consider how the scammer will try to scam people _given_ that new guideline.  If the new guideline creates new opportunities to scam, then we haven't really solved the underlying problem and instead we have just moved it.  If the new guideline _reduces_ predictability of reporting then, as mentioned above, we have introduced a large cost with the new guideline and we haven't really solved the problem of scams.
 
 Since completely preventing scams is likely impossible (we can only change their nature), the best we can hope for is to at least be consistent in how the reporting system resolves markets.  We don't want to destroy the value proposition of Augur by creating huge amounts of uncertainty in reporting while in a constant ever-shifting battle with scammers.
+
+### <a name="how_do_i_stake_eli5">How do I stake? ELI5.</a>
+Q: How do I stake? ELI5. 
+A: (please add!)
+
+### <a name="repv1_to_v2">REPv1 to REPv2?  What do I need to know?</a>
+Q: What does it mean that REP will soon be 'REPv1' and replaced by REPv2? Will this affect speculative trading of it? Will I have to do some sort of wallet magic to maintain my coins? Is this like a hardfork/airdrop?  When will this happen?
+A: REP2 will replace REP1.  There will be a new REP2 market on exchanges, and when people choose to convert, their old REP will be destroyed.  It is not like a fork where you end up with coins on both chains.  Whether there continues to be a REPv1 market is up to exchanges, but assumption is value will drop off fast.
+
+### <a name="video_tutorials">Are there video tutorials to help me go from noob to pro Augur user?</a>
+Q: Are there any docs/youtube channels/tutorials that walk the absolute novice through from scratch to active maker/staker? If so, where?
+A: No, it seems
+
+### <a name="participation_tokens">Explain 'Participation Tokens'</a>
+Q: Can 'participation tokens' be explained in further detail? The UI suggests that I buy them, and then somewhere else I read that until Augur is more populated, the cost of doing so will be more than you'd earn doing so.
+
+Please edit this page and add/answer more questions.  
+
+![Augur UI]({{site.url}}/assets/images/augur-ui.png )
