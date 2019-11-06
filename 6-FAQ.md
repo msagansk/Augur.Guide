@@ -10,7 +10,7 @@ title: FAQ
 <li><a href="#Augur_v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</a></li>
 <li><a href="#REP_v1_to_v2_upgrade_process">What is the process for converting REPv1 to REPv2?</a></li>
 </ol>
-<br /><br />
+<br />
 
 ### <div id="invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</div>
 
