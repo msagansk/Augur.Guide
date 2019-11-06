@@ -7,10 +7,12 @@ title: FAQ
 <li><a href="#invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</a></li>
 <li><a href="#why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a></li>
 <li><a href="#why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?</a></li>
-<li><a href="#v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</a></li>
+<li><a href="#Augur_v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</a></li>
+<li><a href="#REP_v1_to_v2_upgrade_process">What is the process for converting REPv1 to REPv2?</a></li>
 </ol>
 <br /><br />
-### <div id="invalid_refunds"> Why is it not possible to refund traders in the case of a market resolving as INVALID?</div>
+
+### <div id="invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</div>
 
 (taken from Augur Discord chat, credit to <https://discordapp.com/channels/378030344374583298/378030785829273620/614130372179132473>)
 
@@ -50,7 +52,7 @@ Another common pitfal of trying to address some particular scam is the incorrect
 
 Since completely preventing scams is likely impossible (we can only change their nature), the best we can hope for is to at least be consistent in how the reporting system resolves markets.  We don't want to destroy the value proposition of Augur by creating huge amounts of uncertainty in reporting while in a constant ever-shifting battle with scammers.
 
-### <div id="v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</div>
+### <div id="Augur_v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</div>
 
 Once Augur v2 has launched, Reporters will be able to convert their v1 REP into v2 REP at a 1:1 conversion rate.  This process is voluntary and if you believe that Augur v1 will receive more usage than Augur v2 you are free to leave your REP in Augur v1 forever.
 
@@ -58,7 +60,7 @@ Since Augur v2 implements use-it-or-lose-it for forks, this means that you must 
 
 As a REP holder, starting with the launch of Augur v2 it is imperative that you regularly check in on Augur and make sure that there is not a fork happening.  Forks last 2 months, so it is recommended to checkin on the system at least once a month to verify that no fork is occurring.  If a fork is occuring, then you must participate or risk your REP being stuck forever (effectively burned).
 
-### What is the process for converting REPv1 to REPv2?
+### <div id="REP_v1_to_v2_upgrade_process">What is the process for converting REPv1 to REPv2?</div>
 
 There will be a conversion tool in the reference UI.  Following the instructions in the reference UI will be the easiest way to migrate your REP and will likely involve two Ethereum transactions that you will need to sign.
 
