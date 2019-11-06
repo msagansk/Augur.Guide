@@ -12,7 +12,7 @@ title: FAQ
 </ol>
 <br />
 
-### <div id="invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</div>
+<div id="invalid_refunds">### Why is it not possible to refund traders in the case of a market resolving as INVALID?</div>
 
 (taken from Augur Discord chat, credit to <https://discordapp.com/channels/378030344374583298/378030785829273620/614130372179132473>)
 
