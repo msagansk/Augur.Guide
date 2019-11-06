@@ -11,7 +11,7 @@ A defined list of terms specific to Augur that are deep-linkable.
 {% assign gs = site.data.glossary | sort:[0] %}
 {% for kv in gs %}
 <tr> 
-  <td>
+  <td valign="top">
     <a href="#{{ kv[0] }}">{{ kv[0] }}</a>
     <a name="{{ kv[0] }}"></a> 
   </td>
