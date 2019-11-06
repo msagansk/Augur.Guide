@@ -50,7 +50,7 @@ Another common pitfal of trying to address some particular scam is the incorrect
 
 Since completely preventing scams is likely impossible (we can only change their nature), the best we can hope for is to at least be consistent in how the reporting system resolves markets.  We don't want to destroy the value proposition of Augur by creating huge amounts of uncertainty in reporting while in a constant ever-shifting battle with scammers.
 
-### <div id="#v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</div>
+### <div id="v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</div>
 
 Once Augur v2 has launched, Reporters will be able to convert their v1 REP into v2 REP at a 1:1 conversion rate.  This process is voluntary and if you believe that Augur v1 will receive more usage than Augur v2 you are free to leave your REP in Augur v1 forever.
 
