@@ -7,9 +7,10 @@ title: FAQ
 <li><a href="#invalid_refunds">Why is it not possible to refund traders in the case of a market resolving as INVALID?</a></li>
 <li><a href="#why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a></li>
 <li><a href="#why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?</a></li>
+<li><a href="#v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</a></li>
 </ol>
-
-### <a name="invalid_refunds"> Why is it not possible to refund traders in the case of a market resolving as INVALID?</a>
+<br /><br />
+### <div id="invalid_refunds"> Why is it not possible to refund traders in the case of a market resolving as INVALID?</div>
 
 (taken from Augur Discord chat, credit to <https://discordapp.com/channels/378030344374583298/378030785829273620/614130372179132473>)
 
@@ -29,7 +30,7 @@ The system still only has 100 ETH, but Alice who owns 100 YES shares paid 70 ETH
 
 We cannot steal money from Bob (yay for ledgers!), so with our 100 ETH we cannot refund both the 70 ETH to Alice and the 50 ETH to Carol.
 
-### <a name="why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</a>
+### <div id="why_don't_reporters_combat_scam_markets">Why don't reporters combat scam markets?</div>
 
 A common question new users have is why reporters don't report against the letter of the market in order to combat obvious scams.  An example of such a scam is a market that asks some legitimate sounding question but sets the reporting source as a site the scammer controls.  People bet on what seems like a "sure thing" and then the market creator sets their website to report an outcome that is not in line with reality.  Reporters report in line with what the reporting source says, rather than in line with the question, should reporting source be ignored.
 
@@ -39,7 +40,7 @@ If reporters started reporting on these markets based on whether or not they thi
 
 When reporting is a risky endeavor, people will start to sell their REP which leads to the price of REP falling.  When the price of REP falls sufficiently, reporting fees will automatically increase to try to drive the price of REP back up so the system can remain secure against othere attacks.  This means that traders, ultimately, will pay the price of reporters trying to "protect" them from scams, and in the end the scams aren't actually stopped/prevented, only mutated.
 
-### <a name="why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?</a>
+### <div id="why_don't_reporters_follow_guideline_x">Why don't reporters follow guideline X?</div>
 
 People often ask why reporters don't just follow guideline X, where X is some proposal that usually tries to address some _current_ scam market.  This is a natural response when you see a problem to try to fix it by suggesting some obvious solution.  We see this a lot in politics where someone sees some problem and they recommend the first fix that pops into their head as a solution.  The issue with this strategy is that often times the fixes can be worse than the original problem once they are implemented and allowed to play out, which results in the need for another fix which then has an even worse problem, etc.
 
@@ -49,7 +50,7 @@ Another common pitfal of trying to address some particular scam is the incorrect
 
 Since completely preventing scams is likely impossible (we can only change their nature), the best we can hope for is to at least be consistent in how the reporting system resolves markets.  We don't want to destroy the value proposition of Augur by creating huge amounts of uncertainty in reporting while in a constant ever-shifting battle with scammers.
 
-### As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?
+### <div id="#v1_to_v2_upgrade">As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?</div>
 
 Once Augur v2 has launched, Reporters will be able to convert their v1 REP into v2 REP at a 1:1 conversion rate.  This process is voluntary and if you believe that Augur v1 will receive more usage than Augur v2 you are free to leave your REP in Augur v1 forever.
 
