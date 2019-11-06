@@ -48,3 +48,17 @@ In order for Augur to be useful, traders need to have confidence that the Oracle
 Another common pitfal of trying to address some particular scam is the incorrect assumption that scammers will not adapt when the guidelines change.  Scammers tend to be much more keenly aware of the "rules" than regular people because they are actively looking for ways they can break the _intent_ of the rules and get away with it.  This means that if you propose a new reporting guideline to address some current scam market, you must consider how the scammer will try to scam people _given_ that new guideline.  If the new guideline creates new opportunities to scam, then we haven't really solved the underlying problem and instead we have just moved it.  If the new guideline _reduces_ predictability of reporting then, as mentioned above, we have introduced a large cost with the new guideline and we haven't really solved the problem of scams.
 
 Since completely preventing scams is likely impossible (we can only change their nature), the best we can hope for is to at least be consistent in how the reporting system resolves markets.  We don't want to destroy the value proposition of Augur by creating huge amounts of uncertainty in reporting while in a constant ever-shifting battle with scammers.
+
+### As a REP holder, do I have to do anything as part of the Augur v1 to Augur v2 upgrade?
+
+Once Augur v2 has launched, Reporters will be able to convert their v1 REP into v2 REP at a 1:1 conversion rate.  This process is voluntary and if you believe that Augur v1 will receive more usage than Augur v2 you are free to leave your REP in Augur v1 forever.
+
+Since Augur v2 implements use-it-or-lose-it for forks, this means that you must choose whether to leave your REP in Augur v1 or migrate to Augur v2 **BEFORE** the end of the first Augur v2 fork.  If Augur v2 never forks, then you never have to migrate (at least, not until Augur v3 in case the migration rules are different for Augur v3).
+
+As a REP holder, starting with the launch of Augur v2 it is imperative that you regularly check in on Augur and make sure that there is not a fork happening.  Forks last 2 months, so it is recommended to checkin on the system at least once a month to verify that no fork is occurring.  If a fork is occuring, then you must participate or risk your REP being stuck forever (effectively burned).
+
+### What is the process for converting REPv1 to REPv2?
+
+There will be a conversion tool in the reference UI.  Following the instructions in the reference UI will be the easiest way to migrate your REP and will likely involve two Ethereum transactions that you will need to sign.
+
+The technical process for the conversion will be to first approve the Augur v2 contracts to transfer your v1 REP (this will require an Ethereum transaction) and then calling a method on REP v2 contracts that will burn your REP v1 and mint you an equal amount of REP v2 (this will also require an Ethereum transaction).
