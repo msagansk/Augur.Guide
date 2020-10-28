@@ -1,37 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    
-    <!-- favicon package -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/" | absolute_url }}/assets/images/favicons/apple-touch-icon.png?v=m2LbYGrvJB">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/" | absolute_url }}/assets/images/favicons/favicon-32x32.png?v=m2LbYGrvJB">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/" | absolute_url }}/assets/images/favicons/favicon-16x16.png?v=m2LbYGrvJB">
-    <link rel="manifest" href="{{ "/" | absolute_url }}/assets/images/favicons/site.webmanifest?v=m2LbYGrvJB">
-    <link rel="mask-icon" href="{{ "/" | absolute_url }}/assets/images/favicons/safari-pinned-tab.svg?v=m2LbYGrvJB" color="#5bbad5">
-    <link rel="shortcut icon" href="{{ "/" | absolute_url }}/assets/images/favicons/favicon.ico?v=m2LbYGrvJB">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="{{ "/" | absolute_url }}/assets/images/favicons/browserconfig.xml?v=m2LbYGrvJB">
-    <meta name="theme-color" content="#ffffff">
-  </head>
+  {% include header.html %}
   <body>
     <div class="wrapper">
       <header>
         <div class="center">
-          {% if site.logo %}
-          <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
-          {% endif %}
-        
-          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          {% include logo-title.html %}
         </div>  
         <div id="navcontainer">
           {% include navigation.html max_depth=2 %}
@@ -46,15 +20,6 @@
       <footer>
       </footer>
     </div>
-    {% if site.google_analytics %}
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
+    {% include google-analytics.html %}
   </body>
 </html>
