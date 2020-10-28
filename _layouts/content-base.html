@@ -10,7 +10,7 @@
           <h3><a href="{{ "/" | absolute_url }}{{ page.collection }}">for {{ current_collection.version }}</a></h3>
         </div>
         <div id="navcontainer">
-          {% include navigation.html max_depth=2 %}
+          {% include navigation.html max_depth=3 selected_docs=current_collection.docs %}
         </div>
         <br />
       </header>
