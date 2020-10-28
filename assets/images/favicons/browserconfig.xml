@@ -1,8 +1,10 @@
+---
+---
 <?xml version="1.0" encoding="utf-8"?>
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="https://augur.guide/assets/images/favicons/mstile-150x150.png?v=m2LbYGrvJB"/>
+            <square150x150logo src="{{ "/" | absolute_url }}/assets/images/favicons/mstile-150x150.png?v=m2LbYGrvJB"/>
             <TileColor>#da532c</TileColor>
         </tile>
     </msapplication>
