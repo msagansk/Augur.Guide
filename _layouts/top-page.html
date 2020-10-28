@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include header.html %}
+  <body>
+    <div class="center">
+      {% include logo-title.html %}
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      
+      {% comment %} In order to hide "posts", filtered by "diplay". (Because "posts" is included in "site.collections" by default.){% endcomment %}
+      {% assign display_collections = site.collections | where: "top-page", true %}
+      {% for collection in display_collections %}
+        <h2><a style="display: block" href="{{ "/" | absolute_url }}/{{collection.label}}">{{ collection.version }} ({{ collection.language }})</a></h2>
+      {% endfor %}
+    </div> 
+    {% include google-analytics.html %}
+  </body>
+</html>
