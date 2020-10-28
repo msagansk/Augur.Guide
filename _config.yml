@@ -3,6 +3,8 @@ title: Augur.Guide
 description: A friendly user guide to the prediction market protocol owned and operated by the people that use it.
 show_downloads: false
 google_analytics: UA-12186523-5
+plugins:
+  - jekyll-seo-tag
 collections_dir: collections
 collections:
   version1-english:
