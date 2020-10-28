@@ -4,21 +4,20 @@
   <body>
     <div class="wrapper">
       <header>
+        {% assign current_collection = site.collections | where: "label", page.collection | first %}
         <div class="center">
           {% include logo-title.html %}
-        </div>  
+          <h3><a href="{{ "/" | absolute_url }}{{ page.collection }}">for {{ current_collection.version }}</a></h3>
+        </div>
         <div id="navcontainer">
           {% include navigation.html max_depth=2 %}
         </div>
         <br />
       </header>
       <section>
-        ** Note: This web site contains information relevant to Augur v1. For v2, see the <a href="https://v2.augur.net">Augur v2</a><br /><br />
         {{ content }}
         <div class="right">{% github_edit_link "> Improve this page" %}</div>
       </section>
-      <footer>
-      </footer>
     </div>
     {% include google-analytics.html %}
   </body>
