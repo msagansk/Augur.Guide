@@ -5,19 +5,4 @@ title: Glossary
 
 A defined list of terms specific to Augur that are deep-linkable.
 
-<table>
-<thead><tr><th>Term</th><th>Description</th></tr></thead>
-<tbody>
-    {% assign gs = site.data[page.collection].glossary | sort %}
-    {% for kv in gs %}
-    <tr> 
-      <td valign="top" width="220">
-        {% assign replaced_term = kv[0] | replace: " ", "_" %}
-        <a href="#{{ replaced_term }}" >{{ kv[0] }}</a>
-        <a name="{{ replaced_term }}"></a>
-      </td>
-      <td> {{ kv[1] }} </td>
-    </tr>
-    {% endfor %}
-</tbody>
-</table>
+{% include glossary-table.html %}
