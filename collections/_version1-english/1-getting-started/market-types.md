@@ -4,13 +4,13 @@ title: Market Types
 
 # Getting Started: Market Types
 
-There are three types of markets that can exist in Augur. They are Yes/No, Categorical, and Scalar. The main difference between them is the number of possible [outcomes]({{ "/" | absolute_url }}/7-glossary.html#Outcome) (i.e. potential answers) which has implications on the number of [order books]({{ "/" | absolute_url }}/7-glossary.html#Order_Book) and the complexity of trading. 
+There are three types of markets that can exist in Augur. They are Yes/No, Categorical, and Scalar. The main difference between them is the number of possible [outcomes]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Outcome) (i.e. potential answers) which has implications on the number of [order books]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Order_Book) and the complexity of trading. 
 
-Examples of the different types of markets can be found on the [Examples]({{ "/" | absolute_url }}/2-market-creators/examples.html) page.
+Examples of the different types of markets can be found on the [Examples]({{ "/" | absolute_url }}/{{page.collection}}/2-market-creators/examples.html) page.
 
 ### A Word on "Invalid"
 
-For all of these markets types, [Invalid]({{ "/" | absolute_url }}/7-glossary.html#Invalid_Outcome) is always an available outcome, but it is not explicitly tradeable (in version 1 of Augur). The Invalid result is used by reporters when the truthful answer was not apparent at the time the market entered the [reporting phase]({{ "/" | absolute_url }}/4-reporters/1-reporting-process.html). If a market resolves as Invalid, market [SHARES]({{ "/" | absolute_url }}/7-glossary.html#SHARE) are worth a specific amount based on the market type (examples will be described below). Unfortunately, due to technical limitations, Invalid markets cannot "unwind" trading so that traders receive the exact amount of money they paid for their shares.
+For all of these markets types, [Invalid]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Invalid_Outcome) is always an available outcome, but it is not explicitly tradeable (in version 1 of Augur). The Invalid result is used by reporters when the truthful answer was not apparent at the time the market entered the [reporting phase]({{ "/" | absolute_url }}/{{page.collection}}/4-reporters/1-reporting-process.html). If a market resolves as Invalid, market [SHARES]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#SHARE) are worth a specific amount based on the market type (examples will be described below). Unfortunately, due to technical limitations, Invalid markets cannot "unwind" trading so that traders receive the exact amount of money they paid for their shares.
 
 ### Yes/No Markets
 
