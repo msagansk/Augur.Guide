@@ -18,6 +18,7 @@ Actor | Situation
 Market | Non-finalized. The order book is empty.
 Alice	| She has no SHARES. She wants to buy 1 SHARE of A for 0.8 ETH.
 Bob	| He has no SHARES. He wants to buy 1 SHARE of B for 0.2 ETH.
+
 ![Augur UI]({{ "/" | absolute_url }}/assets/images/{{page.collection}}/trading-diagrams/completely-filled-orders/create-complete-set.svg)
 
 Note that Bob could have also wanted to sell 1 SHARE of A for 0.8 ETH, which would have been a "Ask Outcome A, 1 SHARE for 0.8 ETH". This would have had created the same result as shown above, even though he has no SHARES.
