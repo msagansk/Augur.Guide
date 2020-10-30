@@ -13,8 +13,8 @@ collections:
     version: "version1"
     language: "English"
   version2-english:
-    output: true
-    top-page: true
+    output: false
+    top-page: false
     version: "version2"
     language: "English"
 defaults:
