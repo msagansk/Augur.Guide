@@ -1,4 +1,4 @@
-{% comment %} Init call with base_url (optional) and max_depth. {% endcomment %}
+{% comment %} Init call with base_url (optional), max_depth and selected_docs. {% endcomment %}
 
 {% if lvl_base_url == nil %}
   {% assign lvl_base_url = '/' %}
@@ -9,11 +9,11 @@
 
 {% assign current_lvl_url_length = lvl_base_url | split: '/' | size %}
 {% if lvl_base_url == '/' %}
-  {% assign current_lvl_url_length = 1 %}
+  {% assign current_lvl_url_length = 2 %}
 {% endif %}
 
 {% capture links %}
-  {% for node in site.pages %}
+  {% for node in include.selected_docs %}
     {% assign node_url_length = node.url | split: '/' | size | minus: 1 %}
     {% assign filename = node.url | split: '/' | last %}
     {% if node_url_length == current_lvl_url_length and node.url contains lvl_base_url and filename != 'index.html' and filename contains 'html' %}

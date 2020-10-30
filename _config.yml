@@ -1,6 +1,30 @@
 theme: jekyll-theme-minimal
 title: Augur.Guide
 description: A friendly user guide to the prediction market protocol owned and operated by the people that use it.
-logo: https://augur.guide/assets/images/Augur.Guide-Logo-96x96.png
 show_downloads: false
 google_analytics: UA-12186523-5
+plugins:
+  - jekyll-seo-tag
+collections_dir: collections
+collections:
+  version1-english:
+    output: true
+    top-page: true
+    version: "version1"
+    language: "English"
+  version2-english:
+    output: false
+    top-page: false
+    version: "version2"
+    language: "English"
+defaults:
+  -
+    scope:
+      path: "_version1-english"
+    values:
+      layout: "content-base"
+  -
+    scope:
+      path: "_version2-english"
+    values:
+      layout: "content-base"
