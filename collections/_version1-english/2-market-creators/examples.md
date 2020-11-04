@@ -1,6 +1,7 @@
 ---
 title: Examples
 ---
+{% assign current_collection = site.collections | where: "label", page.collection | first %}
 # Market Creators: Examples
 
 Here are a few examples of different markets that have been created in the past that are worded well to help ensure validity and clarity for traders and reporters. You can use these as templates to help you get started creating your own markets that are well crafted.
@@ -41,7 +42,7 @@ A [resolution source]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.ht
 
 **Notes:** Politics markets are also one of the easiest categories to make valid markets for, but a little harder than sports markets. The additional details for the market really need to spell out as many of the edge cases as possible, so knowledge of the political system the market is about is crucial. In addition, the market end time typically needs to be *well* after you expect the event to occur, because large delays are possible (ex. election results). This particular market’s end time is over a month after the expected election date. That being said, a resolution source won’t be needed (general knowledge is fine) because election results tend to not have any ambiguity once the answer is determined.
 
-In addition, for long running markets such as this one, additional risk factors start to come into play. Augur’s current design doesn’t make it well suited for markets that go out further than 6 months. One reason is that Augur expects to do contract upgrades which involves migrating [REP]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#REP) from one version to another, potentially leaving markets behind with not enough honest REP holders to report the correct result. The other reason is that long running markets potentially don’t end up paying a “fair” amount of reporting fees based on how long Augur is required to ensure the security of the market. This gets into complex game-theory topics that we won’t dive into here, see the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf) for more details.
+In addition, for long running markets such as this one, additional risk factors start to come into play. Augur’s current design doesn’t make it well suited for markets that go out further than 6 months. One reason is that Augur expects to do contract upgrades which involves migrating [REP]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#REP) from one version to another, potentially leaving markets behind with not enough honest REP holders to report the correct result. The other reason is that long running markets potentially don’t end up paying a “fair” amount of reporting fees based on how long Augur is required to ensure the security of the market. This gets into complex game-theory topics that we won’t dive into here, see the [Augur Whitepaper]({{current_collection.whitepaper-pdf-url}}) for more details.
 
 ### Cryptocurrency
 

@@ -1,10 +1,10 @@
 ---
 title: Forks
 ---
-
+{% assign current_collection = site.collections | where: "label", page.collection | first %}
 # Reporters: Forks
 
-This page is adapted from the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf) due to its highly technical nature. The intricate details are most important to understand as a [REP]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#REP) reporter, although everyone who participates in Augur may be affected by it at some point.
+This page is adapted from the [Augur Whitepaper]({{current_collection.whitepaper-pdf-url}}) due to its highly technical nature. The intricate details are most important to understand as a [REP]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#REP) reporter, although everyone who participates in Augur may be affected by it at some point.
 
 The fork state is a special state that can last up to 60 days.  Forking is the [market]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Market) resolution method of last resort; it is a very disruptive process and is intended to be a rare occurrence. This market is referred to as the [forking market]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Forked_Market), as it has implications for the other markets that currently exist. When a fork is initiated, [disputing]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Dispute) for all other non-resolved markets is put on hold until this fork resolves.  The [forking period]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Fork_Period) is much longer than the usual [fee window]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Fee_Window) because the platform needs to provide ample time for REP holders and service providers (such as wallets and exchanges) to prepare.  A fork’s final outcome cannot be disputed. 
 

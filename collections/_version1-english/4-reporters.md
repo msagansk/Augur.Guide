@@ -1,6 +1,7 @@
 ---
 title: Reporters
 ---
+{% assign current_collection = site.collections | where: "label", page.collection | first %}
 # Reporters 
 
 Reporters are people who own Augur’s token, [REP]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#REP). Decentralized REP holders have the power to affect the final [outcome]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Outcome) of Augur’s [markets]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Market). This is very different from a typical prediction market where the reporting source is a centralized body, usually a company running the prediction market. Augur’s reporters have a job to oversee the [initial report]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Initial_Report) of a market and ensure it is the correct answer. For doing this work REP holders are rewarded with [ETH]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#ETH), collected as [reporting fees]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Reporting_Fee).
@@ -27,11 +28,11 @@ Every market has [Invalid]({{ "/" | absolute_url }}/{{page.collection}}/7-glossa
 
 ### Can [whales](https://en.wikipedia.org/wiki/High_roller) just bully markets the way they want them to resolve?
 
-Reporting isn't a [game of chicken](https://en.wikipedia.org/wiki/Chicken_(game)). Augur has fairly complicated game-theory for how the reporting process works, but it essentially revolves around traders and reporters using truth as a sort of [schelling point](https://en.wikipedia.org/wiki/Focal_point_(game_theory)). Additional details as to why can be found in the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf).
+Reporting isn't a [game of chicken](https://en.wikipedia.org/wiki/Chicken_(game)). Augur has fairly complicated game-theory for how the reporting process works, but it essentially revolves around traders and reporters using truth as a sort of [schelling point](https://en.wikipedia.org/wiki/Focal_point_(game_theory)). Additional details as to why can be found in the [Augur Whitepaper]({{current_collection.whitepaper-pdf-url}}).
 
 ### How does the reporting fee get set?
 
-The [reporting fee]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Reporting_Fee) is a percentage that is adjusted weekly. It is adjusted upwards (33% ceiling) to apply upwards pressure on the price of REP if it is too low. It is adjusted downwards if the price of REP is too high, to a floor of 0.01%. What determines what is too high or low? Well, we want to ensure that REP is valuable enough such that it costs more to attack the reporting process than what can be gained out of trading ETH on markets. This security model is detailed in the [Augur whitepaper](https://www.augur.net/whitepaper.pdf).
+The [reporting fee]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Reporting_Fee) is a percentage that is adjusted weekly. It is adjusted upwards (33% ceiling) to apply upwards pressure on the price of REP if it is too low. It is adjusted downwards if the price of REP is too high, to a floor of 0.01%. What determines what is too high or low? Well, we want to ensure that REP is valuable enough such that it costs more to attack the reporting process than what can be gained out of trading ETH on markets. This security model is detailed in the [Augur whitepaper]({{current_collection.whitepaper-pdf-url}}).
 
 ### How do I collect my reporting fees?
 

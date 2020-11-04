@@ -12,11 +12,13 @@ collections:
     top-page: true
     version: "version1"
     language: "English"
+    whitepaper-pdf-url: "https://github.com/AugurProject/whitepaper/blob/master/v1/english/whitepaper.pdf"
   version2-english:
     output: true
     top-page: true
     version: "version2"
     language: "English"
+    whitepaper-pdf-url: "https://github.com/AugurProject/whitepaper/blob/master/v2/english/augur-whitepaper-v2.pdf"
 defaults:
   -
     scope:
