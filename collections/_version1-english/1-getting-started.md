@@ -1,6 +1,7 @@
 ---
 title: Getting Started
 ---
+{% assign current_collection = site.collections | where: "label", page.collection | first %}
 # Getting Started
 
 ### What is Augur Anyway?
@@ -16,7 +17,7 @@ Augur usage centers around a collection of [markets]({{ "/" | absolute_url }}/{{
 
 A trader can escrow a quantity of [ETH]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#ETH) (will change to the stablecoin DAI in the next version of Augur) on a potential outcome of that event and its estimated probability, which is tracked on an [order book]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Order_Book). The order book for Augur is managed on-chain by Ethereum contracts. When two opposing orders are matched (typically by two traders who take opposing views on the likely outcome of the market), the ETH is exchanged for [SHARES]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#SHARE) (an ERC20 token). Depending on the final outcome of the market, traders exchange the SHARES back for more ETH than they started with, or less.
 
-Markets go through a series of states, which we'll get into later. Official documentation on the nitty gritty is available on the [Augur Whitepaper](https://www.augur.net/whitepaper.pdf) or the [Developer Docs](https://docs.augur.net). One important thing to realize is that **trading never stops**, even after the event has happened. Sometime after the event has happened, the market will enter the [reporting phase]({{ "/" | absolute_url }}/{{page.collection}}/4-reporters/1-reporting-process.html). This is when the winning outcome is decided. Fortunately, you don’t have to trust one party to correctly resolve the market. Augur’s reporters ([REP]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#REP) holders) can [dispute]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Dispute) markets that they believe have been resolved incorrectly. This may take some extra time before winning SHARES can be claimed, but it makes the platform robust and secure through its decentralization.
+Markets go through a series of states, which we'll get into later. Official documentation on the nitty gritty is available on the [Augur Whitepaper]({{current_collection.whitepaper-pdf-url}}) or the [Developer Docs](https://docs.augur.net). One important thing to realize is that **trading never stops**, even after the event has happened. Sometime after the event has happened, the market will enter the [reporting phase]({{ "/" | absolute_url }}/{{page.collection}}/4-reporters/1-reporting-process.html). This is when the winning outcome is decided. Fortunately, you don’t have to trust one party to correctly resolve the market. Augur’s reporters ([REP]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#REP) holders) can [dispute]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Dispute) markets that they believe have been resolved incorrectly. This may take some extra time before winning SHARES can be claimed, but it makes the platform robust and secure through its decentralization.
 
 ### What Interests You?
 
