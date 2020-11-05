@@ -1,10 +1,18 @@
 ---
 ---
 
-const url = "{{ site.github.api_url }}/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ site.collections_dir }}%2F{{ page_path }}&page=1&per_page=1"
-let request = new XMLHttpRequest();
+const PagePath = document.currentScript.getAttribute('page_path');
+const GlossaryMdFileName = "7-glossary.md"
+let filePathOnGithub = "";
+if (PagePath.search(GlossaryMdFileName) > 0){
+  filePathOnGithub = "_data/" + PagePath.slice(1).replace(GlossaryMdFileName, "glossary.yml");
+} else {
+  filePathOnGithub = "{{ site.collections_dir }}/" + PagePath;
+}
 
-request.open('GET', url, true);
+const Url = "{{ site.github.api_url }}/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path=" + filePathOnGithub.replace("/", "%2F");
+let request = new XMLHttpRequest();
+request.open('GET', Url, true);
 request.responseType = 'json';
 
 request.onload = function () {
