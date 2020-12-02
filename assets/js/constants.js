@@ -37,3 +37,23 @@ export const ENS = {
     },
   },
 };
+
+export const AugurUiVersionInfo = {
+  "v2.1.13-beta.2": { Currencies: ["DAI"] },
+  "v2.1.13-beta.1": { Currencies: ["DAI"] },
+  "v2.1.13-beta0": { Currencies: ["DAI"] },
+  "v2.1.12": { Currencies: ["DAI"] },
+  "v2.2.0": { Currencies: ["ETH", "DAI"] },
+  "v2.1.11": { Currencies: ["DAI"] },
+  "v2.1.10": { Currencies: ["DAI"] },
+  "v2.1.9": { Currencies: ["DAI"] },
+  "v2.1.8": { Currencies: ["DAI"] },
+  "v2.1.7": { Currencies: ["DAI"] },
+  "v2.1.6": { Currencies: ["DAI"] },
+  "v2.1.4": { Currencies: ["DAI"] },
+  "v2.1.0": { Currencies: ["DAI"] },
+  "v2.0.10": { Currencies: ["DAI"] },
+  "v2.0.7": { Currencies: ["DAI"] },
+  "v2.0.5": { Currencies: ["DAI"] },
+  "v2.0.3": { Currencies: ["DAI"] },
+};

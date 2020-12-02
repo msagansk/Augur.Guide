@@ -9,9 +9,10 @@ export function create(arrEnsDomainData) {
   let tr = document.createElement("tr");
 
   //generate thead
-  tr.appendChild(BaseElements.th("ENS domain", 2, 1));
+  tr.appendChild(BaseElements.th("ENS", 2, 1));
   tr.appendChild(BaseElements.th("URL", 1, 2));
-  tr.appendChild(BaseElements.th("version", 2, 1));
+  tr.appendChild(BaseElements.th("Tag", 2, 1));
+  tr.appendChild(BaseElements.th("currencies", 2, 1));
   //tr.appendChild(CreateElements.th("details", 2, 1));
   thead.appendChild(tr);
   tr = document.createElement("tr");
@@ -53,6 +54,8 @@ export function create(arrEnsDomainData) {
           "center"
         )
       );
+      //currencies
+      tr.appendChild(BaseElements.td(ensDomainData.currencies, "center"));
       tbody.appendChild(tr);
       tbl.appendChild(tbody);
     }
