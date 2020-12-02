@@ -22,6 +22,7 @@ export function create(arrReleaseData) {
   tr.appendChild(BaseElements.th("Trading", 1, 2));
   tr.appendChild(BaseElements.th("Reporting", 1, 2));
   tr.appendChild(BaseElements.th("Read-only", 1, 2));
+  tr.appendChild(BaseElements.th("Currencies", 2, 1)); 
   tr.appendChild(BaseElements.th("Note", 2, 1));
   thead.appendChild(tr);
   tr = document.createElement("tr");
@@ -63,6 +64,7 @@ export function create(arrReleaseData) {
       );
     }
 
+    tr.appendChild(BaseElements.td(releaseData.currencies,"center"))
     tr.appendChild(BaseElements.td(releaseData.note, "center"));
 
     tbody.appendChild(tr);

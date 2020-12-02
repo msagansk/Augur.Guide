@@ -6,13 +6,13 @@ main();
 
 async function main() {
   let arrReleaseData = await ExternalData.Github.getData();
-  //console.log("GithubData", arrReleaseData);
+  console.debug("GithubData", arrReleaseData);
 
   // official release list
   HtmlElements.TableOfficialRelease.create(arrReleaseData);
 
   let arrEnsDomainData = await ExternalData.EnsDomain.getData(arrReleaseData);
-  //console.log("arrEnsDomainData", arrEnsDomainData);
+  console.debug("arrEnsDomainData", arrEnsDomainData);
 
   // quick access list
   HtmlElements.TableQuickAccess.create(arrEnsDomainData);

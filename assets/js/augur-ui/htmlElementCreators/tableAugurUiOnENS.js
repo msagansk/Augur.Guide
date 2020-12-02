@@ -32,7 +32,11 @@ export function create(param) {
         "Tag",
         Url.getUrlGithubRelease(ensDomainData.tagName),
         ensDomainData.tagName,
-        " (for " + ensDomainData.use + ")"
+        " (for " +
+          ensDomainData.use +
+          ". " +
+          ensDomainData.currencies +
+          " supported )"
       );
 
       createTableRow(
@@ -79,7 +83,9 @@ function createTableRow(tbody, headerName, url, text, addedText = "") {
 function isTargetDomain(currentDomainName, outputCommunity) {
   if (outputCommunity == null) {
     for (const CommunityNames in CONSTANTS.ENS.CommunityManagedAugurUiDomains) {
-      for (const DomainName in CONSTANTS.ENS.CommunityManagedAugurUiDomains[CommunityNames]) {
+      for (const DomainName in CONSTANTS.ENS.CommunityManagedAugurUiDomains[
+        CommunityNames
+      ]) {
         if (DomainName == currentDomainName) {
           return false;
         }

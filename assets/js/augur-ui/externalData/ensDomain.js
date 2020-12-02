@@ -4,7 +4,7 @@ import * as GraphQl from "./graphql/index.js";
 export async function getData(arrReleaseData) {
   return new Promise(async (resolve, reject) => {
     const queryString = GraphQl.getQueryStringEnsDomainData(arrReleaseData);
-    //console.log(queryString)
+    console.debug("queryString",queryString)
     let queryResult = await GraphQl.executeQuery(
       CONSTANTS.URL.GraphQL.ENS,
       queryString
@@ -38,6 +38,7 @@ function getArrEnsDomainData(queryResult, arrReleaseData) {
       CIDv1: cidv1,
       blockNumber: resolver.domain.resolver.events[0].blockNumber,
       transactionID: resolver.domain.resolver.events[0].transactionID,
+      currencies: tagAndUse.currencies,
     };
 
     arrEnsDomainData.push(ensDomainData);
@@ -49,12 +50,14 @@ function getArrEnsDomainData(queryResult, arrReleaseData) {
 function getTagAndUse(domainContentHash, arrReleaseData) {
   let tagName = "";
   let use = "";
+  let currencies = [];
 
   for (const releaseData of arrReleaseData) {
     for (const releasedContentHash of releaseData.contentHashes) {
       if (domainContentHash == releasedContentHash.value) {
         tagName = releaseData.tagName;
         use = releasedContentHash.name;
+        currencies = releaseData.currencies;
         break;
       }
     }
@@ -62,5 +65,5 @@ function getTagAndUse(domainContentHash, arrReleaseData) {
       break;
     }
   }
-  return { tagName: tagName, use: use };
+  return { tagName: tagName, use: use, currencies: currencies };
 }

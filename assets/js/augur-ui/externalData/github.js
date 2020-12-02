@@ -12,24 +12,27 @@ export function getData() {
     let cidv0s = [];
     let cidv1s = [];
     let contentHashes = [];
+    let tagName = "";
 
-    for (const guthubReleaseData of arrGithubReleaseData) {
-      cidv0s = getCIDv0s(guthubReleaseData.body);
+    for (const githubReleaseData of arrGithubReleaseData) {
+      cidv0s = getCIDv0s(githubReleaseData.body);
       cidv1s = getCIDv1s(cidv0s);
       contentHashes = getContentHashes(cidv0s);
+      tagName = githubReleaseData.tag_name;
 
       arrReleaseData.push({
-        tagName: guthubReleaseData.tag_name,
-        githubUrl: guthubReleaseData.html_url,
-        createdDatetime: guthubReleaseData.created_at,
-        publishedDatetime: guthubReleaseData.published_at,
+        tagName: tagName,
+        githubUrl: githubReleaseData.html_url,
+        createdDatetime: githubReleaseData.created_at,
+        publishedDatetime: githubReleaseData.published_at,
         CIDv0s: cidv0s,
         CIDv1s: cidv1s,
         contentHashes: contentHashes,
+        currencies: getCurrencies(tagName),
         note: getNote(
-          guthubReleaseData.id,
+          githubReleaseData.id,
           githubLatestReleaseData.id,
-          guthubReleaseData.prerelease
+          githubReleaseData.prerelease
         ),
       });
     }
@@ -142,4 +145,13 @@ function getNote(targetId, latestId, isPreRelease) {
     ret = "-";
   }
   return ret;
+}
+
+function getCurrencies(tagName){
+  if(CONSTANTS.AugurUiVersionInfo.hasOwnProperty(tagName)){
+    return CONSTANTS.AugurUiVersionInfo[tagName].Currencies
+  }else{
+    return ["No Data"]
+  }
+
 }
