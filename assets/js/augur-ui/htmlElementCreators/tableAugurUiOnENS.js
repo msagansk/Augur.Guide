@@ -72,10 +72,7 @@ export function create(param) {
   }
 }
 function createTableRow(tbody, headerName, url, text, addedText = "") {
-  const WhiteSpace = "\u00A0\u00A0\u00A0\u00A0";
-
   let tr = document.createElement("tr");
-  tr.appendChild(BaseElements.td(WhiteSpace));
   tr.appendChild(BaseElements.td(headerName));
   tr.appendChild(BaseElements.tdTextLink(url, text, addedText));
   tbody.appendChild(tr);

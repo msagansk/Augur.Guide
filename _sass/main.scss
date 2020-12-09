@@ -108,6 +108,9 @@ th,
 td {
 	text-align: left;
 	padding: 2px 2px;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
 	border-bottom: 1px solid #e5e5e5
 }
 
@@ -117,7 +120,8 @@ dt {
 }
 
 th {
-	color: #444
+	background-color: #55357E;
+	color: #fff;
 }
 
 img {
