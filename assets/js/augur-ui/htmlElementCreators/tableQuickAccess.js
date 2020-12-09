@@ -50,7 +50,6 @@ export function create(arrEnsDomainData) {
           Url.getUrlGithubRelease(ensDomainData.tagName),
           ensDomainData.tagName,
           " (for " + ensDomainData.use + ")",
-          "",
           "center"
         )
       );
