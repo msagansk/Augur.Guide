@@ -2,6 +2,10 @@
 title: Augur UI
 ---
 
+{% capture glossary_path %}{{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html{% endcapture %}
+{% assign glossary_smarty_pants = glossary_path | append: '#Smarty-pants' %}
+{% assign glossary_forecast_foundation = glossary_path | append: '#Forecast_Foundation' %}
+
 # Quick way to access Augur UI
 Are you in a hurry? Use the links below.
 
@@ -74,9 +78,9 @@ That's all. Just type this string into your browser's address-bar, then you get 
 ---
 
 ## augur2.eth
-`augur2.eth` is one of the ENS domains where Augur UI is registered. This domain is managed by Augur community members called [smarty-pants]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Smarty_Pants).
+`augur2.eth` is one of the ENS domains where Augur UI is registered. This domain is managed by Augur community members called [smarty-pants]({{glossary_smarty_pants}}).
 
-The CID registered with the ENS is updated by a DAO whose members are these Augur community members. They have shown a deep knowledge and interest in Augur and have received the [smarty-pants]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Smarty_Pants) role in [Discord](https://invite.augur.net/). Each time the UI is updated, they will verify that the CID provided by the Augur devs is the correct one and update the CID registered with `augur2.eth` via vote (majority wins, quorum of 2).
+The CID registered with the ENS is updated by a DAO whose members are these Augur community members. They have shown a deep knowledge and interest in Augur and have received the [smarty-pants]({{glossary_smarty_pants}}) role in [Discord](https://invite.augur.net/). Each time the UI is updated, they will verify that the CID provided by the Augur devs is the correct one and update the CID registered with `augur2.eth` via vote (majority wins, quorum of 2).
 
 ### Links & Current Status
 **Note:** Subdomains do not work well with ens.link, so they have ceased to be updated.  It is recommended to **NOT** use `trading.augur2.eth`, `reporting.augur2.eth` as they are not maintained.
@@ -104,7 +108,7 @@ Why does the reporting version (read only) exist? **The underlying reasons are u
  
 Gambling is prohibited in some countries, and when those people use Augur UI, it is suspected that the developers of Augur want to disable trading for them. In fact, when accessing Augur UI from the link on [augur.net](https://augur.net/), people in certain countries are redirected to the reporting UI, and people in other countries get sent to the trading UI.
 
-There is no official announcement about the reasoning for this from [Forecast Foundation]({{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html#Forecast_Foundation).
+There is no official announcement about the reasoning for this from [Forecast Foundation]({{glossary_forecast_foundation}}).
 
 
 {% include augur-ui.html %}
