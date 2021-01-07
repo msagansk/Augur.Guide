@@ -113,7 +113,7 @@ And assuming that the outcomes `Yes` and `No` are disputed alternately, the chan
   </tbody>
  </table>
 
-In this case, the threshold (`275,000` REP) is exceeded in Dispute Round 20. That is a fork occurs when the dispute succeeds in Round 20.
+In this case, the threshold (`275,000` REP) is exceeded in Dispute Round 20. That is, a fork occurs when the dispute succeeds in Round 20.
 
 ## When does a fork end?
 The period from the start to the end of a fork is referred to as the [forking period]({{glossary_forking_period}}). The forking period ends when either 60 days have passed, or more than 50% of [all theoretical REP]({{glossary_all_theoretical_rep}}) is migrated to some [child universe]({{glossary_child_universe}}). Whichever child universe receives the most migrated REP by the end of the forking period becomes the [winning universe]({{glossary_winning_universe}}), the other child universes become the [losing universe]({{glossary_losing_universe}}).
