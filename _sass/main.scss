@@ -239,6 +239,22 @@ div.center {
   	text-align: center;
 }
 
+th.center {
+	text-align: center;
+}
+
+td.center{
+	text-align: center;
+}
+
+td.right {
+	text-align: right;
+}
+
+td.nowrap {
+	white-space: nowrap;
+	}
+
 #navcontainer ul {
 	margin: auto;
 	width: 12em;
@@ -271,4 +287,8 @@ div.center {
 	text-decoration: none;
 	border-bottom: 1px solid #fff;
 	font-weight: normal;
+}
+
+.rotate {
+  transform: rotate(-90deg)
 }
