@@ -131,7 +131,7 @@ The period from the start to the end of a fork is referred to as the [forking pe
 When a fork starts, the [parent universe]({{glossary_parent_universe}}) becomes permanently locked. In the [locked universe]({{glossary_locked_universe}}), no new [markets]({{glossary_market}}) can be created and no markets can go through the [reporting]({{glossary_report}}) process. As a result of this, no markets can be [finalized](glossary_finalized_market). (See [restrictions on use]({{url_restrictions_on_use}}) for details.)
 
 ## What happens to the child universes?
-As mentioned [above](#when-does-a-fork-end), when the [forking period]({{glossary_forking_period}}) ends, [child universes]({{glossary_child_universe}}) become the [winning universe]({{glossary_winning_universe}}) or the [losing universe]({{glossary_losing_universe}}).
+As mentioned [above](#when-does-a-fork-end), when the [forking period]({{glossary_forking_period}}) ends, [child universes]({{glossary_child_universe}}) become either the [winning universe]({{glossary_winning_universe}}) or a [losing universe]({{glossary_losing_universe}}).
 
 In terms of what you can do, there is no difference between the winning universe and the losing universe. There are no restrictions for either universe. (See [Restrictions on use]({{url_restrictions_on_use}}) for details.)
 
