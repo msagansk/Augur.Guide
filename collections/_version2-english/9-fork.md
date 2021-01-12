@@ -20,4 +20,4 @@ The contents are:
  - [Restrictions on use]({{ url_restrictions_on_use }})
  - [Migration of the objects]({{ url_migration_of_the_objects }})
 
-If you are a biginner, you should start with [Basic knowledge]({{ url_basic_knowledge }}). If you are a REP holder, you must read [To-do's]({{ url_todos }}) to not lose the value of your REP. And if you want to do a deep dive into a fork, check [Restrictions on use]({{ url_restrictions_on_use }}) and [Migration of the objects]({{ url_migration_of_the_objects }}).
+If you are a biginner, you should start with [basic knowledge]({{ url_basic_knowledge }}). If you are a REP holder, you must read [to-do's]({{ url_todos }}) to not lose the value of your REP. And if you want to do a deep dive into a fork, check [restrictions on use]({{ url_restrictions_on_use }}) and [migration of the objects]({{ url_migration_of_the_objects }}).
