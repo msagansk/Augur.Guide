@@ -25,6 +25,15 @@ title: Basic knowledge
 {% assign glossary_forking_period = glossary_path | append: '#Forking_Period' %}
 {% assign glossary_winning_universe = glossary_path | append: '#Winning_Universe' %}
 {% assign glossary_losing_universe = glossary_path | append: '#Losing_Universe' %}
+{% assign glossary_locked_universe = glossary_path | append: '#Locked_Universe' %}
+{% assign glossary_finalized_market = glossary_path | append: '#Finalized_Market' %}
+{% assign glossary_rep = glossary_path | append: '#REP' %}
+{% assign glossary_reporter = glossary_path | append: '#Reporter' %}
+{% assign glossary_market_creator = glossary_path | append: '#Market_Creator' %}
+
+{% capture fork_dir %}{{ "/" | absolute_url }}{{page.collection}}/9-fork/{% endcapture %}
+{% assign url_restrictions_on_use = fork_dir | append: '3-restrictions-on-use.html' %}
+{% assign url_migration_of_the_objects = fork_dir | append: '4-migration-of-the-objects.html' %}
 
 # What is a fork?
 [Forking]({{glossary_fork}}) is the last [market]({{glossary_market}}) resolution method. It is a very disruptive process and is intended to be a rare occurrence.
@@ -117,3 +126,15 @@ In this case, the threshold (`275,000` REP) is exceeded in Dispute Round 20. Tha
 
 ## When does a fork end?
 The period from the start to the end of a fork is referred to as the [forking period]({{glossary_forking_period}}). The forking period ends when either 60 days have passed, or more than 50% of [all theoretical REP]({{glossary_all_theoretical_rep}}) is migrated to one of the [child universes]({{glossary_child_universe}}). Whichever child universe receives the most migrated REP by the end of the forking period becomes the [winning universe]({{glossary_winning_universe}}), the other child universes become the [losing universe]({{glossary_losing_universe}}).
+
+## What happens to the parent universe?
+When a fork starts, the [parent universe]({{glossary_parent_universe}}) becomes permanently locked. In the [locked universe]({{glossary_locked_universe}}), no new [markets]({{glossary_market}}) can be created and no markets can go through the [reporting]({{glossary_report}}) process. As a result of this, no markets can be [finalized](glossary_finalized_market). (See [restrictions on use]({{url_restrictions_on_use}}) for details.)
+
+## What happens to the child universes?
+As mentioned [above](#when-does-a-fork-end), when the [forking period]({{glossary_forking_period}}) ends, [child universes]({{glossary_child_universe}}) become either the [winning universe]({{glossary_winning_universe}}) or a [losing universe]({{glossary_losing_universe}}).
+
+In terms of what you can do, there is no difference between the winning universe and the losing universe. There are no restrictions for either universe. (See [Restrictions on use]({{url_restrictions_on_use}}) for details.)
+
+However, all markets in the [parent universe]({{glossary_parent_universe}}) can only be migrated to the winning universe and the objects attached to the forking market, such as shares, open interest, unfilled orders, are also only migrated to the winning universe. (See [Migration of the objects]({{url_migration_of_the_objects}}) for details.)
+
+Additionally, [REP]({{glossary_rep}}) in the losing universe will lose its value. Because traders will not want to trade in a universe where [reporters]({{glossary_reporter}}) have lied, and [market creators]({{glossary_market_creator}}) will not want to create a market in a universe where there are no traders. In a universe without markets or trading, REP does not provide any dividends to those holding it. However, we never know if the price of REP in the losing universe will be as expected until a [fork]({{glossary_fork}}) actually occurs.
