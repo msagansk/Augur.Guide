@@ -27,7 +27,6 @@ title: Basic knowledge
 {% assign glossary_losing_universe = glossary_path | append: '#Losing_Universe' %}
 {% assign glossary_locked_universe = glossary_path | append: '#Locked_Universe' %}
 {% assign glossary_finalized_market = glossary_path | append: '#Finalized_Market' %}
-{% assign glossary_rep = glossary_path | append: '#REP' %}
 {% assign glossary_reporter = glossary_path | append: '#Reporter' %}
 {% assign glossary_market_creator = glossary_path | append: '#Market_Creator' %}
 {% assign glossary_share = glossary_path | append: '#Share' %}
