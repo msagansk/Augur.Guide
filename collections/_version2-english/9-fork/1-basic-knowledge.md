@@ -133,8 +133,8 @@ When a fork starts, the [parent universe]({{glossary_parent_universe}}) becomes 
 ## What happens to the child universes?
 As mentioned [above](#when-does-a-fork-end), when the [forking period]({{glossary_forking_period}}) ends, [child universes]({{glossary_child_universe}}) become either the [winning universe]({{glossary_winning_universe}}) or a [losing universe]({{glossary_losing_universe}}).
 
-In terms of what you can do, there is no difference between the winning universe and the losing universe. There are no restrictions for either universe. (See [Restrictions on use]({{url_restrictions_on_use}}) for details.)
+In terms of what you can do, there is no difference between the winning universe and the losing universe. There are no restrictions for either universe. (See [restrictions on use]({{url_restrictions_on_use}}) for details.)
 
-However, all markets in the [parent universe]({{glossary_parent_universe}}) can only be migrated to the winning universe and the objects attached to the forking market, such as shares, open interest, unfilled orders, are also only migrated to the winning universe. (See [Migration of the objects]({{url_migration_of_the_objects}}) for details.)
+However, all markets in the [parent universe]({{glossary_parent_universe}}) can only be migrated to the winning universe and the objects attached to the forking market, such as shares, open interest, unfilled orders, are also only migrated to the winning universe. (See [migration of the objects]({{url_migration_of_the_objects}}) for details.)
 
 Additionally, [REP]({{glossary_rep}}) in the losing universe will lose its value. Because traders will not want to trade in a universe where [reporters]({{glossary_reporter}}) have lied, and [market creators]({{glossary_market_creator}}) will not want to create a market in a universe where there are no traders. In a universe without markets or trading, REP does not provide any dividends to those holding it. However, we never know if the price of REP in the losing universe will be as expected until a [fork]({{glossary_fork}}) actually occurs.
