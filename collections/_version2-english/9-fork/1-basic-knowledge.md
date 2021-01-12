@@ -30,6 +30,12 @@ title: Basic knowledge
 {% assign glossary_rep = glossary_path | append: '#REP' %}
 {% assign glossary_reporter = glossary_path | append: '#Reporter' %}
 {% assign glossary_market_creator = glossary_path | append: '#Market_Creator' %}
+{% assign glossary_share = glossary_path | append: '#Share' %}
+{% assign glossary_open_interest = glossary_path | append: '#Open_Interest' %}
+{% assign glossary_unfilled_order = glossary_path | append: '#Unfilled_Order' %}
+{% assign glossary_trading_fee = glossary_path | append: '#Trading_Fee' %}
+{% assign glossary_truth_universe = glossary_path | append: '#Truth_Universe' %}
+{% assign glossary_lying_universe = glossary_path | append: '#Lying_Universe' %}
 
 {% capture fork_dir %}{{ "/" | absolute_url }}{{page.collection}}/9-fork/{% endcapture %}
 {% assign url_restrictions_on_use = fork_dir | append: '3-restrictions-on-use.html' %}
@@ -135,6 +141,6 @@ As mentioned [above](#when-does-a-fork-end), when the [forking period]({{glossar
 
 In terms of what you can do, there is no difference between the winning universe and the losing universe. There are no restrictions for either universe. (See [restrictions on use]({{url_restrictions_on_use}}) for details.)
 
-However, all markets in the [parent universe]({{glossary_parent_universe}}) can only be migrated to the winning universe and the objects attached to the forking market, such as shares, open interest, unfilled orders, are also only migrated to the winning universe. (See [migration of the objects]({{url_migration_of_the_objects}}) for details.)
+However, all markets in the [parent universe]({{glossary_parent_universe}}) can only be migrated to the winning universe and the objects attached to the [forking market]({{glossary_forking_market}}), such as [shares]({{glossary_shares}}), [open interest]({{glossary_open_interest}}), [unfilled orders]({{Unfilled_Order}}), are also only migrated to the winning universe. (See [migration of the objects]({{url_migration_of_the_objects}}) for details.)
 
-Additionally, [REP]({{glossary_rep}}) in the losing universe will lose its value. Because traders will not want to trade in a universe where [reporters]({{glossary_reporter}}) have lied, and [market creators]({{glossary_market_creator}}) will not want to create a market in a universe where there are no traders. In a universe without markets or trading, REP does not provide any dividends to those holding it. However, we never know if the price of REP in the losing universe will be as expected until a [fork]({{glossary_fork}}) actually occurs.
+[REP]({{glossary_reputation_token}}) in any [universe]({{glossary_universe}}) whose forking market outcome was a lie is expected to lose its value, since future traders won't want to trade in a universe where [reporters]({{glossary_reporter}}) have a history of lying which means REP in that universe will not receive a meaningful amount of [trading fees]({{glossary_trading_fee}}). When the system is working correctly, and people are behaving economically rationally (profit motivated), the expectation is that the winning universe will align with the [truth universe]({{glossary_truth_universe}}) and the losing universes will align with the [lying universes]({{glossary_lying_universe}}).
