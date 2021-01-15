@@ -80,7 +80,7 @@ That's all. Just type this string into your browser's address-bar, then you get 
 ## augur2.eth
 `augur2.eth` is one of the ENS domains where Augur UI is registered. This domain is managed by Augur community members called [smarty-pants]({{glossary_smarty_pants}}).
 
-The CID registered with the ENS is updated by a DAO whose members are these Augur community members. They have shown a deep knowledge and interest in Augur and have received the [smarty-pants]({{glossary_smarty_pants}}) role in [Discord](https://discord.gg/guXC9Bd4). Each time the UI is updated, they will verify that the CID provided by the Augur devs is the correct one and update the CID registered with `augur2.eth` via vote (majority wins, quorum of 2).
+The CID registered with the ENS is updated by a DAO whose members are these Augur community members. They have shown a deep knowledge and interest in Augur and have received the [smarty-pants]({{glossary_smarty_pants}}) role in [Discord](https://invite.augur.net). Each time the UI is updated, they will verify that the CID provided by the Augur devs is the correct one and update the CID registered with `augur2.eth` via vote (majority wins, quorum of 2).
 
 ### Links & Current Status
 **Note:** Subdomains do not work well with ens.link, so they have ceased to be updated.  It is recommended to **NOT** use `trading.augur2.eth`, `reporting.augur2.eth` as they are not maintained.
