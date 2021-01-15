@@ -47,7 +47,7 @@ It cannot skip `universe B`.
 The process of "checking in" just means open the [Augur UI]({{ "/" | absolute_url }}/{{page.collection}}/8-augur-ui.html) or ask around (Discord, Twitter, Reddit, etc.) and see if a fork is underway. If no fork is underway then you can go back to passively holding for a month until your next check in without risk of losing your REP.
 
 Useful links for checking if a fork occurs are:
- - [Augur Discord server](https://discord.gg/guXC9Bd4)  ⭐*recommended*⭐
+ - [Augur Discord server](https://invite.augur.net)  ⭐*recommended*⭐
  - The [official Twitter account](https://twitter.com/augurproject)
  - The [official blog](https://augur.net/blog)
  - The subreddit [/r/Augur](https://www.reddit.com/r/Augur/)
