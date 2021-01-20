@@ -52,11 +52,15 @@ It cannot skip `universe B`.
 {% include zoom-image.html src=image_src caption="Figure 1. chain of universes" %}
 
 ## After starting a fork (60 days)
-REP holders needs to pick a side and migrate their REP to the [child universe]({{glossary_child_universe}}) they believe aligns with reality within 60 days from starting a [fork]({{glossary_fork}}).
+REP holders needs to pick a side and migrate their REP to the [child universe]({{glossary_child_universe}}) they believe aligns with reality within 60 days from starting a [fork]({{glossary_fork}}). After 60 days from starting a fork, [REP]({{glossary_reputation_token}}) in the [parent universe]({{glossary_parent_universe}}) are [locked]({{glossary_locked_universe}}) and can not be migrated to the child universe permanently. The 60 days starting from the start of a fork is called the [forking period]({{glossary_forking_period}}).
 
-After 60 days from starting a fork, [REP]({{glossary_reputation_token}}) in the [parent universe]({{glossary_parent_universe}}) are [locked]({{glossary_locked_universe}}) and can not be migrated to the child universe permanently.
+{% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/to-dos/forking-period.svg{% endcapture %}
+{% include zoom-image.html src=image_src caption="Figure 2. forking period" %}
 
 However, the choice should be considered carefully, because migration is one-way; it cannot be reversed. REP cannot be sent from one [sibling universe]({{glossary_sibling_universe}}]) to another.
+
+{% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/to-dos/directions-of-migrating.svg{% endcapture %}
+{% include zoom-image.html src=image_src caption="Figure 3. directions of migrating" %}
 
 ## What if REP holders don't wish to join in the fork?
 They may sell their [REP]({{glossary_reputation_token}}) before the [fork]({{glossary_fork}}) is over, but beware that if many people exercise this strategy the price of REP may drop leading up to the fork and then rebound in the [truth universe]({{glossary_truth_universe}}) after the fork, this could be a costly strategy.
