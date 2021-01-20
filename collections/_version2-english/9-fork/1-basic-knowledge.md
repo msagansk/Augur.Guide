@@ -130,13 +130,13 @@ And assuming that the outcomes `Yes` and `No` are disputed alternately, the chan
 In this case, the threshold (`275,000` REP) is exceeded in Dispute Round 20. That is, a fork occurs when the dispute succeeds in Round 20.
 
 ## When does a fork end?
-The period from the start to the end of a fork is referred to as the [forking period]({{glossary_forking_period}}). The forking period ends when either 60 days have passed, or more than 50% of [all theoretical REP]({{glossary_all_theoretical_rep}}) is migrated to one of the [child universes]({{glossary_child_universe}}). Whichever child universe receives the most migrated REP by the end of the forking period becomes the [winning universe]({{glossary_winning_universe}}), the other child universes become the [losing universe]({{glossary_losing_universe}}).
+A fork ends when either 60 days have passed since it started, or more than 50% of [all theoretical REP]({{glossary_all_theoretical_rep}}) is migrated to one of the [child universes]({{glossary_child_universe}}).  Whichever child universe receives the most migrated REP by the end of the fork becomes the [winning universe]({{glossary_winning_universe}}), the other child universes become the [losing universe]({{glossary_losing_universe}}).
 
 ## What happens to the parent universe?
 When a fork starts, the [parent universe]({{glossary_parent_universe}}) becomes permanently locked. In the [locked universe]({{glossary_locked_universe}}), no new [markets]({{glossary_market}}) can be created and no markets can go through the [reporting]({{glossary_report}}) process. As a result of this, no markets can be [finalized](glossary_finalized_market). (See [restrictions on use]({{url_restrictions_on_use}}) for details.)
 
 ## What happens to the child universes?
-As mentioned [above](#when-does-a-fork-end), when the [forking period]({{glossary_forking_period}}) ends, [child universes]({{glossary_child_universe}}) become either the [winning universe]({{glossary_winning_universe}}) or a [losing universe]({{glossary_losing_universe}}).
+As mentioned [above](#when-does-a-fork-end), when a [fork]({{glossary_fork}}) ends, [child universes]({{glossary_child_universe}}) become either the [winning universe]({{glossary_winning_universe}}) or a [losing universe]({{glossary_losing_universe}}).
 
 In terms of what you can do, there is no difference between the winning universe and the losing universe. There are no restrictions for either universe. (See [restrictions on use]({{url_restrictions_on_use}}) for details.)
 
