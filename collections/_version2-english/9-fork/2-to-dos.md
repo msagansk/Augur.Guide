@@ -24,7 +24,7 @@ title: To-do's
 If you are a REP holder, there are some things you **MUST** do for a [fork]({{glossary_fork}}) to not lose your [REP]({{glossary_reputation_token}}).
 
 ## Before a fork starts
-REP holders have a thing to do even before a [fork]({{glossary_fork}}) starts so that they don't lose the value of their [REP]({{glossary_reputation_token}}). That is to **check monthly to see if a fork occurs**.
+Before a [fork]({{glossary_fork}}) starts, REP holders still have to be actively involved so that they don't lose the value of their [REP]({{glossary_reputation_token}}). The minimum involvement necessary to avoid permanent losses of REP is to **check monthly to see if a fork occurs**.
 
 [Forks]({{glossary_fork}}) last for 60 days, so it is strongly recommended that all REP holders "check in" on the project at least once a month to make sure that no fork is underway or they risk losing all of their REP.
 
