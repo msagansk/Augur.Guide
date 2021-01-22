@@ -61,7 +61,7 @@ This can be summarized as follows:
     - REP
   - The un-migratable objects are:
     - Finalized Market
-    - Dispute Window 
+    - Dispute Windows
   - The winning universe receives:
     - Forking market and its attached objects
     - Non-Forking market
