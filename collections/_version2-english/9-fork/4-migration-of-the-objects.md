@@ -64,7 +64,7 @@ This can be summarized as follows:
     - Dispute Windows
   - The winning universe receives:
     - Forking market and its attached objects
-    - Non-Forking market
+    - Non-Forking markets
     - REP
   - The losing universe receives:
     - Forking market
