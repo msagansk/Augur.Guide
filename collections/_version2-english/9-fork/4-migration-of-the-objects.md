@@ -57,7 +57,7 @@ This can be summarized as follows:
 
   - The migratable objects are:
     - Forking market
-    - Non-Forking Market
+    - Non-Forking Markets
     - REP
   - The un-migratable objects are:
     - Finalized Market
