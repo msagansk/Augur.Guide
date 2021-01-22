@@ -53,7 +53,7 @@ The red objects can only be migrated to the [winning universe]({{glossary_winnin
 
 Before a [fork]({{glossary_fork}}), all objects are in the parent universe. After a fork, in the parent universe, there are the [finalized markets]({{glossary_finalized_market}}), [dispute windows]({{glossary_dispute_window}}), and the objects which are attached to them. The winning universe and the losing universe are created, and the [forking market]({{glossary_forking_market}}), [non-finalized market]({{glossary_non_finalized_market}}), and [REP]({{glossary_reputation_token}}) are migrated to them.
 
-Those can be summarized as follows:
+This can be summarized as follows:
 
   - The migratable objects are:
     - Forking market
