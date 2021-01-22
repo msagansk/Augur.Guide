@@ -71,7 +71,7 @@ This can be summarized as follows:
     - REP
 
 # Who creates child universes?
-As mentioned above, some objects in the [parent universe]({{glossary_parent_universe}}) can be migrated to a [child universes]({{glossary_child_universe}}), but who creates the child universe? Is it created by Augur [contracts]({{glossary_smart_contract}}) automatically? No, it is created by [REP]({{glossary_reputation_token}}) holder. The REP holder who *first* migrates their REP to the child universe creates the child universe. When REP in the parent universe first migrated to a child universe, the child universe is created. A child universe is not created until someone migrates their REP to the child universe. Even if the [forking market]({{glossary_forking_market}}) has [finalized]({{glossary_finalized_market}}) or the [forking period]({{glossary_forking_period}}) ends, the child universe is not created without migrating REP.
+As mentioned above, some objects in the [parent universe]({{glossary_parent_universe}}) can be migrated to a [child universes]({{glossary_child_universe}}), but who creates the child universe? Is it created by the Augur [contracts]({{glossary_smart_contract}}) automatically? No, it is created by [REP]({{glossary_reputation_token}}) holders. The REP holder who *first* migrates their REP to the child universe creates the child universe. When REP in the parent universe first migrated to a child universe, the child universe is created. A child universe is not created until someone migrates their REP to the child universe. Even if the [forking market]({{glossary_forking_market}}) has [finalized]({{glossary_finalized_market}}) or the [forking period]({{glossary_forking_period}}) ends, the child universe is not created without migrating REP.
 
 ---
 
