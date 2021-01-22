@@ -31,7 +31,7 @@ title: Migration of the objects
 {% assign glossary_winning_universe = glossary_path | append: '#Winning_Universe' %}
 
 # Not only REP you can migrate
-You probably know you have to migrate your [REP]({{glossary_reputation_token}}) by yourself when a [fork]({{glossary_fork}}) occurs. But REP isn't the only one that can be migrated. On this page, we dive a bit deeper into the migration of REP and other migratable objects in the [universe]({{glossary_universe}}).
+You probably know you have to migrate your [REP]({{glossary_reputation_token}}) by yourself when a [fork]({{glossary_fork}}) occurs. But REP isn't the only thing that can be migrated. On this page, we dive a bit deeper into the migration of REP and other migratable objects in the [universe]({{glossary_universe}}).
 
 **Note:** This page does not cover all objects in the universe, but only those that are likely to directly affect end users.
 
