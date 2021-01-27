@@ -66,7 +66,7 @@ However, the choice should be considered carefully, because migration is one-way
 They may sell their [REP]({{glossary_reputation_token}}) before the [fork]({{glossary_fork}}) is over, but beware that if many people exercise this strategy the price of REP may drop leading up to the fork and then rebound in the [truth universe]({{glossary_truth_universe}}) after the fork, this could be a costly strategy.
 
 ## Is there any reward for migrating REP to a child universe?
-No. If you migrate your [REP]({{glossary_reputation_token}}) during the [forking period]({{glossary_forking_period}}), there is no reward for that. However, if you staked your REP on the [forking market]({{glossary_forking_market}})'s outcome before the fork starts and the outcome you staked on becomes the [final outcome]({{glossary_final_outcome}}) of the forking market, you will receive a 40% [ROI]({{glossary_roi}}) on your stake in the [winning universe]({{glossary_winning_universe}}).
+No. If you migrate your [REP]({{glossary_reputation_token}}) during the [forking period]({{glossary_forking_period}}), there is no reward for that. However, if you staked your REP on the [forking market]({{glossary_forking_market}})'s outcome before the fork starts, you will receive a 40% [ROI]({{glossary_roi}}) on your stake in the [child universe]({{glossary_winning_universe}}) where your staked REP migrated.
 
 In other words, there is possibility only for the REP participated in a [dispute]({{glossary_dispute}}) to receive a 40% ROI. The REP migrated during the forking period cannot receive any reward, even if the child universe which the REP migrated to is the winning universe.
 
