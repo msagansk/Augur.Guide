@@ -84,7 +84,7 @@ This duplication occurs when the child universe is created.  This happens when t
 ## Staked REP
 The staked [REP]({{glossary_reputation_token}}) on any [outcome]({{glossary_outcome}}) of the [forking market]({{glossary_forking_market}}) is migrated to the [child universe]({{glossary_child_universe}}) corresponding to the staked outcome.
 
-Those REP will be unstaked and refunded to their owners in a child universe when the migration has done. And if the child universe to which the REP are migrated is the [winning universe]({{glossary_winning_universe}}), its owners receive a 40% [ROI]({{glossary_roi}}) on their stake in the winning universe.
+That REP will be unstaked and refunded to their owners in a child universe when the migration has done. They will also receive a 40% [ROI]({{glossary_roi}}) in additional REP minted in the universe they staked on prior to the fork.
 
 ## Attached Objects
 The objects which are attached to the [forking market]({{glossary_forking_market}}) are:
