@@ -93,7 +93,7 @@ The objects which are attached to the [forking market]({{glossary_forking_market
  - [creator fee]({{glossary_creator_fee}})
  - [validity bond]({{glossary_validity_bond}})
 
-When the forking market is [finalized]({{glossary_finalized_market}}), those objects are migrated to the [winning universe]({{glossary_winning_universe}}) by the Augur contracts automatically.
+When the for is [finalized]({{glossary_finalized_market}}), those objects are migrated to the [winning universe]({{glossary_winning_universe}}) by the Augur contracts automatically.
 
 Regarding [validity bond]({{glossary_validity_bond}}), which is paid by the [market creator]({{glossary_market_creator}}) when creating the [market]({{glossary_market}}), if the corresponding outcome of the winning universe is `Invalid`, this bond is paid out to [participation token]({{glossary_participation_token}}) holders in proportion to the amount of participation token in the winning universe. If not `Invalid`, this bond is returned to the market creator in the winning universe.
 
