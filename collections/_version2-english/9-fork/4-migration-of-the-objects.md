@@ -77,7 +77,7 @@ A [child universe]({{glossary_child_universe}}) is created when the [REP]({{glos
 
 # Migration of Forking Market
 ## Market Itself
-The [forking market]({{glossary_forking_market}}) itself is migrated to each [child universe]({{glossary_child_universe}}). In a child universe, the forking market is [finalized]({{glossary_finalized_market}}) for each possible [outcome]({{glossary_outcome}}) of it. (See [basic knowledge]({{url_basic_knowledge}}#what-happens-when-a-fork-starts) for details on how child universes are created.)
+The [forking market]({{glossary_forking_market}}) is duplicated in each [child universe]({{glossary_child_universe}}). In a child universe, the forking market is [finalized]({{glossary_finalized_market}}) as the [outcome]({{glossary_outcome}}) that aligns with that particular child universe. (See [basic knowledge]({{url_basic_knowledge}}#what-happens-when-a-fork-starts) for details on how child universes are created.)
 
 The forking market is migrated to the child universe when [REP]({{glossary_reputation_token}}) holder *first* migrates their REP to the child universe. In other words, the forking market is not migrated until REP is migrated to the child universe by REP holder.
 
