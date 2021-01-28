@@ -134,7 +134,7 @@ Those objects go where the market goes, they cannot be migrated separately.
 # Migration of REP in Wallet
 All [REP]({{glossary_reputation_token}}) in the [parent universe]({{glossary_parent_universe}}) that are *not* staked on any [outcome]({{glossary_outcome}}) of the [forking market]({{glossary_forking_market}}) can be migrated to one of the [child universes]({{glossary_child_universe}}) by their owner. The migration of REP must be done during the [forking period]({{glossary_forking_period}}) which lasts 60 days after the [fork]({{glossary_fork}}) starts. After the forking period, the REP in the parent universe can never be migrated to any child universe (See [to-do's]({{url_to_dos}}) for details).
 
-If you are the first person who migrates REP to a [child universe]({{glossary_child_universe}}), the child universe where you migrate your REP is created, and the forking market is also migrated to it. In this case, you have to pay the [transaction fee]({{glossary_transaction_fee}}) not only for your REP but also for creating the child universe and migrating the forking market.
+If you are the first person to migrate REP to a [child universe]({{glossary_child_universe}}), child universe creation is triggered and the forking market is also copied into it. In this case, you have to pay the [transaction fee]({{glossary_transaction_fee}}) not only for migrating your REP but also for creating the child universe and copying the forking market.
 
 ---
 
