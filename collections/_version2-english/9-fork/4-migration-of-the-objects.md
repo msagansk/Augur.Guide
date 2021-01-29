@@ -4,6 +4,8 @@ title: Migration of the objects
 
 {% capture fork_dir %}{{ "/" | absolute_url }}{{page.collection}}/9-fork/{% endcapture %}
 {% assign url_basic_knowledge = fork_dir | append: '1-basic-knowledge.html' %}
+{% assign url_to_dos = fork_dir | append: '2-to-dos.html' %}
+{% assign url_restrictions_on_use = fork_dir | append: '3-restrictions-on-use.html' %}
 
 {% capture glossary_path %}{{ "/" | absolute_url }}/{{page.collection}}/7-glossary.html{% endcapture %}
 {% assign glossary_child_universe = glossary_path | append: '#Child_Universe' %}
@@ -17,7 +19,8 @@ title: Migration of the objects
 {% assign glossary_fork = glossary_path | append: '#Fork' %}
 {% assign glossary_forking_market = glossary_path | append: '#Forking_Market' %}
 {% assign glossary_forking_period = glossary_path | append: '#Forking_Period' %}
-{% assign glossary_initial_reporter = glossary_path | append: '#initial_reporter' %}
+{% assign glossary_initial_report = glossary_path | append: '#Initial_Report' %}
+{% assign glossary_initial_reporter = glossary_path | append: '#Initial_Reporter' %}
 {% assign glossary_invalid_outcome = glossary_path | append: '#Invalid_Outcome' %}
 {% assign glossary_losing_universe = glossary_path | append: '#Losing_Universe' %}
 {% assign glossary_market = glossary_path | append: '#Market' %}
@@ -28,6 +31,7 @@ title: Migration of the objects
 {% assign glossary_participation_token = glossary_path | append: '#Participation_Token' %}
 {% assign glossary_reputation_token = glossary_path | append: '#Reputation_Token' %}
 {% assign glossary_roi = glossary_path | append: '#ROI' %}
+{% assign glossary_settlement = glossary_path | append: '#Settlement' %}
 {% assign glossary_smart_contract = glossary_path | append: '#Smart_Contract' %}
 {% assign glossary_share = glossary_path | append: '#Share' %}
 {% assign glossary_transaction_fee = glossary_path | append: '#Transaction_Fee' %}
@@ -103,15 +107,38 @@ The summary is shown in the following figure:
 {% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/migration-of-the-objects/forking-market.svg{% endcapture %}
 {% include zoom-image.html src=image_src caption="Figure 3. migration of forking market"%}
 
+# Migration of Non-Forking Markets (not finalized)
+## Market Itself
+The non-forking markets which are not [finalized]({{glossary_finalized_market}}) can be migrated only to the [winning universe]({{glossary_winning_universe}}). To migrate those markets, you need to make a transaction for that explicitly. It can be done by anyone, not just the [market creator]({{glossary_market_creator}}), and anytime after finalizing the [forking market]({{glossary_forking_market}}). It is one-way and cannot be reversed.
+
+If you migrate a market that is past its [event end time]({glossary_end_time}) in the [parent universe]({{glossary_parent_universe}}), you need to supply [creation bond]({{glossary_creation_bond}}) (which is normally paid by the market creator when creating the market) and submit the [initial report]({{glossary_initial_report}}) in the [winning universe]({{glossary_winning_universe}}) for the market when you migrate it. Since all of the [REP]({{glossary_reputation_token}}) locked in the non-forking markets in the parent universe is refunded to its respective owners when a fork starts (so that they migrate their REP to a [child universe]({{glossary_child_universe}}) during the [forking period]({{glossary_forking_period}})), the first reporter must cover the first report REP costs themselves.
+
+The migration of the non-forking markets is not mandatory. Even if a fork ends, you can still trade and [settle]({{glossary_settlement}}) your [shares]({{glossary_share}}) on the markets in the parent universe (See [restrictons on use]({{url_restrictions_on_use}}) for details). However, after a fork starts, markets in the parent universe cannot be [finalized]({{glossary_finalized_market}}). For the market to be finalized, you need to migrate it to the winning universe.
+
+Although the person who migrates a non-forking market needs to do somethings (such as supply creation bond, submit the initial report, and pay the [transaction fee]({{glossary_transaction_fee}}) for that), they can be a market creator of the market in the winning universe, so they will get [creator fees]({{glossary_creator_fee}}) paid by traders on the market in the winning universe. It might motivate migrating markets.
+
+## Staked REP
+When a [fork]({{glossary_fork}}) starts, all staked [REP]({{glossary_reputation_token}}) on the non-forking markets are un-staked and refunded to REP holders who staked it so that they migrate their REP during the [forking period]({{glossary_forking_period}}).
+
+## Attached Objects
+The objects which are attached to the non-forking market are:
+ - [share]({{glossary_share}})
+ - [unfilled order]({{glossary_unfilled_order}})
+ - [creator fee]({{glossary_creator_fee}})
+ - [validity bond]({{glossary_validity_bond}})
+
+Those objects go where the market goes, they cannot be migrated separately.
+
+[Creation bond]({{glossary_creation_bond}}), which is paid by the [market creator]({{glossary_market_creator}}) when creating the market in the [parent universe]({{glossary_parent_universe}}), is refunded to either the market creator or the [initial reporter]({{glossary_initial_reporter}}). At the time of starting a [fork]({{glossary_fork}}), if the market has not received an [initial reporting]({{glossary_initial_report}}), this bond is refunded to the market creator. If it already has received the initial report, then it refunds the [initial reporter]({{glossary_initial_report}}). Because "received the initial reporting" means that the creation bond is already used by the initial reporter as the initial reporter's stake.
+
+# Migration of REP in Wallet
+All [REP]({{glossary_reputation_token}}) in the [parent universe]({{glossary_parent_universe}}) that are *not* staked on any [outcome]({{glossary_outcome}}) of the [forking market]({{glossary_forking_market}}) can be migrated to one of the [child universes]({{glossary_child_universe}}) by their owner. The migration of REP must be done during the [forking period]({{glossary_forking_period}}) which lasts 60 days after the [fork]({{glossary_fork}}) starts. After the forking period, the REP in the parent universe can never be migrated to any child universe (See [to-do's]({{url_to_dos}}) for details).
+
+If you are the first person to migrate REP to a [child universe]({{glossary_child_universe}}), child universe creation is triggered and the forking market is also copied into it. In this case, you have to pay the [transaction fee]({{glossary_transaction_fee}}) not only for migrating your REP but also for creating the child universe and copying the forking market.
+
 ---
 
 *The rest is in progress.*
-# Migration of Non-Forking Markets (not finalized)
-## Market Itself
-## Staked REP
-## Attached Objects
-
-# Migration of REP in Wallet
 
 # Un-migratable objects
 ## Finalized Markets
