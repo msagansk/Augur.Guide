@@ -29,6 +29,8 @@ title: Migration of the objects
 {% assign glossary_outcome = glossary_path | append: '#Outcome' %}
 {% assign glossary_parent_universe = glossary_path | append: '#Parent_Universe' %}
 {% assign glossary_participation_token = glossary_path | append: '#Participation_Token' %}
+{% assign glossary_reporting_fee = glossary_path | append: '#Reporting_Fee' %}
+{% assign glossary_reporting_fee_pool = glossary_path | append: '#Reporting_Fee_Pool' %}
 {% assign glossary_reputation_token = glossary_path | append: '#Reputation_Token' %}
 {% assign glossary_roi = glossary_path | append: '#ROI' %}
 {% assign glossary_settlement = glossary_path | append: '#Settlement' %}
@@ -138,10 +140,13 @@ All [REP]({{glossary_reputation_token}}) in the [parent universe]({{glossary_par
 
 If you are the first person to migrate REP to a [child universe]({{glossary_child_universe}}), child universe creation is triggered and the forking market is also copied into it. In this case, you have to pay the [transaction fee]({{glossary_transaction_fee}}) not only for migrating your REP but also for creating the child universe and copying the forking market.
 
----
-
-*The rest is in progress.*
-
 # Un-migratable objects
 ## Finalized Markets
+Finalized markets and their attached objects ([shares]({{glossary_share}}), [unfilled orders]({{glossary_unfilled_order}}), and [creator fee]({{glossary_creator_fee}})) can not be migrated. However, you can still trade and [settle]({{glossary_settlement}}) your [shares]({{glossary_share}}) on the markets during/after a [fork]({{glossary_fork}}).
+
 ## Dispute Windows
+[Dispute Windows]({{glossary_dispute_window}}) and their attached objects ([reporting fee pool]({{glossary_reporting_fee_pool}}), [reporting fees]({{glossary_reporting_fee}}), [validity bonds]({{glossary_validity_bond}}), and [participation tokens]({{glossary_participation_token}})) can not be migrated.
+
+Before and after a [fork]({{glossary_fork}}), there is no change in the features of a dispute window. This means Augur collects reporting fees and validity bonds, and adds those to reporting fee pool during a dispute window. At the end of the dispute window, the pool is paid out to participation token owners in proportion to the amount of participation token.
+
+In the [parent universe]({{glossary_parent_universe}}), anytime you can purchase participation tokens, and redeem them. By redeeming them, the [REP]({{glossary_reputation_token}}) that you paid to get the token return to you. Therefore, participation token owners who want to migrate their REP **MUST** redeem their tokens and migrate their REP within 60 days after a fork starts.
