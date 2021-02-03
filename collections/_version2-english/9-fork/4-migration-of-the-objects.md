@@ -145,7 +145,7 @@ If you are the first person to migrate REP to a [child universe]({{glossary_chil
 Finalized markets and their attached objects ([shares]({{glossary_share}}), [unfilled orders]({{glossary_unfilled_order}}), and [creator fee]({{glossary_creator_fee}})) can not be migrated. However, you can still trade and [settle]({{glossary_settlement}}) your [shares]({{glossary_share}}) on the markets during/after a [fork]({{glossary_fork}}).
 
 ## Dispute Windows
-[Dispute Windows]({{glossary_dispute_window}}) and its attached objects ([reporting fee pool]({{glossary_reporting_fee_pool}}), [reporting fee]({{glossary_reporting_fee}}), [validity bond]({{glossary_validity_bond}}), and [participation token]({{glossary_participation_token}}),) can not be migrated.
+[Dispute Windows]({{glossary_dispute_window}}) and their attached objects ([reporting fee pool]({{glossary_reporting_fee_pool}}), [reporting fees]({{glossary_reporting_fee}}), [validity bonds]({{glossary_validity_bond}}), and [participation tokens]({{glossary_participation_token}})) can not be migrated.
 
 Before and after a [fork]({{glossary_fork}}), there is no change in the features of a dispute window. That means Augur corrects reporting fee and validity bond, and adds those to reporting fee pool during a dispute window. At the end of the dispute window, the pool is paid out to participation token owners in proportion to the amount of participation token.
 
