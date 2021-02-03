@@ -147,6 +147,6 @@ Finalized markets and their attached objects ([shares]({{glossary_share}}), [unf
 ## Dispute Windows
 [Dispute Windows]({{glossary_dispute_window}}) and their attached objects ([reporting fee pool]({{glossary_reporting_fee_pool}}), [reporting fees]({{glossary_reporting_fee}}), [validity bonds]({{glossary_validity_bond}}), and [participation tokens]({{glossary_participation_token}})) can not be migrated.
 
-Before and after a [fork]({{glossary_fork}}), there is no change in the features of a dispute window. That means Augur corrects reporting fee and validity bond, and adds those to reporting fee pool during a dispute window. At the end of the dispute window, the pool is paid out to participation token owners in proportion to the amount of participation token.
+Before and after a [fork]({{glossary_fork}}), there is no change in the features of a dispute window. This means Augur collects reporting fees and validity bonds, and adds those to reporting fee pool during a dispute window. At the end of the dispute window, the pool is paid out to participation token owners in proportion to the amount of participation token.
 
 In the [parent universe]({{glossary_parent_universe}}), anytime you can purchase participation tokens, and redeem them. By redeeming them, the [REP]({{glossary_reputation_token}}) that you paid to get the token return to you. Therefore, participation token owners who want to migrate their REP **MUST** redeem their tokens and migrate their REP within 60 days after a fork starts.
