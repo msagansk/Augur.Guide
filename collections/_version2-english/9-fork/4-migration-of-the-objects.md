@@ -82,6 +82,9 @@ This can be summarized as follows:
 A [child universe]({{glossary_child_universe}}) is created when the [REP]({{glossary_reputation_token}}) holder who *first* migrates their REP to it. Even if the [forking market]({{glossary_forking_market}}) has [finalized]({{glossary_finalized_market}}) or the [forking period]({{glossary_forking_period}}) ends, the [child universe]({{glossary_child_universe}}) is not created without migrating REP. And the REP holder who *first* migrates their REP has to pay not only the [transaction fee]({{glossary_transaction_fee}}) of migrating their REP, but also the transaction fee of creating the child universe.
 
 # Migration of Forking Market
+{% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/migration-of-the-objects/forking-market.svg{% endcapture %}
+{% include zoom-image.html src=image_src caption="Figure 3. migration of forking market"%}
+
 ## Market Itself
 The [forking market]({{glossary_forking_market}}) is duplicated in each [child universe]({{glossary_child_universe}}). In a child universe, the forking market is [finalized]({{glossary_finalized_market}}) as the [outcome]({{glossary_outcome}}) that aligns with that particular child universe. (See [basic knowledge]({{url_basic_knowledge}}#what-happens-when-a-fork-starts) for details on how child universes are created.)
 
@@ -105,11 +108,9 @@ Regarding [validity bond]({{glossary_validity_bond}}), which is paid by the [mar
 
 As to [creation bond]({{glossary_creation_bond}}), which is also paid by the market creator, no longer exists at the time of forking. Since this bond is already used by the [designated reporter]({{glossary_designated_reporter}}) or the [first public reporter]({{glossary_first_public_reporter}}) as the [initial reporter]({{glossary_initial_reporter}})'s stake after the market's [event end time]({{glossary_end_time}}).
 
-The summary is shown in the following figure:
-{% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/migration-of-the-objects/forking-market.svg{% endcapture %}
-{% include zoom-image.html src=image_src caption="Figure 3. migration of forking market"%}
-
 # Migration of Non-Forking Markets (not finalized)
+{% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/migration-of-the-objects/non-forking-market.svg{% endcapture %}
+{% include zoom-image.html src=image_src caption="Figure 4. migration of non-forking markets (not finalized)" %}
 ## Market Itself
 The non-forking markets which are not [finalized]({{glossary_finalized_market}}) can be migrated only to the [winning universe]({{glossary_winning_universe}}). To migrate those markets, you need to make a transaction for that explicitly. It can be done by anyone, not just the [market creator]({{glossary_market_creator}}), and anytime after finalizing the [forking market]({{glossary_forking_market}}). It is one-way and cannot be reversed.
 
@@ -136,15 +137,23 @@ Those objects go where the market goes, they cannot be migrated separately.
 [Creation bond]({{glossary_creation_bond}}), which is paid by the [market creator]({{glossary_market_creator}}) when creating the market in the [parent universe]({{glossary_parent_universe}}), is refunded to either the market creator or the [initial reporter]({{glossary_initial_reporter}}). At the time of starting a [fork]({{glossary_fork}}), if the market has not received an [initial reporting]({{glossary_initial_report}}), this bond is refunded to the market creator. If it already has received the initial report, then it refunds the [initial reporter]({{glossary_initial_report}}). Because "received the initial reporting" means that the creation bond is already used by the initial reporter as the initial reporter's stake.
 
 # Migration of REP in Wallet
+{% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/migration-of-the-objects/rep-in-wallet.svg{% endcapture %}
+{% include zoom-image.html src=image_src caption="Figure 5. migration of REP in wallet" %}
+
 All [REP]({{glossary_reputation_token}}) in the [parent universe]({{glossary_parent_universe}}) that are *not* staked on any [outcome]({{glossary_outcome}}) of the [forking market]({{glossary_forking_market}}) can be migrated to one of the [child universes]({{glossary_child_universe}}) by their owner. The migration of REP must be done during the [forking period]({{glossary_forking_period}}) which lasts 60 days after the [fork]({{glossary_fork}}) starts. After the forking period, the REP in the parent universe can never be migrated to any child universe (See [to-do's]({{url_to_dos}}) for details).
 
 If you are the first person to migrate REP to a [child universe]({{glossary_child_universe}}), child universe creation is triggered and the forking market is also copied into it. In this case, you have to pay the [transaction fee]({{glossary_transaction_fee}}) not only for migrating your REP but also for creating the child universe and copying the forking market.
 
 # Un-migratable objects
 ## Finalized Markets
+{% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/migration-of-the-objects/finalized-market.svg{% endcapture %}
+{% include zoom-image.html src=image_src caption="Figure 6. migration of finalized markets" %}
 Finalized markets and their attached objects ([shares]({{glossary_share}}), [unfilled orders]({{glossary_unfilled_order}}), and [creator fee]({{glossary_creator_fee}})) can not be migrated. However, you can still trade and [settle]({{glossary_settlement}}) your [shares]({{glossary_share}}) on the markets during/after a [fork]({{glossary_fork}}).
 
 ## Dispute Windows
+{% capture image_src %}{{ "/" | absolute_url }}assets/images/{{page.collection}}/fork/migration-of-the-objects/dispute-window.svg{% endcapture %}
+{% include zoom-image.html src=image_src caption="Figure 7. migration of dispute windows" %}
+
 [Dispute Windows]({{glossary_dispute_window}}) and their attached objects ([reporting fee pool]({{glossary_reporting_fee_pool}}), [reporting fees]({{glossary_reporting_fee}}), [validity bonds]({{glossary_validity_bond}}), [creator fees]({{glossary_creator_fee}}), and [participation tokens]({{glossary_participation_token}})) can not be migrated.
 
 Before and after a [fork]({{glossary_fork}}), there is no change in the features of a dispute window. This means Augur collects reporting fees, validity bonds, and creator fees, and adds those to reporting fee pool during a dispute window. At the end of the dispute window, the pool is paid out to participation token owners in proportion to the amount of participation token.
