@@ -1,4 +1,4 @@
-All Theoretical REP: <i>under construction</i>
+All Theoretical REP: The maximum possible total supply for a certain version of  <a href="#Reputation_Token">REP</a>. That means that the sum of the amount of REP existing in a certain <a href="#Universe">universe</a> and the amount of REP not existing in the same universe but migratable to the universe.<br><br>Depending on the situation, there are three patterns to calculate the value:<ol><li>If no <a href="#Fork" >fork</a> has occurred in the universe where <a href="#REPv2">REPv2</a> exists, then the all theoretical REP in the universe is the sum of the amount of REPv2 and the amount of <a href="#REPv1">REPv1</a> (since REPv1 can migrate to the universe where REPv2 exists at any time). That is 11 million REP.</li><li>If a fork has occurred and the <a href="#Forking_Period">forking period</a> ends, then the all theoretical REP in the <a href="#Child_Universe">child universe</a> is just the amount of REP in the child universe (since REP in the <a href="#Parent_Universe">parent universe</a> cannot be migrated after the forking period).</li><li>If a fork has occurred and the forking period is not over yet, then the all theoretical REP in the child universe is the sum of the amount of REP in the child universe and the all theoretical REP in the parent universe (since REP in the parent universe can be migrated during the forking period).</li></ol>This value is used to calculate the <a href="#Forking_Threshold">forking threshold</a>.
 Child Universe: <i>under construction</i>
 Creation Bond: <i>under construction</i>
 Creator Fee: <i>under construction</i>
@@ -24,6 +24,7 @@ Fork: <i>under construction</i>
 Forked Market: <i>under construction</i>
 Forking Market: <i>under construction</i>
 Forking Period: <i>under construction</i>
+Forking Threshold: <i>under construction</i>
 Initial Report: <i>under construction</i>
 Initial Reporter: <i>under construction</i>
 Initial Report Bond: <i>under construction</i>
