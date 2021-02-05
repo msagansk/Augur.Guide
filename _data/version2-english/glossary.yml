@@ -1,4 +1,13 @@
-All Theoretical REP: The maximum possible total supply for a certain version of  <a href="#Reputation_Token">REP</a>. That means that the sum of the amount of REP existing in a certain <a href="#Universe">universe</a> and the amount of REP not existing in the same universe but migratable to the universe.<br><br>Depending on the situation, there are three patterns to calculate the value:<ol><li>If no <a href="#Fork" >fork</a> has occurred in the universe where <a href="#REPv2">REPv2</a> exists, then the all theoretical REP in the universe is the sum of the amount of REPv2 and the amount of <a href="#REPv1">REPv1</a> (since REPv1 can migrate to the universe where REPv2 exists at any time). That is 11 million REP.</li><li>If a fork has occurred and the <a href="#Forking_Period">forking period</a> ends, then the all theoretical REP in the <a href="#Child_Universe">child universe</a> is just the amount of REP in the child universe (since REP in the <a href="#Parent_Universe">parent universe</a> cannot be migrated after the forking period).</li><li>If a fork has occurred and the forking period is not over yet, then the all theoretical REP in the child universe is the sum of the amount of REP in the child universe and the all theoretical REP in the parent universe (since REP in the parent universe can be migrated during the forking period).</li></ol>This value is used to calculate the <a href="#Forking_Threshold">forking threshold</a>.
+All Theoretical REP: |-
+  The maximum possible total supply for a certain version of  <a href="#Reputation_Token">REP</a>. This is the sum of REP existing in a particular <a href="#Universe">universe</a> and any REP that is eligible for migration into that universe.
+  <br>
+  <br>
+  Depending on the situation, there are two ways to calculate the value:
+  <ol>
+    <li>If no <a href="#Fork" >fork</a> has occurred in the universe or a fork has started but not completed, then the theoretic REP supply in the universe is the sum of the REP in that Universe and the theoretic REP supply in the previous Augur version (since REP can migrate to from a previous version to the next version at any time prior to a fork). For Augur v2, this totals to 11,000,000 REP minus any that has been burned during v2 <a href="#Dispute">disputes</a>.</li>
+    <li>If a fork has occurred and the <a href="#Forking_Period">forking period</a> has ended, then the theoretic REP supply in the universe is just the amount of REP in that universe (since neither REP in the <a href="#Parent_Universe">parent universe</a> nor REP in previous versions can be migrated after a fork completes).</li>
+  </ol>
+  This value is used to calculate the <a href="#Forking_Threshold">forking threshold</a>.
 Child Universe: <i>under construction</i>
 Creation Bond: <i>under construction</i>
 Creator Fee: <i>under construction</i>
@@ -19,7 +28,8 @@ Finalized Market: <i>under construction</i>
 First Public Report: <i>under construction</i>
 First Public Reporter: <i>under construction</i>
 First Public Reporter Stake: <i>under construction</i>
-Forecast Foundation: A group of Augur developers. The members of this group are purely developers, not owners of Augur. They write the source of Augur and publish on <a href="https://github.com/AugurProject" target="_blank">Github</a>. Check the <a href="https://forecastfoundation.org/" target="_blank">official site</a> for details.
+Forecast Foundation: |-
+  A group of Augur developers. The members of this group are purely developers, not owners of Augur. They write the source of Augur and publish on <a href="https://github.com/AugurProject" target="_blank">Github</a>. Check the <a href="https://forecastfoundation.org/" target="_blank">official site</a> for details.
 Fork: <i>under construction</i>
 Forked Market: <i>under construction</i>
 Forking Market: <i>under construction</i>
@@ -54,7 +64,8 @@ Smart Contract: <i>under construction</i>
 Settlement: <i>under construction</i>
 Share: <i>under construction</i>
 Sibling Universe: <i>under construction</i>
-Smarty-pants: A role name in the <a href="https://invite.augur.net" target="_blank">Augur Discord server</a> or the people who have the role. This role is given to the people who have shown a deep knowledge and interest in Augur. They have moderation privileges in the Augur Discord server. They do what they want to do, such as a moderate, help out, or just chat without any obligation nor reward. The addition of a member is decided by consultation within the members who already hold this role. They manage the ENS domain <code>augur2.eth</code> where Augur UI is registered (<a href="/version2-english/8-augur-ui.html#augur2eth" target="_blank">Click</a> for details).
+Smarty-pants: |-
+  A role name in the <a href="https://invite.augur.net" target="_blank">Augur Discord server</a> or the people who have the role. This role is given to the people who have shown a deep knowledge and interest in Augur. They have moderation privileges in the Augur Discord server. They do what they want to do, such as a moderate, help out, or just chat without any obligation nor reward. The addition of a member is decided by consultation within the members who already hold this role. They manage the ENS domain <code>augur2.eth</code> where Augur UI is registered (<a href="/version2-english/8-augur-ui.html#augur2eth" target="_blank">Click</a> for details).
 Tentative Outcome: <i>under construction</i>
 Trading Fee: <i>under construction</i>
 Transaction Fee: <i>under construction</i>
