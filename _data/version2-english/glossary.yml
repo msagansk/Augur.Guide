@@ -8,7 +8,17 @@ All Theoretical REP: |-
     <li>If a fork has occurred and the <a href="#Forking_Period">forking period</a> has ended, then the theoretic REP supply in the universe is just the amount of REP in that universe (since neither REP in the <a href="#Parent_Universe">parent universe</a> nor REP in previous versions can be migrated after a fork completes).</li>
   </ol>
   This value is used to calculate the <a href="#Forking_Threshold">forking threshold</a>.
-Child Universe: <i>under construction</i>
+Child Universe: |-
+  A child universe is a  <a href="#Universe">universe</a> spawned by its <a href="#Parent_Universe">parent universe</a> when a market in the parent universe <a href="#Fork">forks</a>.
+  <br>
+  <br>
+  In a child universe, the <a href="#Forking_Market">forking market</a> is <a href="#Finalized_Market">finalized</a> as the <a href="#Outcome">outcome</a> that aligns with that particular child universe. For example, a <a href="#Market">market</a> has 3 possible outcomes: <code>Yes</code>, <code>No</code>, and <code>Invalid</code>. When the market forks, 3 new universes are created: <code>universe Yes</code>, <code>universe No</code>, and <code>universe Invalid</code>. In each universe, its corresponding outcome becomes the <a href="#Final_Outcome">final outcome</a>, such as in the <code>universe Yes</code> the final outcome of the forking market is <code>Yes</code>, in the <code>universe No</code> the final outcome of the forking market is <code>No</code>.
+  <br>
+  <br>
+  Strictly speaking, child universes are not created at the same time as a market forks. It is created when <a href="#Reputation_Token">REP</a> holder first migrates their REP to it after a fork starts. Therefore the REP holder who first migrates their REP has to pay not only the <a href="#Transaction_Fee">transaction fee</a> of migrating their REP, but also the transaction fee of creating the child universe.
+  <br>
+  <br>
+  In a child universe, there are no restrictions right after it is created. Users can do anything such as creating markets, trading <a href="#Share">shares</a>, <a href="#Report">reporting</a>, and purchasing <a href="#Participation_Token">participation tokens</a>.
 Creation Bond: <i>under construction</i>
 Creator Fee: <i>under construction</i>
 Designated Reporter: <i>under construction</i>
