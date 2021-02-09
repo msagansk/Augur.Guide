@@ -79,7 +79,7 @@ Parent Universe: |-
   Users cannot create new <a href="#Market">markets</a> and cannot stake their REP on any markets, since REP in the parent universe must be migrated to one of the child universes during the forking period.
   Therefore no more markets can <a href="#Finalized_Market">finalize</a> in the parent universe after a fork starts.
   <br>
-  Users can trade and <a href="#Settlement">settle</a> their <a href="#Share">shares</a> on markets, and purchase and redeem <a href="#Participation_Token">participation tokens</a> in the parent universe even after a fork starts.
+  Users can trade and <a href="#Settlement">settle</a> their <a href="#Share">shares</a> on markets, and redeem <a href="#Participation_Token">participation tokens</a> in the parent universe even after a fork starts.
   (See <a href="/version2-english/9-fork/3-restrictions-on-use.html" target="_blank">restrictions on use</a> for details.)
 Participation Token: <i>under construction</i>
 REP Bond: <i>under construction</i>
