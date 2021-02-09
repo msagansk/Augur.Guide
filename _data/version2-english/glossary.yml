@@ -77,7 +77,7 @@ Parent Universe: |-
   <br>
   After a fork starts, the parent universe is <a href="#Locked_Universe">locked</a> because there are some restrictions.
   Users cannot create new <a href="#Market">markets</a> and cannot stake their REP on any markets, since REP in the parent universe must be migrated to one of the child universes during the forking period.
-  Therefore markets in the parent universe are never <a href="#Finalized_Market">finalized</a> after a fork starts.
+  Therefore no more markets can <a href="#Finalized_Market">finalize</a> in the parent universe after a fork starts.
   <br>
   But users can trade and <a href="#Settlement">settle</a> their <a href="#Share">shares</a> on markets, and purchase and redeem <a href="#Participation_Token">participation tokens</a> in the parent universe even after a fork starts.
   (See <a href="/version2-english/9-fork/3-restrictions-on-use.html" target="_blank">restrictions on use</a> for details.)
