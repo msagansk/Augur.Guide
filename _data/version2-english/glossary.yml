@@ -95,7 +95,7 @@ Smart Contract: <i>under construction</i>
 Settlement: <i>under construction</i>
 Share: <i>under construction</i>
 Sibling Universe: |-
-  A sibling universe is each of <a href="#Child_Universe">child universes</a> having one <a href="#Parent_Universe">parent universe</a> in common.
+  A <a href="#Child_Universe">universe</a> that shares a <a href="#Parent_Universe">parent</a> with the universe in question.
   Sibling universes are entirely disjoint.
   For example, <a href="#Reputation_Token">REP</a> can be used to stake on <a href="#Outcome">outcomes</a> only for <a href="#Market">markets</a> that exist in the same <a href="#Universe">universe</a> as the REP.
   It cannot be used in another universe.
