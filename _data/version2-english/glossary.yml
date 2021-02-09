@@ -8,6 +8,8 @@ All Theoretical REP: |-
     <li>If a fork has occurred and the <a href="#Forking_Period">forking period</a> has ended, then the theoretic REP supply in the universe is just the amount of REP in that universe (since neither REP in the <a href="#Parent_Universe">parent universe</a> nor REP in previous versions can be migrated after a fork completes).</li>
   </ol>
   This value is used to calculate the <a href="#Forking_Threshold">forking threshold</a>.
+Augur v1: <i>under construction</i>
+Augur v2: <i>under construction</i>
 Child Universe: |-
   A child universe is a <a href="#Universe">universe</a> spawned by its <a href="#Parent_Universe">parent universe</a> when a market in the parent universe <a href="#Fork">forks</a>.
   <br>
@@ -51,6 +53,7 @@ Forked Market: <i>under construction</i>
 Forking Market: <i>under construction</i>
 Forking Period: <i>under construction</i>
 Forking Threshold: <i>under construction</i>
+Genesis Universe: <i>under construction</i>
 Initial Report: <i>under construction</i>
 Initial Reporter: <i>under construction</i>
 Initial Report Bond: <i>under construction</i>
