@@ -75,7 +75,7 @@ Parent Universe: |-
   For 60 days after a fork starts (the 60 days is called <a href="#Forking_Period">forking period</a>), <a href="#Reputation_Token">REP</a> in the parent universe can be migrated to a child universe. But after the forking period, you cannot migrate your REP to any child universe.
   <br>
   <br>
-  After a fork starts, the parent universe is called <a href="#Locked_Universe">locked universe</a> because there are some restrictions:
+  After a fork starts, the parent universe is <a href="#Locked_Universe">locked</a> because there are some restrictions.
   Users cannot create new <a href="#Market">markets</a> and cannot stake their REP on any markets, since REP in the parent universe must be migrated to one of the child universes during the forking period.
   Therefore markets in the parent universe are never <a href="#Finalized_Market">finalized</a> after a fork starts.
   <br>
