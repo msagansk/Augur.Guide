@@ -68,7 +68,19 @@ Non-Finalized Market: <i>under construction</i>
 Open Interest: <i>under construction</i>
 Open Reporting Phase: <i>under construction</i>
 Outcome: <i>under construction</i>
-Parent Universe: <i>under construction</i>
+Parent Universe: |-
+  A parent universe is a <a href="#Universe">universe</a> that has spawned <a href="#Child_Universe">child universes</a> because a <a href="#Fork">fork</a> had occurred in the parent universe.
+  <br>
+  <br>
+  For 60 days after a fork starts (the 60 days is called <a href="#Forking_Period">forking period</a>), <a href="#Reputation_Token">REP</a> in the parent universe can be migrated to a child universe. But after the forking period, you cannot migrate your REP to any child universe.
+  <br>
+  <br>
+  After a fork starts, the parent universe is <a href="#Locked_Universe">locked</a> because there are some restrictions.
+  Users cannot create new <a href="#Market">markets</a> and cannot stake their REP on any markets, since REP in the parent universe must be migrated to one of the child universes during the forking period.
+  Therefore no more markets can <a href="#Finalized_Market">finalize</a> in the parent universe after a fork starts.
+  <br>
+  Users can trade and <a href="#Settlement">settle</a> their <a href="#Share">shares</a> on markets, and purchase and redeem <a href="#Participation_Token">participation tokens</a> in the parent universe even after a fork starts.
+  (See <a href="/version2-english/9-fork/3-restrictions-on-use.html" target="_blank">restrictions on use</a> for details.)
 Participation Token: <i>under construction</i>
 REP Bond: <i>under construction</i>
 REPv1: <i>under construction</i>
@@ -82,7 +94,12 @@ Reputation Token: <i>under construction</i>
 Smart Contract: <i>under construction</i>
 Settlement: <i>under construction</i>
 Share: <i>under construction</i>
-Sibling Universe: <i>under construction</i>
+Sibling Universe: |-
+  A <a href="#Child_Universe">universe</a> that shares a <a href="#Parent_Universe">parent</a> with the universe in question.
+  Sibling universes are entirely disjoint.
+  For example, <a href="#Reputation_Token">REP</a> can be used to stake on <a href="#Outcome">outcomes</a> only for <a href="#Market">markets</a> that exist in the same <a href="#Universe">universe</a> as the REP.
+  It cannot be used in another universe.
+  Also, during the <a href="#Forking_Period">forking period</a>, REP holders can migrate their REP from the parent universe to a child universe, but they cannot migrate from one sibling universe to another.
 Smarty-pants: |-
   A role name in the <a href="https://invite.augur.net" target="_blank">Augur Discord server</a> or the people who have the role. This role is given to the people who have shown a deep knowledge and interest in Augur. They have moderation privileges in the Augur Discord server. They do what they want to do, such as a moderate, help out, or just chat without any obligation nor reward. The addition of a member is decided by consultation within the members who already hold this role. They manage the ENS domain <code>augur2.eth</code> where Augur UI is registered (<a href="/version2-english/8-augur-ui.html#augur2eth" target="_blank">Click</a> for details).
 Tentative Outcome: <i>under construction</i>
