@@ -58,8 +58,23 @@ Initial Report: <i>under construction</i>
 Initial Reporter: <i>under construction</i>
 Initial Report Bond: <i>under construction</i>
 Invalid Outcome: <i>under construction</i>
-Locked Universe: <i>under construction</i>
-Losing Universe: <i>under construction</i>
+Locked Universe: |-
+  A locked universe is the <a href="#Parent_Universe">parent universe</a> after a <a href="#Fork">fork</a> starts.
+  A universe has some restrictions imposed on it after a fork starts in it.
+  Users cannot create new <a href="#Market">markets</a> and cannot stake their <a href="#Reputation_Token">REP</a> on any markets, and no more markets can <a href="#Finalized_Market">finalize</a>.
+  (See <a href="/version2-english/9-fork/3-restrictions-on-use.html" target="_blank">restrictions on use</a> for details.)
+Losing Universe: |-
+  A kind of <a href="#Child_Universe">child universe</a>.
+  The child universe that receives the most migrated <a href="#Reputation_Token">REP</a> from the <a href="#Parent_Universe">parent universe</a> by the end of a <a href="#Fork">fork</a> becomes the <a href="#Winning_Universe">winning universe</a>, the other child universes become the <a href="#Losing_Universe">losing universe</a>.
+  <br>
+  <br>
+  <a href="#Non-Forking_Market">Non-forking markets</a> in the parent universe cannot be migrated to losing universes, they can be migrated only to the winning universe.
+  Losing universes receive only two things from the parent universe: One is the <a href="#Forking_Market">forking market</a> that is duplicated from the parent universe and <a href="#Finalized_Market">finalized</a> as the <a href="#Outcome">outcome</a> that aligns with the losing universe.
+  The other is REP whose holders believe the outcome that aligns with the losing universe is true.
+  <br>
+  <br>
+  When the system is working correctly, and people are behaving economically rationally (profit motivated), the expectation is that the losing universes will align with the <a href="#Lying_Universe">lying universes</a>.
+  REP in the losing universe is expected to lose its value, since future traders won’t want to trade in a <a href="#Universe">universe</a> where <a href="#Reporter">reporters</a> have a history of lying which means REP in that universe will not receive a meaningful amount of <a href="#Trading_Fee">trading fees</a>. 
 Lying Universe: <i>under construction</i>
 Market: <i>under construction</i>
 Market Creator: <i>under construction</i>
@@ -112,4 +127,13 @@ Unfilled Order: <i>under construction</i>
 Universe: <i>under construction</i>
 Validity Bond: <i>under construction</i>
 Waiting For Window Phase: <i>under construction</i>
-Winning Universe: <i>under construction</i>
+Winning Universe: |- 
+  A kind of <a href="#Child_Universe">child universe</a>.
+  The child universe that receives the most migrated <a href="#Reputation_Token">REP</a> from the <a href="#Parent_Universe">parent universe</a> by the end of a <a href="#Fork">fork</a> becomes the winning universe, the other child universes become the <a href="#Losing_Universe">losing universe</a>.
+  <br>
+  <br>
+  All markets in the parent universe can only be migrated to the winning universe and the objects attached to the <a href="#Forking_Market">forking market</a>, such as <a href="#Share">shares</a>, <a href="#Open_Interest">open interest</a>, unfilled orders, are also only migrated to the winning universe.
+  (See <a href="/version2-english/9-fork/4-migration-of-the-objects.html" target="_blank">migration of the objects</a> for details.)
+  <br>
+  <br>
+  When the system is working correctly, and people are behaving economically rationally (profit motivated), the expectation is that the winning universe will align with the <a href="#Truth_Universe">truth universe</a>.
