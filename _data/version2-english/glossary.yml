@@ -60,7 +60,7 @@ Initial Report Bond: <i>under construction</i>
 Invalid Outcome: <i>under construction</i>
 Locked Universe: |-
   A locked universe is the <a href="#Parent_Universe">parent universe</a> after a <a href="#Fork">fork</a> starts.
-  The parent universe is imposed some restrictions after a fork starts.
+  A universe has some restrictions imposed on it after a fork starts in it.
   Users cannot create new <a href="#Market">markets</a> and cannot stake their <a href="#Reputation_Token">REP</a> on any markets, and no more markets can <a href="#Finalized_Market">finalize</a>.
   (See <a href="/version2-english/9-fork/3-restrictions-on-use.html" target="_blank">restrictions on use</a> for details.)
 Losing Universe: |-
