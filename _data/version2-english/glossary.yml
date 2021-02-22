@@ -75,7 +75,9 @@ Losing Universe: |-
   <br>
   When the system is working correctly, and people are behaving economically rationally (profit motivated), the expectation is that the losing universes will align with the <a href="#Lying_Universe">lying universes</a>.
   REP in the losing universe is expected to lose its value, since future traders won’t want to trade in a <a href="#Universe">universe</a> where <a href="#Reporter">reporters</a> have a history of lying which means REP in that universe will not receive a meaningful amount of <a href="#Trading_Fee">trading fees</a>. 
-Lying Universe: <i>under construction</i>
+Lying Universee: |-
+  A <a href="#Universe">universe</a> that has the <a href="#Forked_Market">forked market</a> whose <a href="#Final_Outcome">final outcome</a> does not correspond to objective reality.
+  When the system is working correctly, and people are behaving economically rationally (profit motivated), the expectation is that the <a href="#Losing_Universe">losing universes</a> will align with the lying universes, but that is not necessarily.
 Market: <i>under construction</i>
 Market Creator: <i>under construction</i>
 Non-Forking Market: <i>under construction</i>
@@ -122,9 +124,23 @@ Smarty-pants: |-
 Tentative Outcome: <i>under construction</i>
 Trading Fee: <i>under construction</i>
 Transaction Fee: <i>under construction</i>
-Truth Universe: <i>under construction</i>
+Truth Universe: |-
+  A <a href="#Universe">universe</a> that has the forked market whose <a href="#Final_Outcome">final outcome</a> corresponds to objective reality.
+  When the system is working correctly, and people are behaving economically rationally (profit motivated), the expectation is that the <a href="#Winning_Universe">winning universes</a> will align with the truth universes, but that is not necessarily.
+  For any reason, the lying universes become the winning universes.
 Unfilled Order: <i>under construction</i>
-Universe: <i>under construction</i>
+Universe: |-
+  A universe acts like a container for the objects (such as <a href="#Reputation_Token">REP</a>, <a href="#Market">markets</a>, <a href="#Share">shares</a>, <a href="#Settlement_Fee">settlement fees</a>, and <a href="#Participation_Token">participation tokens</a>) required for Auger to work.
+  All of the objects belong to a universe.
+  The objects can be used only for the objects that exist in the same universe.
+  For example, REP can be used to stake on outcomes only for markets that exist in the same universe as the REP, it cannot be used in another universe.
+  Similarly, collected fees in the <a href="#Reporting_Fee_Pool">reporting fee pool</a> are distributed to the owners of  participation tokens that exist in the same universe as the pool.
+  <br>
+  When a market <a href="#Fork">forked</a>, new universes are created from the universe where the <a href="#Forking_Market">forking market</a> exists.
+  The universe where the forking market exists is called <a href="#Parent_Universe">parent universe</a>, and created universes are called <a href="#Child_Universe">child universes</a>. When a fork starts, the parent universe is <a href="#Locked_Universe">locked</a> permanently.
+  <br>
+  Besides, a new universe is created when Augur's <a href="https://ethereum.org/en/glossary/#smart-contract"  target="_blank">smart-contracts</a> are updated.
+  When Augur launched on <a href="https://ethereum.org/ja/glossary/#mainnet" target="_blank">Ethereum Mainnet</a>, it had only one universe called <a href="#Genesis_Universe">genesis universe</a>, the version of this release is known as <a href="#Augur_v1">Augur v1</a>. After that, the smart-contracts were updated and a new universe was created, the version of this release is known as <a href="#Augur_v2">Augur v2</a>.
 Validity Bond: <i>under construction</i>
 Waiting For Window Phase: <i>under construction</i>
 Winning Universe: |- 
